@@ -36,3 +36,7 @@ Model ve kütüphane sürümleri sabittir. Sürüm değişirse sayılar da deği
 
 Bütün örnek cümleler bu depo için yazıldı. Gerçek karar metni ya da kişisel
 veri içermez.
+
+## Lisans
+
+[Apache License 2.0](LICENSE). Atıf bilgisi [NOTICE](NOTICE) dosyasındadır.
