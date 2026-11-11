@@ -1,0 +1,109 @@
+{
+  "model": "akdeniz27/bert-base-turkish-cased-ner",
+  "sonuc": [
+    {
+      "cumle": "Sanık Deniz Yıldız, Siirt Ağır Ceza Mahkemesinde yargılanmıştır.",
+      "varliklar": [
+        {
+          "metin": "Deniz Yıldız",
+          "tur": "kişi",
+          "guven": 0.84
+        },
+        {
+          "metin": "Siirt",
+          "tur": "yer",
+          "guven": 0.86
+        },
+        {
+          "metin": "Ağır Ceza Mahkemesi",
+          "tur": "kurum",
+          "guven": 0.92
+        }
+      ]
+    },
+    {
+      "cumle": "Davacı, Trabzon ili Of ilçesinde ikamet etmektedir.",
+      "varliklar": [
+        {
+          "metin": "Trabzon",
+          "tur": "yer",
+          "guven": 1.0
+        },
+        {
+          "metin": "Of",
+          "tur": "yer",
+          "guven": 0.99
+        }
+      ]
+    },
+    {
+      "cumle": "Of Asliye Hukuk Mahkemesinin kararı temyiz edilmiştir.",
+      "varliklar": [
+        {
+          "metin": "Of Asliye Hukuk Mahkemesi",
+          "tur": "kurum",
+          "guven": 0.98
+        }
+      ]
+    },
+    {
+      "cumle": "Davalı Bank of America ile kredi sözleşmesi imzalamıştır.",
+      "varliklar": [
+        {
+          "metin": "Bank of America",
+          "tur": "kurum",
+          "guven": 1.0
+        }
+      ]
+    },
+    {
+      "cumle": "Of, yine mi erteleme!",
+      "varliklar": []
+    },
+    {
+      "cumle": "Davacı Batman'da ikamet etmekte, davalı ise Ordu'da çalışmaktadır.",
+      "varliklar": [
+        {
+          "metin": "Batman",
+          "tur": "yer",
+          "guven": 1.0
+        },
+        {
+          "metin": "Ordu",
+          "tur": "yer",
+          "guven": 1.0
+        }
+      ]
+    },
+    {
+      "cumle": "Müşteki Savaş Barış, Tokat'ta bir tokat yediğini beyan etmiştir.",
+      "varliklar": [
+        {
+          "metin": "Savaş Barış",
+          "tur": "kişi",
+          "guven": 0.93
+        },
+        {
+          "metin": "Tokat",
+          "tur": "yer",
+          "guven": 0.97
+        }
+      ]
+    },
+    {
+      "cumle": "Davacı vekili Av. Çiçek Gül, Gül Sokak'taki işyerinin tahliyesini istemiştir.",
+      "varliklar": [
+        {
+          "metin": "Çiçek Gül",
+          "tur": "kişi",
+          "guven": 0.97
+        },
+        {
+          "metin": "Gül Sokak",
+          "tur": "yer",
+          "guven": 0.99
+        }
+      ]
+    }
+  ]
+}

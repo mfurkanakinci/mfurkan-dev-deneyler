@@ -8,6 +8,7 @@ dosyasından okunabilir.
 | --- | --- | --- |
 | `01-tokenizer` | [Model harf görmez, tokenizer'ın böldüğünü görür](https://mfurkan.dev/yazilar/tokenizer-nedir/) | Aynı metni altı tokenizer'a verir, parçaları ve sayılarını yazar |
 | `02-vektor` | [Vektör nedir? Yakın olan aynı değildir](https://mfurkan.dev/yazilar/vektor-nedir/) | Cümle çiftlerinin BGE-M3 ile kosinüs benzerliğini hesaplar |
+| `04-ner` | [NER'den BERT'e](https://mfurkan.dev/yazilar/ner-bert/) | Aynı yazılışa sahip adların cümleye göre nasıl etiketlendiğini gösterir |
 
 ## Çalıştırma
 
@@ -19,6 +20,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python 01-tokenizer/ornekler.py
 python 02-vektor/benzerlik.py
+python 04-ner/of.py
 ```
 
 İlk betik yalnız küçük tokenizer dosyalarını indirir. İkincisi BGE-M3
