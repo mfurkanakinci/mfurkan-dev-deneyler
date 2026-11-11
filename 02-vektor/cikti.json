@@ -1,0 +1,293 @@
+{
+  "model": "BAAI/bge-m3",
+  "surum": "5617a9f61b028005a4858fdac845db406aefb181",
+  "boyut": 1024,
+  "ilk_alti_sayi": {
+    "cumle": "Sözleşme geçerlidir.",
+    "degerler": [
+      -0.005,
+      0.028,
+      -0.055,
+      0.002,
+      0.008,
+      -0.063
+    ]
+  },
+  "ciftler": [
+    {
+      "a": "Sözleşme geçersizdir.",
+      "b": "Sözleşme hükümsüzdür.",
+      "benzerlik": 0.911
+    },
+    {
+      "a": "Kiracı kirayı ödemedi.",
+      "b": "Kiracı kirayı ödedi.",
+      "benzerlik": 0.834
+    },
+    {
+      "a": "Ev sahibim kirayı artırmak istiyor.",
+      "b": "Kiraya veren, kira bedelinin yeniden belirlenmesini talep etmektedir.",
+      "benzerlik": 0.802
+    },
+    {
+      "a": "Mahkeme davanın kabulüne karar vermiştir.",
+      "b": "Mahkeme davanın reddine karar vermiştir.",
+      "benzerlik": 0.782
+    },
+    {
+      "a": "Sözleşme geçerlidir.",
+      "b": "Sözleşme hükümsüzdür.",
+      "benzerlik": 0.755
+    },
+    {
+      "a": "Sözleşme geçerlidir.",
+      "b": "Sözleşme geçersizdir.",
+      "benzerlik": 0.743
+    },
+    {
+      "a": "Ev sahibim kirayı artırmak istiyor.",
+      "b": "Kiracı kirayı ödemedi.",
+      "benzerlik": 0.74
+    },
+    {
+      "a": "Ev sahibim kirayı artırmak istiyor.",
+      "b": "Kiracı kirayı ödedi.",
+      "benzerlik": 0.731
+    },
+    {
+      "a": "Kiraya veren, kira bedelinin yeniden belirlenmesini talep etmektedir.",
+      "b": "Kiracı kirayı ödemedi.",
+      "benzerlik": 0.721
+    },
+    {
+      "a": "Kiraya veren, kira bedelinin yeniden belirlenmesini talep etmektedir.",
+      "b": "Kiracı kirayı ödedi.",
+      "benzerlik": 0.718
+    },
+    {
+      "a": "Sözleşme geçerlidir.",
+      "b": "Mahkeme davanın kabulüne karar vermiştir.",
+      "benzerlik": 0.687
+    },
+    {
+      "a": "Sözleşme geçerlidir.",
+      "b": "Kiracı kirayı ödedi.",
+      "benzerlik": 0.643
+    },
+    {
+      "a": "Sözleşme geçersizdir.",
+      "b": "Kiracı kirayı ödemedi.",
+      "benzerlik": 0.632
+    },
+    {
+      "a": "Mahkeme davanın kabulüne karar vermiştir.",
+      "b": "Kiracı kirayı ödedi.",
+      "benzerlik": 0.632
+    },
+    {
+      "a": "Sözleşme geçersizdir.",
+      "b": "Mahkeme davanın reddine karar vermiştir.",
+      "benzerlik": 0.62
+    },
+    {
+      "a": "Sözleşme hükümsüzdür.",
+      "b": "Kiracı kirayı ödemedi.",
+      "benzerlik": 0.619
+    },
+    {
+      "a": "Davalı, davacıya ait markayı izinsiz kullanmıştır.",
+      "b": "Mahkeme davanın kabulüne karar vermiştir.",
+      "benzerlik": 0.613
+    },
+    {
+      "a": "Sözleşme hükümsüzdür.",
+      "b": "Mahkeme davanın reddine karar vermiştir.",
+      "benzerlik": 0.592
+    },
+    {
+      "a": "Kiraya veren, kira bedelinin yeniden belirlenmesini talep etmektedir.",
+      "b": "Mahkeme davanın kabulüne karar vermiştir.",
+      "benzerlik": 0.588
+    },
+    {
+      "a": "Sözleşme geçersizdir.",
+      "b": "Davalı, davacıya ait markayı izinsiz kullanmıştır.",
+      "benzerlik": 0.581
+    },
+    {
+      "a": "Kiraya veren, kira bedelinin yeniden belirlenmesini talep etmektedir.",
+      "b": "Sözleşme geçerlidir.",
+      "benzerlik": 0.575
+    },
+    {
+      "a": "Sözleşme hükümsüzdür.",
+      "b": "Davalı, davacıya ait markayı izinsiz kullanmıştır.",
+      "benzerlik": 0.568
+    },
+    {
+      "a": "Davalı, davacıya ait markayı izinsiz kullanmıştır.",
+      "b": "Kiracı kirayı ödemedi.",
+      "benzerlik": 0.563
+    },
+    {
+      "a": "Kiraya veren, kira bedelinin yeniden belirlenmesini talep etmektedir.",
+      "b": "Sözleşme hükümsüzdür.",
+      "benzerlik": 0.55
+    },
+    {
+      "a": "Kiraya veren, kira bedelinin yeniden belirlenmesini talep etmektedir.",
+      "b": "Sözleşme geçersizdir.",
+      "benzerlik": 0.546
+    },
+    {
+      "a": "Kiraya veren, kira bedelinin yeniden belirlenmesini talep etmektedir.",
+      "b": "Davalı, davacıya ait markayı izinsiz kullanmıştır.",
+      "benzerlik": 0.544
+    },
+    {
+      "a": "Davalı, davacıya ait markayı izinsiz kullanmıştır.",
+      "b": "Mahkeme davanın reddine karar vermiştir.",
+      "benzerlik": 0.542
+    },
+    {
+      "a": "Sözleşme geçersizdir.",
+      "b": "Mahkeme davanın kabulüne karar vermiştir.",
+      "benzerlik": 0.541
+    },
+    {
+      "a": "Boğaz'da bugün hava çok güzel.",
+      "b": "Mahkeme davanın kabulüne karar vermiştir.",
+      "benzerlik": 0.541
+    },
+    {
+      "a": "Sözleşme geçerlidir.",
+      "b": "Mahkeme davanın reddine karar vermiştir.",
+      "benzerlik": 0.536
+    },
+    {
+      "a": "Sözleşme geçerlidir.",
+      "b": "Boğaz'da bugün hava çok güzel.",
+      "benzerlik": 0.532
+    },
+    {
+      "a": "Sözleşme hükümsüzdür.",
+      "b": "Mahkeme davanın kabulüne karar vermiştir.",
+      "benzerlik": 0.53
+    },
+    {
+      "a": "Mahkeme davanın reddine karar vermiştir.",
+      "b": "Kiracı kirayı ödemedi.",
+      "benzerlik": 0.526
+    },
+    {
+      "a": "Kiraya veren, kira bedelinin yeniden belirlenmesini talep etmektedir.",
+      "b": "Mahkeme davanın reddine karar vermiştir.",
+      "benzerlik": 0.522
+    },
+    {
+      "a": "Ev sahibim kirayı artırmak istiyor.",
+      "b": "Mahkeme davanın kabulüne karar vermiştir.",
+      "benzerlik": 0.52
+    },
+    {
+      "a": "Ev sahibim kirayı artırmak istiyor.",
+      "b": "Sözleşme geçerlidir.",
+      "benzerlik": 0.518
+    },
+    {
+      "a": "Sözleşme geçerlidir.",
+      "b": "Kiracı kirayı ödemedi.",
+      "benzerlik": 0.517
+    },
+    {
+      "a": "Davalı, davacıya ait markayı izinsiz kullanmıştır.",
+      "b": "Kiracı kirayı ödedi.",
+      "benzerlik": 0.512
+    },
+    {
+      "a": "Sözleşme geçerlidir.",
+      "b": "Davalı, davacıya ait markayı izinsiz kullanmıştır.",
+      "benzerlik": 0.505
+    },
+    {
+      "a": "Sözleşme geçersizdir.",
+      "b": "Kiracı kirayı ödedi.",
+      "benzerlik": 0.502
+    },
+    {
+      "a": "Mahkeme davanın kabulüne karar vermiştir.",
+      "b": "Kiracı kirayı ödemedi.",
+      "benzerlik": 0.502
+    },
+    {
+      "a": "Sözleşme hükümsüzdür.",
+      "b": "Kiracı kirayı ödedi.",
+      "benzerlik": 0.5
+    },
+    {
+      "a": "Mahkeme davanın reddine karar vermiştir.",
+      "b": "Kiracı kirayı ödedi.",
+      "benzerlik": 0.499
+    },
+    {
+      "a": "Ev sahibim kirayı artırmak istiyor.",
+      "b": "Sözleşme geçersizdir.",
+      "benzerlik": 0.497
+    },
+    {
+      "a": "Ev sahibim kirayı artırmak istiyor.",
+      "b": "Davalı, davacıya ait markayı izinsiz kullanmıştır.",
+      "benzerlik": 0.495
+    },
+    {
+      "a": "Ev sahibim kirayı artırmak istiyor.",
+      "b": "Sözleşme hükümsüzdür.",
+      "benzerlik": 0.47
+    },
+    {
+      "a": "Boğaz'da bugün hava çok güzel.",
+      "b": "Kiracı kirayı ödedi.",
+      "benzerlik": 0.47
+    },
+    {
+      "a": "Ev sahibim kirayı artırmak istiyor.",
+      "b": "Mahkeme davanın reddine karar vermiştir.",
+      "benzerlik": 0.426
+    },
+    {
+      "a": "Ev sahibim kirayı artırmak istiyor.",
+      "b": "Boğaz'da bugün hava çok güzel.",
+      "benzerlik": 0.419
+    },
+    {
+      "a": "Boğaz'da bugün hava çok güzel.",
+      "b": "Mahkeme davanın reddine karar vermiştir.",
+      "benzerlik": 0.416
+    },
+    {
+      "a": "Kiraya veren, kira bedelinin yeniden belirlenmesini talep etmektedir.",
+      "b": "Boğaz'da bugün hava çok güzel.",
+      "benzerlik": 0.388
+    },
+    {
+      "a": "Sözleşme hükümsüzdür.",
+      "b": "Boğaz'da bugün hava çok güzel.",
+      "benzerlik": 0.374
+    },
+    {
+      "a": "Sözleşme geçersizdir.",
+      "b": "Boğaz'da bugün hava çok güzel.",
+      "benzerlik": 0.37
+    },
+    {
+      "a": "Davalı, davacıya ait markayı izinsiz kullanmıştır.",
+      "b": "Boğaz'da bugün hava çok güzel.",
+      "benzerlik": 0.367
+    },
+    {
+      "a": "Boğaz'da bugün hava çok güzel.",
+      "b": "Kiracı kirayı ödemedi.",
+      "benzerlik": 0.316
+    }
+  ]
+}

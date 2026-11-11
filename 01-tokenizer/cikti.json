@@ -1,0 +1,1016 @@
+{
+  "hükümsüzlüğünün": {
+    "BERTurk": {
+      "parcalar": [
+        "hüküm",
+        "##süz",
+        "##lüğünün"
+      ],
+      "kimlikler": [
+        3244,
+        5882,
+        16472
+      ],
+      "geri_cevrilen": "hükümsüzlüğünün"
+    },
+    "ModernBERT-tr": {
+      "parcalar": [
+        "hüküm",
+        "##süz",
+        "##lüğünün"
+      ],
+      "kimlikler": [
+        3615,
+        6022,
+        19715
+      ],
+      "geri_cevrilen": "hükümsüzlüğünün"
+    },
+    "BGE-M3": {
+      "parcalar": [
+        "hüküm",
+        "süz",
+        "lüğünü",
+        "n"
+      ],
+      "kimlikler": [
+        145169,
+        96953,
+        230626,
+        19
+      ],
+      "geri_cevrilen": "hükümsüzlüğünün"
+    },
+    "Qwen3": {
+      "parcalar": [
+        "h",
+        "ük",
+        "ü",
+        "ms",
+        "ü",
+        "zl",
+        "üğ",
+        "ünün"
+      ],
+      "kimlikler": [
+        71,
+        39857,
+        2391,
+        1011,
+        2391,
+        67957,
+        124958,
+        132508
+      ],
+      "geri_cevrilen": "hükümsüzlüğünün"
+    },
+    "o200k": {
+      "parcalar": [
+        "h",
+        "ük",
+        "ü",
+        "ms",
+        "üz",
+        "lüğ",
+        "ünün"
+      ],
+      "kimlikler": [
+        71,
+        13220,
+        572,
+        1782,
+        24216,
+        116047,
+        100864
+      ],
+      "geri_cevrilen": "hükümsüzlüğünün"
+    },
+    "cl100k": {
+      "parcalar": [
+        "h",
+        "ük",
+        "ü",
+        "ms",
+        "ü",
+        "zl",
+        "ü",
+        "ğ",
+        "ün",
+        "ün"
+      ],
+      "kimlikler": [
+        71,
+        40957,
+        2448,
+        1026,
+        2448,
+        69057,
+        2448,
+        11257,
+        16461,
+        16461
+      ],
+      "geri_cevrilen": "hükümsüzlüğünün"
+    }
+  },
+  "hüküm": {
+    "BERTurk": {
+      "parcalar": [
+        "hüküm"
+      ],
+      "kimlikler": [
+        3244
+      ],
+      "geri_cevrilen": "hüküm"
+    },
+    "ModernBERT-tr": {
+      "parcalar": [
+        "hüküm"
+      ],
+      "kimlikler": [
+        3615
+      ],
+      "geri_cevrilen": "hüküm"
+    },
+    "BGE-M3": {
+      "parcalar": [
+        "hüküm"
+      ],
+      "kimlikler": [
+        145169
+      ],
+      "geri_cevrilen": "hüküm"
+    },
+    "Qwen3": {
+      "parcalar": [
+        "h",
+        "ük",
+        "üm"
+      ],
+      "kimlikler": [
+        71,
+        39857,
+        48521
+      ],
+      "geri_cevrilen": "hüküm"
+    },
+    "o200k": {
+      "parcalar": [
+        "h",
+        "ük",
+        "üm"
+      ],
+      "kimlikler": [
+        71,
+        13220,
+        14314
+      ],
+      "geri_cevrilen": "hüküm"
+    },
+    "cl100k": {
+      "parcalar": [
+        "h",
+        "ük",
+        "üm"
+      ],
+      "kimlikler": [
+        71,
+        40957,
+        49621
+      ],
+      "geri_cevrilen": "hüküm"
+    }
+  },
+  "hükümsüz": {
+    "BERTurk": {
+      "parcalar": [
+        "hüküm",
+        "##süz"
+      ],
+      "kimlikler": [
+        3244,
+        5882
+      ],
+      "geri_cevrilen": "hükümsüz"
+    },
+    "ModernBERT-tr": {
+      "parcalar": [
+        "hüküm",
+        "##süz"
+      ],
+      "kimlikler": [
+        3615,
+        6022
+      ],
+      "geri_cevrilen": "hükümsüz"
+    },
+    "BGE-M3": {
+      "parcalar": [
+        "hüküm",
+        "süz"
+      ],
+      "kimlikler": [
+        145169,
+        96953
+      ],
+      "geri_cevrilen": "hükümsüz"
+    },
+    "Qwen3": {
+      "parcalar": [
+        "h",
+        "ük",
+        "ü",
+        "ms",
+        "üz"
+      ],
+      "kimlikler": [
+        71,
+        39857,
+        2391,
+        1011,
+        78591
+      ],
+      "geri_cevrilen": "hükümsüz"
+    },
+    "o200k": {
+      "parcalar": [
+        "h",
+        "ük",
+        "ü",
+        "ms",
+        "üz"
+      ],
+      "kimlikler": [
+        71,
+        13220,
+        572,
+        1782,
+        24216
+      ],
+      "geri_cevrilen": "hükümsüz"
+    },
+    "cl100k": {
+      "parcalar": [
+        "h",
+        "ük",
+        "ü",
+        "ms",
+        "üz"
+      ],
+      "kimlikler": [
+        71,
+        40957,
+        2448,
+        1026,
+        79691
+      ],
+      "geri_cevrilen": "hükümsüz"
+    }
+  },
+  "hükümsüzlük": {
+    "BERTurk": {
+      "parcalar": [
+        "hüküm",
+        "##süzlük"
+      ],
+      "kimlikler": [
+        3244,
+        20455
+      ],
+      "geri_cevrilen": "hükümsüzlük"
+    },
+    "ModernBERT-tr": {
+      "parcalar": [
+        "hüküm",
+        "##süzlük"
+      ],
+      "kimlikler": [
+        3615,
+        21892
+      ],
+      "geri_cevrilen": "hükümsüzlük"
+    },
+    "BGE-M3": {
+      "parcalar": [
+        "hüküm",
+        "süz",
+        "lük"
+      ],
+      "kimlikler": [
+        145169,
+        96953,
+        15043
+      ],
+      "geri_cevrilen": "hükümsüzlük"
+    },
+    "Qwen3": {
+      "parcalar": [
+        "h",
+        "ük",
+        "ü",
+        "ms",
+        "ü",
+        "zl",
+        "ük"
+      ],
+      "kimlikler": [
+        71,
+        39857,
+        2391,
+        1011,
+        2391,
+        67957,
+        39857
+      ],
+      "geri_cevrilen": "hükümsüzlük"
+    },
+    "o200k": {
+      "parcalar": [
+        "h",
+        "ük",
+        "ü",
+        "ms",
+        "üz",
+        "lük"
+      ],
+      "kimlikler": [
+        71,
+        13220,
+        572,
+        1782,
+        24216,
+        88029
+      ],
+      "geri_cevrilen": "hükümsüzlük"
+    },
+    "cl100k": {
+      "parcalar": [
+        "h",
+        "ük",
+        "ü",
+        "ms",
+        "ü",
+        "zl",
+        "ük"
+      ],
+      "kimlikler": [
+        71,
+        40957,
+        2448,
+        1026,
+        2448,
+        69057,
+        40957
+      ],
+      "geri_cevrilen": "hükümsüzlük"
+    }
+  },
+  "invalidity": {
+    "BERTurk": {
+      "parcalar": [
+        "in",
+        "##val",
+        "##idi",
+        "##ty"
+      ],
+      "kimlikler": [
+        2091,
+        14326,
+        8515,
+        12277
+      ],
+      "geri_cevrilen": "invalidity"
+    },
+    "ModernBERT-tr": {
+      "parcalar": [
+        "in",
+        "##val",
+        "##idi",
+        "##ty"
+      ],
+      "kimlikler": [
+        2034,
+        13903,
+        8599,
+        17948
+      ],
+      "geri_cevrilen": "invalidity"
+    },
+    "BGE-M3": {
+      "parcalar": [
+        "invalid",
+        "ity"
+      ],
+      "kimlikler": [
+        56649,
+        2481
+      ],
+      "geri_cevrilen": "invalidity"
+    },
+    "Qwen3": {
+      "parcalar": [
+        "invalid",
+        "ity"
+      ],
+      "kimlikler": [
+        11808,
+        487
+      ],
+      "geri_cevrilen": "invalidity"
+    },
+    "o200k": {
+      "parcalar": [
+        "invalid",
+        "ity"
+      ],
+      "kimlikler": [
+        25351,
+        536
+      ],
+      "geri_cevrilen": "invalidity"
+    },
+    "cl100k": {
+      "parcalar": [
+        "invalid",
+        "ity"
+      ],
+      "kimlikler": [
+        12071,
+        488
+      ],
+      "geri_cevrilen": "invalidity"
+    }
+  },
+  "TBK m. 344/1": {
+    "BERTurk": {
+      "parcalar": [
+        "TB",
+        "##K",
+        "m",
+        ".",
+        "34",
+        "##4",
+        "/",
+        "1"
+      ],
+      "kimlikler": [
+        6580,
+        1083,
+        81,
+        18,
+        6159,
+        1119,
+        19,
+        21
+      ],
+      "geri_cevrilen": "TBK m. 344 / 1"
+    },
+    "ModernBERT-tr": {
+      "parcalar": [
+        "TB",
+        "##K",
+        "m",
+        ".",
+        "34",
+        "##4",
+        "/",
+        "1"
+      ],
+      "kimlikler": [
+        6926,
+        1034,
+        81,
+        18,
+        5510,
+        1041,
+        19,
+        21
+      ],
+      "geri_cevrilen": "TBK m. 344 / 1"
+    },
+    "BGE-M3": {
+      "parcalar": [
+        "T",
+        "BK",
+        "m",
+        ".",
+        "",
+        "344",
+        "/1"
+      ],
+      "kimlikler": [
+        384,
+        76460,
+        347,
+        5,
+        6,
+        132993,
+        11583
+      ],
+      "geri_cevrilen": "TBK m. 344/1"
+    },
+    "Qwen3": {
+      "parcalar": [
+        "TB",
+        "K",
+        " m",
+        ".",
+        " ",
+        "3",
+        "4",
+        "4",
+        "/",
+        "1"
+      ],
+      "kimlikler": [
+        31160,
+        42,
+        296,
+        13,
+        220,
+        18,
+        19,
+        19,
+        14,
+        16
+      ],
+      "geri_cevrilen": "TBK m. 344/1"
+    },
+    "o200k": {
+      "parcalar": [
+        "TB",
+        "K",
+        " m",
+        ".",
+        " ",
+        "344",
+        "/",
+        "1"
+      ],
+      "kimlikler": [
+        39934,
+        42,
+        284,
+        13,
+        220,
+        32494,
+        14,
+        16
+      ],
+      "geri_cevrilen": "TBK m. 344/1"
+    },
+    "cl100k": {
+      "parcalar": [
+        "TB",
+        "K",
+        " m",
+        ".",
+        " ",
+        "344",
+        "/",
+        "1"
+      ],
+      "kimlikler": [
+        32260,
+        42,
+        296,
+        13,
+        220,
+        17451,
+        14,
+        16
+      ],
+      "geri_cevrilen": "TBK m. 344/1"
+    }
+  },
+  "E. 2023/125, K. 2024/87": {
+    "BERTurk": {
+      "parcalar": [
+        "E",
+        ".",
+        "2023",
+        "/",
+        "125",
+        ",",
+        "K",
+        ".",
+        "20",
+        "##24",
+        "/",
+        "87"
+      ],
+      "kimlikler": [
+        41,
+        18,
+        19905,
+        19,
+        15485,
+        16,
+        47,
+        18,
+        2146,
+        12691,
+        19,
+        10879
+      ],
+      "geri_cevrilen": "E. 2023 / 125, K. 2024 / 87"
+    },
+    "ModernBERT-tr": {
+      "parcalar": [
+        "E",
+        ".",
+        "2023",
+        "/",
+        "125",
+        ",",
+        "K",
+        ".",
+        "2024",
+        "/",
+        "87"
+      ],
+      "kimlikler": [
+        41,
+        18,
+        11272,
+        19,
+        15122,
+        16,
+        47,
+        18,
+        37953,
+        19,
+        11814
+      ],
+      "geri_cevrilen": "E. 2023 / 125, K. 2024 / 87"
+    },
+    "BGE-M3": {
+      "parcalar": [
+        "E",
+        ".",
+        "2023",
+        "/",
+        "125",
+        ",",
+        "K",
+        ".",
+        "20",
+        "24",
+        "/",
+        "87"
+      ],
+      "kimlikler": [
+        241,
+        5,
+        140429,
+        64,
+        63652,
+        4,
+        341,
+        5,
+        387,
+        2357,
+        64,
+        19308
+      ],
+      "geri_cevrilen": "E. 2023/125, K. 2024/87"
+    },
+    "Qwen3": {
+      "parcalar": [
+        "E",
+        ".",
+        " ",
+        "2",
+        "0",
+        "2",
+        "3",
+        "/",
+        "1",
+        "2",
+        "5",
+        ",",
+        " K",
+        ".",
+        " ",
+        "2",
+        "0",
+        "2",
+        "4",
+        "/",
+        "8",
+        "7"
+      ],
+      "kimlikler": [
+        36,
+        13,
+        220,
+        17,
+        15,
+        17,
+        18,
+        14,
+        16,
+        17,
+        20,
+        11,
+        730,
+        13,
+        220,
+        17,
+        15,
+        17,
+        19,
+        14,
+        23,
+        22
+      ],
+      "geri_cevrilen": "E. 2023/125, K. 2024/87"
+    },
+    "o200k": {
+      "parcalar": [
+        "E",
+        ".",
+        " ",
+        "202",
+        "3",
+        "/",
+        "125",
+        ",",
+        " K",
+        ".",
+        " ",
+        "202",
+        "4",
+        "/",
+        "87"
+      ],
+      "kimlikler": [
+        36,
+        13,
+        220,
+        1323,
+        18,
+        14,
+        10676,
+        11,
+        658,
+        13,
+        220,
+        1323,
+        19,
+        14,
+        6818
+      ],
+      "geri_cevrilen": "E. 2023/125, K. 2024/87"
+    },
+    "cl100k": {
+      "parcalar": [
+        "E",
+        ".",
+        " ",
+        "202",
+        "3",
+        "/",
+        "125",
+        ",",
+        " K",
+        ".",
+        " ",
+        "202",
+        "4",
+        "/",
+        "87"
+      ],
+      "kimlikler": [
+        36,
+        13,
+        220,
+        2366,
+        18,
+        14,
+        6549,
+        11,
+        735,
+        13,
+        220,
+        2366,
+        19,
+        14,
+        4044
+      ],
+      "geri_cevrilen": "E. 2023/125, K. 2024/87"
+    }
+  },
+  "Kiracı, kira bedelinin belirlenmesini isteyebilir.": {
+    "BERTurk": {
+      "parcalar": [
+        "Kira",
+        "##cı",
+        ",",
+        "kira",
+        "bedelinin",
+        "belirlenmesi",
+        "##ni",
+        "isteyebilir",
+        "."
+      ],
+      "kimlikler": [
+        8472,
+        2129,
+        16,
+        4378,
+        23764,
+        12711,
+        3926,
+        22862,
+        18
+      ],
+      "geri_cevrilen": "Kiracı, kira bedelinin belirlenmesini isteyebilir."
+    },
+    "ModernBERT-tr": {
+      "parcalar": [
+        "Kira",
+        "##cı",
+        ",",
+        "kira",
+        "bedelinin",
+        "belirlenmesi",
+        "##ni",
+        "isteyebilir",
+        "."
+      ],
+      "kimlikler": [
+        12171,
+        2055,
+        16,
+        5663,
+        25234,
+        12807,
+        4166,
+        21022,
+        18
+      ],
+      "geri_cevrilen": "Kiracı, kira bedelinin belirlenmesini isteyebilir."
+    },
+    "BGE-M3": {
+      "parcalar": [
+        "Kira",
+        "cı",
+        ",",
+        "kira",
+        "bedel",
+        "inin",
+        "belirle",
+        "n",
+        "mesini",
+        "iste",
+        "y",
+        "ebilir",
+        "."
+      ],
+      "kimlikler": [
+        70514,
+        5924,
+        4,
+        15099,
+        105940,
+        3266,
+        37547,
+        19,
+        84908,
+        21682,
+        53,
+        24590,
+        5
+      ],
+      "geri_cevrilen": "Kiracı, kira bedelinin belirlenmesini isteyebilir."
+    },
+    "Qwen3": {
+      "parcalar": [
+        "Kir",
+        "acı",
+        ",",
+        " k",
+        "ira",
+        " bed",
+        "elin",
+        "in",
+        " bel",
+        "irl",
+        "en",
+        "mes",
+        "ini",
+        " ist",
+        "ey",
+        "eb",
+        "il",
+        "ir",
+        "."
+      ],
+      "kimlikler": [
+        97922,
+        125403,
+        11,
+        595,
+        8832,
+        4845,
+        32730,
+        258,
+        1656,
+        2811,
+        268,
+        8828,
+        6591,
+        5999,
+        1195,
+        3065,
+        321,
+        404,
+        13
+      ],
+      "geri_cevrilen": "Kiracı, kira bedelinin belirlenmesini isteyebilir."
+    },
+    "o200k": {
+      "parcalar": [
+        "Kir",
+        "acı",
+        ",",
+        " kira",
+        " bed",
+        "el",
+        "inin",
+        " belir",
+        "len",
+        "mesini",
+        " iste",
+        "y",
+        "ebilir",
+        "."
+      ],
+      "kimlikler": [
+        103522,
+        80610,
+        11,
+        101836,
+        3737,
+        296,
+        13039,
+        54923,
+        3303,
+        135529,
+        42778,
+        88,
+        106384,
+        13
+      ],
+      "geri_cevrilen": "Kiracı, kira bedelinin belirlenmesini isteyebilir."
+    },
+    "cl100k": {
+      "parcalar": [
+        "Kir",
+        "ac",
+        "ı",
+        ",",
+        " k",
+        "ira",
+        " bed",
+        "elin",
+        "in",
+        " bel",
+        "irl",
+        "en",
+        "mes",
+        "ini",
+        " ist",
+        "ey",
+        "eb",
+        "il",
+        "ir",
+        "."
+      ],
+      "kimlikler": [
+        99022,
+        582,
+        3862,
+        11,
+        597,
+        9008,
+        4950,
+        33830,
+        258,
+        1689,
+        2881,
+        268,
+        9004,
+        6729,
+        6127,
+        1216,
+        3141,
+        321,
+        404,
+        13
+      ],
+      "geri_cevrilen": "Kiracı, kira bedelinin belirlenmesini isteyebilir."
+    }
+  }
+}

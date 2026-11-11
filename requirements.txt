@@ -1,0 +1,7 @@
+tiktoken==0.14.0
+transformers==5.22.2
+tokenizers==0.23.3
+sentencepiece==0.2.3
+sentence-transformers==6.3.0
+torch==2.15.0
+numpy==2.5.4
