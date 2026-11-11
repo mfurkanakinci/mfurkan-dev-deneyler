@@ -1,0 +1,31 @@
+{
+ "aciklama": "Elle yazılmış kontrol kümesi (2026-11-11). Gerçek bir karar ya da kanun metninden alınmadı; künye ve atıflar uydurma biçim örnekleridir.",
+ "ogeler": [
+  {"id": "k01", "grup": "harf", "metin": "çğıöşü ÇĞİÖŞÜ"},
+  {"id": "k02", "grup": "harf", "metin": "I İ ı i"},
+  {"id": "k03", "grup": "harf", "metin": "ISPARTA Isparta ıspanak İSTANBUL İstanbul istanbul"},
+  {"id": "k04", "grup": "harf", "metin": "KIRIK kırık KİRİŞ kiriş"},
+  {"id": "k05", "grup": "harf", "metin": "Hâkim hakim; kâr kar; Kur'ân-ı Kerîm"},
+  {"id": "k06", "grup": "atif", "metin": "TBK m. 344/1"},
+  {"id": "k07", "grup": "atif", "metin": "6098 sayılı Türk Borçlar Kanunu'nun 344'üncü maddesinin birinci fıkrası"},
+  {"id": "k08", "grup": "atif", "metin": "Geçici Madde 2"},
+  {"id": "k09", "grup": "atif", "metin": "HMK m. 107/1-a ve TMK md. 4"},
+  {"id": "k10", "grup": "atif", "metin": "5237 s. TCK'nın 53/1-b maddesi"},
+  {"id": "k11", "grup": "atif", "metin": "Ek Madde 3 – (Ek: 1/1/2020-7200/5 md.)"},
+  {"id": "k12", "grup": "kunye", "metin": "E. 2023/125, K. 2024/87"},
+  {"id": "k13", "grup": "kunye", "metin": "Yargıtay 3. HD, 12.03.2024, E. 2023/1250 K. 2024/870"},
+  {"id": "k14", "grup": "kunye", "metin": "AYM, B. No: 2019/12345, 15/6/2022"},
+  {"id": "k15", "grup": "tarih_sayi", "metin": "12.03.2024 tarihinde"},
+  {"id": "k16", "grup": "tarih_sayi", "metin": "1 Ocak 2025 ile 31/12/2025 arası"},
+  {"id": "k17", "grup": "tarih_sayi", "metin": "%25 oranında, yüzde 12,5 faiz"},
+  {"id": "k18", "grup": "tarih_sayi", "metin": "1.250.000,00 TL"},
+  {"id": "k19", "grup": "tarih_sayi", "metin": "₺3.500,75 ve 2.000 USD"},
+  {"id": "k20", "grup": "uzun_ek", "metin": "hükümsüzlüğünün"},
+  {"id": "k21", "grup": "uzun_ek", "metin": "değerlendirilemeyeceğinden"},
+  {"id": "k22", "grup": "uzun_ek", "metin": "sorumluluklarından kurtulamayacaklarını"},
+  {"id": "k23", "grup": "uzun_ek", "metin": "Çekoslovakyalılaştıramadıklarımızdan mısınız"},
+  {"id": "k24", "grup": "uzun_ek", "metin": "kiralayanın tahliye edilmesine karar verilmesine"},
+  {"id": "k25", "grup": "bicim", "metin": "Birinci satır.\n\n  İkinci satır\tsekmeli."},
+  {"id": "k26", "grup": "bicim", "metin": "“Tırnaklı” — uzun tire – kısa tire … üç nokta"}
+ ]
+}

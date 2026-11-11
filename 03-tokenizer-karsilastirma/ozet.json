@@ -1,0 +1,3169 @@
+{
+ "deney": "2026-11-11-tokenizer-kiyas",
+ "yazi": "https://mfurkan.dev/yazilar/tokenizer-karsilastirma/",
+ "tarih": "2026-11-11 20:50:13 UTC",
+ "surumler": {
+  "python": "3.13.18",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "islemci": "x86_64",
+  "cpu_sayisi": 2,
+  "transformers": "5.22.2",
+  "tokenizers": "0.23.3",
+  "tiktoken": "0.14.0",
+  "huggingface_hub": "1.33.0",
+  "numpy": "2.4.6",
+  "pyarrow": "23.0.1",
+  "sentencepiece": "0.2.2",
+  "protobuf": "6.33.6"
+ },
+ "tokenizerlar": {
+  "BERTurk": {
+   "depo": "dbmdz/bert-base-turkish-cased",
+   "surum": "b6e1de16c983e0f2c70664591ea3f22810072608",
+   "sinif": "BertTokenizer",
+   "dosyalar": {
+    "config.json": "3be8dbe74813f59a252773db34bd67640166d36c507ded3b06b55f91f05ce78a",
+    "tokenizer_config.json": "abb7cc8c813870875157e0dff63bc21bb521d4b5d3c35c2eb9facaee4fd9532f",
+    "vocab.txt": "ca72d2012b1e46ed42f5df2dc9675f9da0b37a481601785cb4dff91f67fcca65"
+   },
+   "sozluk": 32000,
+   "unk_token": "[UNK]",
+   "unk_token_id": 1,
+   "clean_up_tokenization_spaces_varsayilan": false,
+   "kullanilan_decode": "skip_special_tokens=False, clean_up_tokenization_spaces=False"
+  },
+  "ModernBERT-tr": {
+   "depo": "ytu-ce-cosmos/modernbert-tr-base",
+   "surum": "d16b9da8f7dc0eadf8946255ee5f38042bdf59c2",
+   "sinif": "TokenizersBackend",
+   "dosyalar": {
+    "config.json": "272c8c9e5239f00fac885c8771b8a5a290c9ca7114adc4ee6ba656d8d9d08667",
+    "special_tokens_map.json": "e232f6a2ac8b149dc247c27e30282c42b0b70720a35cc845fa3e791f9ee9da00",
+    "tokenizer.json": "e0f42bf82522d1f0feba55fee73318b42ea46dc17ff1b98811605c3868c9c3fc",
+    "tokenizer_config.json": "2901fb6adcb7f3c45756c88d1c20be876396e35ea8560d92a0b6342820f5d9cb"
+   },
+   "sozluk": 50008,
+   "unk_token": "[UNK]",
+   "unk_token_id": 1,
+   "clean_up_tokenization_spaces_varsayilan": true,
+   "kullanilan_decode": "skip_special_tokens=False, clean_up_tokenization_spaces=False"
+  },
+  "BGE-M3": {
+   "depo": "BAAI/bge-m3",
+   "surum": "5617a9f61b028005a4858fdac845db406aefb181",
+   "sinif": "XLMRobertaTokenizer",
+   "dosyalar": {
+    "config.json": "26159e7ad065073448460117eb24b7a4572f6f4e78eadff65dc0a11c052449fa",
+    "onnx/sentencepiece.bpe.model": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+    "sentencepiece.bpe.model": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+    "special_tokens_map.json": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835",
+    "tokenizer.json": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08",
+    "tokenizer_config.json": "a62b2b6784f990259fddef5f16388693a8043be4f69179e6a5257eeb3f9abac4"
+   },
+   "sozluk": 250002,
+   "unk_token": "<unk>",
+   "unk_token_id": 3,
+   "clean_up_tokenization_spaces_varsayilan": true,
+   "kullanilan_decode": "skip_special_tokens=False, clean_up_tokenization_spaces=False"
+  },
+  "Qwen3": {
+   "depo": "Qwen/Qwen3-Embedding-0.6B",
+   "surum": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+   "sinif": "Qwen2Tokenizer",
+   "dosyalar": {
+    "config.json": "b5bf1f51fc45be473a54718cef92448d90a1be001bf9b9a44b8c7f10a19feaa9",
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "tokenizer.json": "def76fb086971c7867b829c23a26261e38d9d74e02139253b38aeb9df8b4b50a",
+    "tokenizer_config.json": "253153d0738ceb4c668d2eff957714dd2bea0b56de772a9fdccd96cbf517e6a0",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+   },
+   "sozluk": 151669,
+   "unk_token": null,
+   "unk_token_id": null,
+   "clean_up_tokenization_spaces_varsayilan": false,
+   "kullanilan_decode": "skip_special_tokens=False, clean_up_tokenization_spaces=False"
+  },
+  "cl100k": {
+   "kodlama": "cl100k_base",
+   "sozluk": 100277,
+   "unk_token": null,
+   "onbellek_dosyalari_sha256": {
+    "9b5ad71b2ce5302211f9c61530b329a4922fc6a4": "223921b76ee99bde995b7ff738513eef100fb51d18c93597a113bcffe865b2a7"
+   },
+   "kullanilan_encode": "encode(x, disallowed_special=())"
+  },
+  "o200k": {
+   "kodlama": "o200k_base",
+   "sozluk": 200019,
+   "unk_token": null,
+   "onbellek_dosyalari_sha256": {
+    "9b5ad71b2ce5302211f9c61530b329a4922fc6a4": "223921b76ee99bde995b7ff738513eef100fb51d18c93597a113bcffe865b2a7",
+    "fb374d419588a4632f3f557e76b4b70aebbca790": "446a9538cb6c348e3516120d7c08b09f57c36495e2acfffe59a5bf8b0cfb1a2d"
+   },
+   "kullanilan_encode": "encode(x, disallowed_special=())"
+  }
+ },
+ "ornekleme": {
+  "tohum": "tokkiyas-20261111",
+  "alt_sinir_karakter": 200,
+  "sinirlar": [
+   500,
+   1100
+  ],
+  "kotalar": [
+   34,
+   33,
+   33
+  ],
+  "deneme_n": 10,
+  "aralik_sayilari": {
+   "vikipedi": {
+    "A": 34,
+    "B": 33,
+    "C": 33
+   },
+   "mevzuat": {
+    "A": 34,
+    "B": 33,
+    "C": 33
+   },
+   "karar": {
+    "A": 34,
+    "B": 33,
+    "C": 33
+   }
+  },
+  "secim": {
+   "vikipedi": {
+    "atlanan": {
+     "anlam_ayrimi": 2,
+     "kisa": 29
+    },
+    "dolu": {
+     "A": 34,
+     "B": 33,
+     "C": 33
+    },
+    "eksik": {},
+    "deneme": 10,
+    "asil": 100
+   },
+   "mevzuat": {
+    "atlanan": {
+     "kisa": 55
+    },
+    "dolu": {
+     "A": 34,
+     "B": 33,
+     "C": 33
+    },
+    "eksik": {},
+    "deneme": 10,
+    "asil": 100
+   },
+   "karar": {
+    "atlanan": {
+     "kopya": 1
+    },
+    "dolu": {
+     "A": 34,
+     "B": 33,
+     "C": 33
+    },
+    "eksik": {},
+    "deneme": 10,
+    "asil": 100
+   }
+  },
+  "kaynaklar": {
+   "vikipedi": {
+    "depo": "wikimedia/wikipedia",
+    "surum": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+    "yapilandirma": "20231101.tr",
+    "dosya_sha256": {
+     "20231101.tr/train-00000-of-00002.parquet": "6994014607c0920f049ff62c3ea03bfaa218848fa31fa331b6ad1e17ef8f393a",
+     "20231101.tr/train-00001-of-00002.parquet": "252310d22e2a6e08cf43fe0da1e4f2761e1e5437451326888b43d1c6798db73e"
+    },
+    "sayfa_sayisi": 534988,
+    "lisans": "CC BY-SA 4.0 (ve GFDL)"
+   },
+   "mevzuat": {
+    "evren": 30880,
+    "dosya_sha256": "35a487291cba339d87bda980729e33779229fe4ad1dcbbe68d79ef022a0922b6"
+   },
+   "karar": {
+    "aday": 2984,
+    "dosya_sha256": {
+     "karar_aday.jsonl": "028847c3a1eb8ec871f6c9a76b68cf243955d0724bc4532fe1531048d81111fc",
+     "karar_kunye.jsonl": "e2e6b59abc1d72ea59a0ef40652836770a7bfbc02abcdffa6c3b5f0b8bd1c570"
+    }
+   }
+  }
+ },
+ "betimleyici": {
+  "vikipedi": {
+   "n": 100,
+   "karakter_toplam": 127057,
+   "birim_toplam": 16537,
+   "karakter_ortanca": 725.5,
+   "tokenizer": {
+    "BERTurk": {
+     "parca_toplam": 29246,
+     "p1k": {
+      "ortalama": 232.58037826783962,
+      "ortanca": 225.66265929062234,
+      "y95": 305.1396090945353,
+      "toplam_oran": 230.18015536334084
+     },
+     "parca_birim": {
+      "ortalama": 1.8036433133413012,
+      "ortanca": 1.741037429181759,
+      "y95": 2.280549090139653,
+      "toplam_oran": 1.768519078430187
+     },
+     "sadakat": {
+      "birebir_oran": 0.0,
+      "fark_turu": {
+       "bosluk": 98,
+       "taninmayan": 2
+      },
+      "unk_toplam": 2,
+      "unk_belge": 2
+     },
+     "sigma": {
+      "asan_512": 0.15,
+      "asan_2048": 0.0,
+      "asan_8192": 0.0
+     }
+    },
+    "ModernBERT-tr": {
+     "parca_toplam": 27588,
+     "p1k": {
+      "ortalama": 218.370665940903,
+      "ortanca": 211.2114076399791,
+      "y95": 283.6582295706606,
+      "toplam_oran": 217.13089400820104
+     },
+     "parca_birim": {
+      "ortalama": 1.6921400245515195,
+      "ortanca": 1.6333570412517782,
+      "y95": 2.127023381294964,
+      "toplam_oran": 1.668259055451412
+     },
+     "sadakat": {
+      "birebir_oran": 0.0,
+      "fark_turu": {
+       "bosluk": 98,
+       "taninmayan": 2
+      },
+      "unk_toplam": 2,
+      "unk_belge": 2
+     },
+     "sigma": {
+      "asan_512": 0.13,
+      "asan_2048": 0.0,
+      "asan_8192": 0.0
+     }
+    },
+    "BGE-M3": {
+     "parca_toplam": 31086,
+     "p1k": {
+      "ortalama": 249.0183232433015,
+      "ortanca": 243.92906712131287,
+      "y95": 312.4851978333448,
+      "toplam_oran": 244.66184468388204
+     },
+     "parca_birim": {
+      "ortalama": 1.9312816459936135,
+      "ortanca": 1.903246923278345,
+      "y95": 2.2750408329930587,
+      "toplam_oran": 1.8797847251617585
+     },
+     "sadakat": {
+      "birebir_oran": 0.0,
+      "fark_turu": {
+       "bosluk": 96,
+       "harf": 3,
+       "taninmayan": 1
+      },
+      "unk_toplam": 1,
+      "unk_belge": 1
+     },
+     "sigma": {
+      "asan_512": 0.18,
+      "asan_2048": 0.01,
+      "asan_8192": 0.0
+     }
+    },
+    "Qwen3": {
+     "parca_toplam": 44980,
+     "p1k": {
+      "ortalama": 368.6703434525534,
+      "ortanca": 360.3447207514057,
+      "y95": 438.37872605836947,
+      "toplam_oran": 354.01434002062064
+     },
+     "parca_birim": {
+      "ortalama": 2.8601728114718896,
+      "ortanca": 2.8768467308129404,
+      "y95": 3.358905967450271,
+      "toplam_oran": 2.719961298905485
+     },
+     "sadakat": {
+      "birebir_oran": 1.0,
+      "fark_turu": {},
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.25,
+      "asan_2048": 0.03,
+      "asan_8192": 0.0
+     }
+    },
+    "cl100k": {
+     "parca_toplam": 49213,
+     "p1k": {
+      "ortalama": 398.4050808916724,
+      "ortanca": 396.73495518565943,
+      "y95": 464.25802879291246,
+      "toplam_oran": 387.3300959411917
+     },
+     "parca_birim": {
+      "ortalama": 3.094573176827581,
+      "ortanca": 3.1095238095238096,
+      "y95": 3.527231012658228,
+      "toplam_oran": 2.9759327568482794
+     },
+     "sadakat": {
+      "birebir_oran": 1.0,
+      "fark_turu": {},
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.27,
+      "asan_2048": 0.03,
+      "asan_8192": 0.0
+     }
+    },
+    "o200k": {
+     "parca_toplam": 38742,
+     "p1k": {
+      "ortalama": 315.95626537440626,
+      "ortanca": 307.4319799912407,
+      "y95": 371.28817312110954,
+      "toplam_oran": 304.91826503065556
+     },
+     "parca_birim": {
+      "ortalama": 2.450824351525957,
+      "ortanca": 2.4519548615068962,
+      "y95": 2.9120727848101264,
+      "toplam_oran": 2.3427465683013846
+     },
+     "sadakat": {
+      "birebir_oran": 1.0,
+      "fark_turu": {},
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.21,
+      "asan_2048": 0.03,
+      "asan_8192": 0.0
+     }
+    }
+   }
+  },
+  "mevzuat": {
+   "n": 100,
+   "karakter_toplam": 124686,
+   "birim_toplam": 16158,
+   "karakter_ortanca": 679.5,
+   "tokenizer": {
+    "BERTurk": {
+     "parca_toplam": 24631,
+     "p1k": {
+      "ortalama": 196.96689258437968,
+      "ortanca": 193.68690611465178,
+      "y95": 233.5659249941033,
+      "toplam_oran": 197.54423110854466
+     },
+     "parca_birim": {
+      "ortalama": 1.5167378050300178,
+      "ortanca": 1.5084483244156575,
+      "y95": 1.7921695402298852,
+      "toplam_oran": 1.5243842059660848
+     },
+     "sadakat": {
+      "birebir_oran": 0.0,
+      "fark_turu": {
+       "bosluk": 100
+      },
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.1,
+      "asan_2048": 0.01,
+      "asan_8192": 0.0
+     }
+    },
+    "ModernBERT-tr": {
+     "parca_toplam": 23489,
+     "p1k": {
+      "ortalama": 187.50949355311073,
+      "ortanca": 183.94967673714754,
+      "y95": 221.53649167733673,
+      "toplam_oran": 188.3852236818889
+     },
+     "parca_birim": {
+      "ortalama": 1.4438086460410822,
+      "ortanca": 1.4191015031244723,
+      "y95": 1.6616511936339524,
+      "toplam_oran": 1.4537071419730165
+     },
+     "sadakat": {
+      "birebir_oran": 0.0,
+      "fark_turu": {
+       "bosluk": 100
+      },
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.08,
+      "asan_2048": 0.01,
+      "asan_8192": 0.0
+     }
+    },
+    "BGE-M3": {
+     "parca_toplam": 29795,
+     "p1k": {
+      "ortalama": 240.35167454939207,
+      "ortanca": 238.5673765923567,
+      "y95": 273.981436248168,
+      "toplam_oran": 238.96026819370257
+     },
+     "parca_birim": {
+      "ortalama": 1.8531558985820393,
+      "ortanca": 1.8302396878483833,
+      "y95": 2.0861699507389164,
+      "toplam_oran": 1.8439782151256343
+     },
+     "sadakat": {
+      "birebir_oran": 0.0,
+      "fark_turu": {
+       "bosluk": 91,
+       "harf": 9
+      },
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.13,
+      "asan_2048": 0.01,
+      "asan_8192": 0.0
+     }
+    },
+    "Qwen3": {
+     "parca_toplam": 45098,
+     "p1k": {
+      "ortalama": 362.86491543988814,
+      "ortanca": 357.92383292383295,
+      "y95": 406.86662360729855,
+      "toplam_oran": 361.6925717402114
+     },
+     "parca_birim": {
+      "ortalama": 2.7999657059880203,
+      "ortanca": 2.780118774637364,
+      "y95": 3.2167413793103448,
+      "toplam_oran": 2.7910632504022774
+     },
+     "sadakat": {
+      "birebir_oran": 1.0,
+      "fark_turu": {},
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.23,
+      "asan_2048": 0.03,
+      "asan_8192": 0.0
+     }
+    },
+    "cl100k": {
+     "parca_toplam": 50150,
+     "p1k": {
+      "ortalama": 403.44631718371863,
+      "ortanca": 401.46586939333963,
+      "y95": 434.96384509480646,
+      "toplam_oran": 402.21035240524196
+     },
+     "parca_birim": {
+      "ortalama": 3.1156595540936602,
+      "ortanca": 3.120435016111708,
+      "y95": 3.4885224538893342,
+      "toplam_oran": 3.1037257086273056
+     },
+     "sadakat": {
+      "birebir_oran": 1.0,
+      "fark_turu": {},
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.3,
+      "asan_2048": 0.04,
+      "asan_8192": 0.0
+     }
+    },
+    "o200k": {
+     "parca_toplam": 38712,
+     "p1k": {
+      "ortalama": 310.88601657421606,
+      "ortanca": 308.19296507307405,
+      "y95": 347.07670804114355,
+      "toplam_oran": 310.4759154997354
+     },
+     "parca_birim": {
+      "ortalama": 2.399522416200579,
+      "ortanca": 2.381111111111111,
+      "y95": 2.6891772151898734,
+      "toplam_oran": 2.395841069439287
+     },
+     "sadakat": {
+      "birebir_oran": 1.0,
+      "fark_turu": {},
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.18,
+      "asan_2048": 0.01,
+      "asan_8192": 0.0
+     }
+    }
+   }
+  },
+  "karar": {
+   "n": 100,
+   "karakter_toplam": 118120,
+   "birim_toplam": 14749,
+   "karakter_ortanca": 727.5,
+   "tokenizer": {
+    "BERTurk": {
+     "parca_toplam": 22977,
+     "p1k": {
+      "ortalama": 197.58595977087464,
+      "ortanca": 196.98102793776255,
+      "y95": 233.86248400701322,
+      "toplam_oran": 194.52251947172365
+     },
+     "parca_birim": {
+      "ortalama": 1.5930975805506975,
+      "ortanca": 1.5657142857142858,
+      "y95": 1.8892531876138432,
+      "toplam_oran": 1.557868330056275
+     },
+     "sadakat": {
+      "birebir_oran": 0.02,
+      "fark_turu": {
+       "bosluk": 98
+      },
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.08,
+      "asan_2048": 0.0,
+      "asan_8192": 0.0
+     }
+    },
+    "ModernBERT-tr": {
+     "parca_toplam": 21805,
+     "p1k": {
+      "ortalama": 187.9952615737389,
+      "ortanca": 187.1026725772389,
+      "y95": 226.72218406593407,
+      "toplam_oran": 184.60040636640704
+     },
+     "parca_birim": {
+      "ortalama": 1.515482109157112,
+      "ortanca": 1.4827586206896552,
+      "y95": 1.7740263682886634,
+      "toplam_oran": 1.478405315614618
+     },
+     "sadakat": {
+      "birebir_oran": 0.02,
+      "fark_turu": {
+       "bosluk": 98
+      },
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.08,
+      "asan_2048": 0.0,
+      "asan_8192": 0.0
+     }
+    },
+    "BGE-M3": {
+     "parca_toplam": 28088,
+     "p1k": {
+      "ortalama": 240.87149095170562,
+      "ortanca": 241.2784603503667,
+      "y95": 258.9091241437697,
+      "toplam_oran": 237.79207585506265
+     },
+     "parca_birim": {
+      "ortalama": 1.9431843781476856,
+      "ortanca": 1.9237478044939738,
+      "y95": 2.190708478513357,
+      "toplam_oran": 1.90440029832531
+     },
+     "sadakat": {
+      "birebir_oran": 0.66,
+      "fark_turu": {
+       "bosluk": 32,
+       "harf": 2
+      },
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.09,
+      "asan_2048": 0.01,
+      "asan_8192": 0.0
+     }
+    },
+    "Qwen3": {
+     "parca_toplam": 42216,
+     "p1k": {
+      "ortalama": 367.6914742118052,
+      "ortanca": 363.48056399470283,
+      "y95": 435.5124605124605,
+      "toplam_oran": 357.3992549949204
+     },
+     "parca_birim": {
+      "ortalama": 2.965601649139121,
+      "ortanca": 2.900907441016334,
+      "y95": 3.5157509157509157,
+      "toplam_oran": 2.8622957488643297
+     },
+     "sadakat": {
+      "birebir_oran": 1.0,
+      "fark_turu": {},
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.22,
+      "asan_2048": 0.04,
+      "asan_8192": 0.0
+     }
+    },
+    "cl100k": {
+     "parca_toplam": 46984,
+     "p1k": {
+      "ortalama": 402.414571342796,
+      "ortanca": 404.6834019454866,
+      "y95": 425.02659574468083,
+      "toplam_oran": 397.7649847612597
+     },
+     "parca_birim": {
+      "ortalama": 3.2479274655990804,
+      "ortanca": 3.212509534706331,
+      "y95": 3.724550752792618,
+      "toplam_oran": 3.1855719031798766
+     },
+     "sadakat": {
+      "birebir_oran": 1.0,
+      "fark_turu": {},
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.25,
+      "asan_2048": 0.04,
+      "asan_8192": 0.0
+     }
+    },
+    "o200k": {
+     "parca_toplam": 35182,
+     "p1k": {
+      "ortalama": 303.23772627893385,
+      "ortanca": 302.36217154543795,
+      "y95": 337.6638249141112,
+      "toplam_oran": 297.84964442939383
+     },
+     "parca_birim": {
+      "ortalama": 2.4456870459568982,
+      "ortanca": 2.4236111111111107,
+      "y95": 2.7812070043777357,
+      "toplam_oran": 2.3853820598006643
+     },
+     "sadakat": {
+      "birebir_oran": 1.0,
+      "fark_turu": {},
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.14,
+      "asan_2048": 0.03,
+      "asan_8192": 0.0
+     }
+    }
+   }
+  },
+  "toplam": {
+   "n": 300,
+   "karakter_toplam": 369863,
+   "birim_toplam": 47444,
+   "karakter_ortanca": 713.5,
+   "tokenizer": {
+    "BERTurk": {
+     "parca_toplam": 76854,
+     "p1k": {
+      "ortalama": 209.044410207698,
+      "ortanca": 203.1861857772493,
+      "y95": 265.06024096385545,
+      "toplam_oran": 207.79045214038712
+     },
+     "parca_birim": {
+      "ortalama": 1.6378262329740054,
+      "ortanca": 1.5824013764286593,
+      "y95": 2.0627576638477803,
+      "toplam_oran": 1.6198887109012732
+     },
+     "sadakat": {
+      "birebir_oran": 0.006666666666666667,
+      "fark_turu": {
+       "bosluk": 296,
+       "taninmayan": 2
+      },
+      "unk_toplam": 2,
+      "unk_belge": 2
+     },
+     "sigma": {
+      "asan_512": 0.11,
+      "asan_2048": 0.0033333333333333335,
+      "asan_8192": 0.0
+     }
+    },
+    "ModernBERT-tr": {
+     "parca_toplam": 72882,
+     "p1k": {
+      "ortalama": 197.95847368925092,
+      "ortanca": 194.31957493962324,
+      "y95": 249.09679202640524,
+      "toplam_oran": 197.05134063153113
+     },
+     "parca_birim": {
+      "ortalama": 1.5504769265832379,
+      "ortanca": 1.5073090055484422,
+      "y95": 1.963727858293076,
+      "toplam_oran": 1.5361689570862491
+     },
+     "sadakat": {
+      "birebir_oran": 0.006666666666666667,
+      "fark_turu": {
+       "bosluk": 296,
+       "taninmayan": 2
+      },
+      "unk_toplam": 2,
+      "unk_belge": 2
+     },
+     "sigma": {
+      "asan_512": 0.09666666666666666,
+      "asan_2048": 0.0033333333333333335,
+      "asan_8192": 0.0
+     }
+    },
+    "BGE-M3": {
+     "parca_toplam": 88969,
+     "p1k": {
+      "ortalama": 243.41382958146642,
+      "ortanca": 241.2784603503667,
+      "y95": 281.2492782632126,
+      "toplam_oran": 240.5458237239194
+     },
+     "parca_birim": {
+      "ortalama": 1.9092073075744462,
+      "ortanca": 1.8968138879681802,
+      "y95": 2.200344827586207,
+      "toplam_oran": 1.8752423910294242
+     },
+     "sadakat": {
+      "birebir_oran": 0.22,
+      "fark_turu": {
+       "bosluk": 219,
+       "harf": 14,
+       "taninmayan": 1
+      },
+      "unk_toplam": 1,
+      "unk_belge": 1
+     },
+     "sigma": {
+      "asan_512": 0.13333333333333333,
+      "asan_2048": 0.01,
+      "asan_8192": 0.0
+     }
+    },
+    "Qwen3": {
+     "parca_toplam": 132294,
+     "p1k": {
+      "ortalama": 366.4089110347489,
+      "ortanca": 360.94575264084506,
+      "y95": 432.5071270193222,
+      "toplam_oran": 357.6837910253256
+     },
+     "parca_birim": {
+      "ortalama": 2.875246722199677,
+      "ortanca": 2.8618633963549653,
+      "y95": 3.38088785879836,
+      "toplam_oran": 2.7884242475339347
+     },
+     "sadakat": {
+      "birebir_oran": 1.0,
+      "fark_turu": {},
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.23333333333333334,
+      "asan_2048": 0.03333333333333333,
+      "asan_8192": 0.0
+     }
+    },
+    "cl100k": {
+     "parca_toplam": 146347,
+     "p1k": {
+      "ortalama": 401.4219898060624,
+      "ortanca": 401.1843915139044,
+      "y95": 439.42009150275686,
+      "toplam_oran": 395.6789405807015
+     },
+     "parca_birim": {
+      "ortalama": 3.152720065506774,
+      "ortanca": 3.1452631848176376,
+      "y95": 3.5703059071729957,
+      "toplam_oran": 3.084626085490262
+     },
+     "sadakat": {
+      "birebir_oran": 1.0,
+      "fark_turu": {},
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.2733333333333333,
+      "asan_2048": 0.03666666666666667,
+      "asan_8192": 0.0
+     }
+    },
+    "o200k": {
+     "parca_toplam": 112636,
+     "p1k": {
+      "ortalama": 310.0266694091854,
+      "ortanca": 305.2380651679717,
+      "y95": 356.39232338370596,
+      "toplam_oran": 304.53438164942156
+     },
+     "parca_birim": {
+      "ortalama": 2.4320112712278115,
+      "ortanca": 2.4169944925255704,
+      "y95": 2.805902777777778,
+      "toplam_oran": 2.374083129584352
+     },
+     "sadakat": {
+      "birebir_oran": 1.0,
+      "fark_turu": {},
+      "unk_toplam": 0,
+      "unk_belge": 0
+     },
+     "sigma": {
+      "asan_512": 0.17666666666666667,
+      "asan_2048": 0.023333333333333334,
+      "asan_8192": 0.0
+     }
+    }
+   }
+  }
+ },
+ "bootstrap": {
+  "tekrar": 10000,
+  "tohum": 20261111,
+  "yontem": "eşli belge düzeyi, yüzdelik %95; toplam tür içinde katmanlı",
+  "olculer": {
+   "p1k": "ortalama parça/1.000 karakter",
+   "geri": "birebir geri verme oranı",
+   "asim512": "512 parçayı aşan belge oranı"
+  },
+  "gruplar": {
+   "vikipedi": {
+    "tek": {
+     "BERTurk": {
+      "p1k": {
+       "deger": 232.58037826783962,
+       "a95": [
+        225.94495393869323,
+        239.50111811121565
+       ]
+      },
+      "geri": {
+       "deger": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.15,
+       "a95": [
+        0.08,
+        0.22
+       ]
+      }
+     },
+     "ModernBERT-tr": {
+      "p1k": {
+       "deger": 218.370665940903,
+       "a95": [
+        212.10428888969085,
+        225.04260797678907
+       ]
+      },
+      "geri": {
+       "deger": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.13,
+       "a95": [
+        0.07,
+        0.2
+       ]
+      }
+     },
+     "BGE-M3": {
+      "p1k": {
+       "deger": 249.0183232433015,
+       "a95": [
+        243.3366717311784,
+        254.7297921697251
+       ]
+      },
+      "geri": {
+       "deger": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.18,
+       "a95": [
+        0.11,
+        0.26
+       ]
+      }
+     },
+     "Qwen3": {
+      "p1k": {
+       "deger": 368.6703434525534,
+       "a95": [
+        360.66246673624215,
+        376.8441587670903
+       ]
+      },
+      "geri": {
+       "deger": 1.0,
+       "a95": [
+        1.0,
+        1.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.25,
+       "a95": [
+        0.17,
+        0.34
+       ]
+      }
+     },
+     "cl100k": {
+      "p1k": {
+       "deger": 398.4050808916724,
+       "a95": [
+        391.7714529103389,
+        405.1236732274937
+       ]
+      },
+      "geri": {
+       "deger": 1.0,
+       "a95": [
+        1.0,
+        1.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.27,
+       "a95": [
+        0.19,
+        0.36
+       ]
+      }
+     },
+     "o200k": {
+      "p1k": {
+       "deger": 315.95626537440626,
+       "a95": [
+        309.267807614247,
+        322.8769256626014
+       ]
+      },
+      "geri": {
+       "deger": 1.0,
+       "a95": [
+        1.0,
+        1.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.21,
+       "a95": [
+        0.13,
+        0.29
+       ]
+      }
+     }
+    },
+    "cift": [
+     {
+      "a": "BERTurk",
+      "b": "ModernBERT-tr",
+      "p1k": {
+       "fark": 14.209712326936625,
+       "a95": [
+        12.511054911870005,
+        16.039317427285194
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": 0.01999999999999999,
+       "a95": [
+        0.0,
+        0.05000000000000002
+       ],
+       "sifir_icinde": true
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "BGE-M3",
+      "p1k": {
+       "fark": -16.437944975461875,
+       "a95": [
+        -21.519448461951285,
+        -11.334435249975021
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": -0.03,
+       "a95": [
+        -0.07,
+        0.0
+       ],
+       "sifir_icinde": true
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "Qwen3",
+      "p1k": {
+       "fark": -136.0899651847138,
+       "a95": [
+        -144.4586815374188,
+        -127.82512887932526
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.1,
+       "a95": [
+        -0.16,
+        -0.04999999999999999
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -165.8247026238328,
+       "a95": [
+        -174.98207172715735,
+        -156.55084094808882
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.12000000000000002,
+       "a95": [
+        -0.18999999999999997,
+        -0.06
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "o200k",
+      "p1k": {
+       "fark": -83.37588710656664,
+       "a95": [
+        -90.91768216721175,
+        -76.05001037105963
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.06,
+       "a95": [
+        -0.11,
+        -0.01999999999999999
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "BGE-M3",
+      "p1k": {
+       "fark": -30.6476573023985,
+       "a95": [
+        -35.19132067234366,
+        -26.029335794948338
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": -0.04999999999999999,
+       "a95": [
+        -0.09999999999999999,
+        -0.010000000000000009
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "Qwen3",
+      "p1k": {
+       "fark": -150.29967751165043,
+       "a95": [
+        -158.2163527419954,
+        -142.31008284593608
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.12,
+       "a95": [
+        -0.19,
+        -0.06
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -180.03441495076942,
+       "a95": [
+        -188.66706999085946,
+        -171.16993540962127
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.14,
+       "a95": [
+        -0.21000000000000002,
+        -0.07999999999999999
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "o200k",
+      "p1k": {
+       "fark": -97.58559943350326,
+       "a95": [
+        -104.64996518163387,
+        -90.51649057379373
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.07999999999999999,
+       "a95": [
+        -0.13999999999999999,
+        -0.03
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BGE-M3",
+      "b": "Qwen3",
+      "p1k": {
+       "fark": -119.65202020925193,
+       "a95": [
+        -126.27848893230056,
+        -112.96696205515869
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.07,
+       "a95": [
+        -0.12000000000000002,
+        -0.020000000000000018
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BGE-M3",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -149.38675764837092,
+       "a95": [
+        -155.35722841990363,
+        -143.31858969470696
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.09000000000000002,
+       "a95": [
+        -0.15,
+        -0.03999999999999998
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BGE-M3",
+      "b": "o200k",
+      "p1k": {
+       "fark": -66.93794213110476,
+       "a95": [
+        -72.28758322265631,
+        -61.7732010994614
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.03,
+       "a95": [
+        -0.06999999999999998,
+        0.0
+       ],
+       "sifir_icinde": true
+      }
+     },
+     {
+      "a": "Qwen3",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -29.734737439118987,
+       "a95": [
+        -33.961631598852776,
+        -25.34124309631167
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": -0.020000000000000018,
+       "a95": [
+        -0.05000000000000002,
+        0.0
+       ],
+       "sifir_icinde": true
+      }
+     },
+     {
+      "a": "Qwen3",
+      "b": "o200k",
+      "p1k": {
+       "fark": 52.71407807814717,
+       "a95": [
+        49.46931742369999,
+        55.898967910827224
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": 0.04000000000000001,
+       "a95": [
+        0.009999999999999981,
+        0.08000000000000002
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "cl100k",
+      "b": "o200k",
+      "p1k": {
+       "fark": 82.44881551726615,
+       "a95": [
+        78.58770889484846,
+        86.23520856146445
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": 0.060000000000000026,
+       "a95": [
+        0.01999999999999999,
+        0.11000000000000001
+       ],
+       "sifir_icinde": false
+      }
+     }
+    ]
+   },
+   "mevzuat": {
+    "tek": {
+     "BERTurk": {
+      "p1k": {
+       "deger": 196.96689258437968,
+       "a95": [
+        192.94210130794937,
+        201.12043304975577
+       ]
+      },
+      "geri": {
+       "deger": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.1,
+       "a95": [
+        0.05,
+        0.16
+       ]
+      }
+     },
+     "ModernBERT-tr": {
+      "p1k": {
+       "deger": 187.50949355311073,
+       "a95": [
+        183.60850215283145,
+        191.520266319812
+       ]
+      },
+      "geri": {
+       "deger": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.08,
+       "a95": [
+        0.03,
+        0.14
+       ]
+      }
+     },
+     "BGE-M3": {
+      "p1k": {
+       "deger": 240.35167454939207,
+       "a95": [
+        237.00453849915152,
+        243.94088482139458
+       ]
+      },
+      "geri": {
+       "deger": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.13,
+       "a95": [
+        0.07,
+        0.2
+       ]
+      }
+     },
+     "Qwen3": {
+      "p1k": {
+       "deger": 362.86491543988814,
+       "a95": [
+        357.9767472027223,
+        368.0052989002062
+       ]
+      },
+      "geri": {
+       "deger": 1.0,
+       "a95": [
+        1.0,
+        1.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.23,
+       "a95": [
+        0.15,
+        0.32
+       ]
+      }
+     },
+     "cl100k": {
+      "p1k": {
+       "deger": 403.44631718371863,
+       "a95": [
+        400.0783268133536,
+        406.9521808518843
+       ]
+      },
+      "geri": {
+       "deger": 1.0,
+       "a95": [
+        1.0,
+        1.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.3,
+       "a95": [
+        0.21,
+        0.39
+       ]
+      }
+     },
+     "o200k": {
+      "p1k": {
+       "deger": 310.88601657421606,
+       "a95": [
+        307.1047696608024,
+        314.7790842120646
+       ]
+      },
+      "geri": {
+       "deger": 1.0,
+       "a95": [
+        1.0,
+        1.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.18,
+       "a95": [
+        0.11,
+        0.26
+       ]
+      }
+     }
+    },
+    "cift": [
+     {
+      "a": "BERTurk",
+      "b": "ModernBERT-tr",
+      "p1k": {
+       "fark": 9.457399031268949,
+       "a95": [
+        8.508125922921522,
+        10.456044880383622
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": 0.020000000000000004,
+       "a95": [
+        0.0,
+        0.05
+       ],
+       "sifir_icinde": true
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "BGE-M3",
+      "p1k": {
+       "fark": -43.384781965012394,
+       "a95": [
+        -45.95025673440526,
+        -40.9219250703271
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": -0.03,
+       "a95": [
+        -0.06999999999999999,
+        0.0
+       ],
+       "sifir_icinde": true
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "Qwen3",
+      "p1k": {
+       "fark": -165.89802285550846,
+       "a95": [
+        -169.84371654019404,
+        -162.1580747140658
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.13,
+       "a95": [
+        -0.2,
+        -0.06999999999999999
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -206.47942459933896,
+       "a95": [
+        -211.1477854231956,
+        -201.92775130591212
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.19999999999999998,
+       "a95": [
+        -0.28,
+        -0.12000000000000002
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "o200k",
+      "p1k": {
+       "fark": -113.91912398983638,
+       "a95": [
+        -117.28624705740327,
+        -110.5309262546469
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.07999999999999999,
+       "a95": [
+        -0.13999999999999999,
+        -0.03
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "BGE-M3",
+      "p1k": {
+       "fark": -52.84218099628134,
+       "a95": [
+        -55.42804800667503,
+        -50.36675866535572
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": -0.05,
+       "a95": [
+        -0.09999999999999999,
+        -0.009999999999999998
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "Qwen3",
+      "p1k": {
+       "fark": -175.3554218867774,
+       "a95": [
+        -179.30758158216943,
+        -171.62588645972187
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.15000000000000002,
+       "a95": [
+        -0.22000000000000003,
+        -0.08000000000000002
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -215.9368236306079,
+       "a95": [
+        -220.47442113241092,
+        -211.518814886367
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.21999999999999997,
+       "a95": [
+        -0.30000000000000004,
+        -0.14
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "o200k",
+      "p1k": {
+       "fark": -123.37652302110533,
+       "a95": [
+        -126.71887525916934,
+        -120.05947470480376
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.09999999999999999,
+       "a95": [
+        -0.16,
+        -0.04999999999999999
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BGE-M3",
+      "b": "Qwen3",
+      "p1k": {
+       "fark": -122.51324089049606,
+       "a95": [
+        -126.98355711520128,
+        -118.44739602043192
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.1,
+       "a95": [
+        -0.16000000000000003,
+        -0.04000000000000001
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BGE-M3",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -163.09464263432656,
+       "a95": [
+        -167.6861685905398,
+        -158.63380122242154
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.16999999999999998,
+       "a95": [
+        -0.24999999999999997,
+        -0.1
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BGE-M3",
+      "b": "o200k",
+      "p1k": {
+       "fark": -70.53434202482399,
+       "a95": [
+        -73.78754227442816,
+        -67.342278436314
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -1.0,
+       "a95": [
+        -1.0,
+        -1.0
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.04999999999999999,
+       "a95": [
+        -0.09999999999999998,
+        -0.010000000000000009
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "Qwen3",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -40.5814017438305,
+       "a95": [
+        -44.352050654764014,
+        -36.74077768620509
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": -0.06999999999999998,
+       "a95": [
+        -0.12000000000000002,
+        -0.020000000000000018
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "Qwen3",
+      "b": "o200k",
+      "p1k": {
+       "fark": 51.97889886567208,
+       "a95": [
+        49.20014645855535,
+        54.86060843715839
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": 0.05000000000000002,
+       "a95": [
+        0.010000000000000009,
+        0.09999999999999998
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "cl100k",
+      "b": "o200k",
+      "p1k": {
+       "fark": 92.56030060950258,
+       "a95": [
+        89.24318024223099,
+        96.00573884240363
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": 0.12,
+       "a95": [
+        0.06,
+        0.18999999999999997
+       ],
+       "sifir_icinde": false
+      }
+     }
+    ]
+   },
+   "karar": {
+    "tek": {
+     "BERTurk": {
+      "p1k": {
+       "deger": 197.58595977087464,
+       "a95": [
+        194.12639098970297,
+        201.101420031156
+       ]
+      },
+      "geri": {
+       "deger": 0.02,
+       "a95": [
+        0.0,
+        0.05
+       ]
+      },
+      "asim512": {
+       "deger": 0.08,
+       "a95": [
+        0.03,
+        0.14
+       ]
+      }
+     },
+     "ModernBERT-tr": {
+      "p1k": {
+       "deger": 187.9952615737389,
+       "a95": [
+        184.5910097953749,
+        191.54093830775193
+       ]
+      },
+      "geri": {
+       "deger": 0.02,
+       "a95": [
+        0.0,
+        0.05
+       ]
+      },
+      "asim512": {
+       "deger": 0.08,
+       "a95": [
+        0.03,
+        0.14
+       ]
+      }
+     },
+     "BGE-M3": {
+      "p1k": {
+       "deger": 240.87149095170562,
+       "a95": [
+        238.3976441361139,
+        243.36370809310566
+       ]
+      },
+      "geri": {
+       "deger": 0.66,
+       "a95": [
+        0.57,
+        0.75
+       ]
+      },
+      "asim512": {
+       "deger": 0.09,
+       "a95": [
+        0.04,
+        0.15
+       ]
+      }
+     },
+     "Qwen3": {
+      "p1k": {
+       "deger": 367.6914742118052,
+       "a95": [
+        361.9127507027724,
+        373.91934134115036
+       ]
+      },
+      "geri": {
+       "deger": 1.0,
+       "a95": [
+        1.0,
+        1.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.22,
+       "a95": [
+        0.14,
+        0.3
+       ]
+      }
+     },
+     "cl100k": {
+      "p1k": {
+       "deger": 402.414571342796,
+       "a95": [
+        399.33295970288583,
+        405.4968585370374
+       ]
+      },
+      "geri": {
+       "deger": 1.0,
+       "a95": [
+        1.0,
+        1.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.25,
+       "a95": [
+        0.17,
+        0.34
+       ]
+      }
+     },
+     "o200k": {
+      "p1k": {
+       "deger": 303.23772627893385,
+       "a95": [
+        299.488508714778,
+        307.22082997499365
+       ]
+      },
+      "geri": {
+       "deger": 1.0,
+       "a95": [
+        1.0,
+        1.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.14,
+       "a95": [
+        0.08,
+        0.21
+       ]
+      }
+     }
+    },
+    "cift": [
+     {
+      "a": "BERTurk",
+      "b": "ModernBERT-tr",
+      "p1k": {
+       "fark": 9.590698197135737,
+       "a95": [
+        8.6840476403584,
+        10.571990909772314
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "BGE-M3",
+      "p1k": {
+       "fark": -43.285531180830986,
+       "a95": [
+        -45.81623429264498,
+        -40.80938947658596
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.64,
+       "a95": [
+        -0.73,
+        -0.5499999999999999
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.009999999999999995,
+       "a95": [
+        -0.030000000000000002,
+        0.0
+       ],
+       "sifir_icinde": true
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "Qwen3",
+      "p1k": {
+       "fark": -170.10551444093056,
+       "a95": [
+        -174.40608738399578,
+        -165.8898413148131
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.98,
+       "a95": [
+        -1.0,
+        -0.95
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.14,
+       "a95": [
+        -0.21000000000000002,
+        -0.07999999999999999
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -204.82861157192139,
+       "a95": [
+        -207.8680854720319,
+        -201.74396380823805
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.98,
+       "a95": [
+        -1.0,
+        -0.95
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.16999999999999998,
+       "a95": [
+        -0.24999999999999997,
+        -0.1
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "o200k",
+      "p1k": {
+       "fark": -105.65176650805921,
+       "a95": [
+        -108.33137540878946,
+        -102.89704056302921
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.98,
+       "a95": [
+        -1.0,
+        -0.95
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.06000000000000001,
+       "a95": [
+        -0.11,
+        -0.01999999999999999
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "BGE-M3",
+      "p1k": {
+       "fark": -52.87622937796672,
+       "a95": [
+        -55.36510572554444,
+        -50.40923927212577
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.64,
+       "a95": [
+        -0.73,
+        -0.5499999999999999
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.009999999999999995,
+       "a95": [
+        -0.030000000000000002,
+        0.0
+       ],
+       "sifir_icinde": true
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "Qwen3",
+      "p1k": {
+       "fark": -179.6962126380663,
+       "a95": [
+        -183.84289925097264,
+        -175.6871465905629
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.98,
+       "a95": [
+        -1.0,
+        -0.95
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.14,
+       "a95": [
+        -0.21000000000000002,
+        -0.07999999999999999
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -214.41930976905712,
+       "a95": [
+        -217.25225167819318,
+        -211.50965002491884
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.98,
+       "a95": [
+        -1.0,
+        -0.95
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.16999999999999998,
+       "a95": [
+        -0.24999999999999997,
+        -0.1
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "o200k",
+      "p1k": {
+       "fark": -115.24246470519495,
+       "a95": [
+        -117.69201339230256,
+        -112.74955216096346
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.98,
+       "a95": [
+        -1.0,
+        -0.95
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.06000000000000001,
+       "a95": [
+        -0.11,
+        -0.01999999999999999
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BGE-M3",
+      "b": "Qwen3",
+      "p1k": {
+       "fark": -126.81998326009958,
+       "a95": [
+        -132.1195654235955,
+        -121.74134825768523
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.33999999999999997,
+       "a95": [
+        -0.43000000000000005,
+        -0.25
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.13,
+       "a95": [
+        -0.2,
+        -0.06999999999999999
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BGE-M3",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -161.5430803910904,
+       "a95": [
+        -164.43667266700174,
+        -158.60063932374433
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.33999999999999997,
+       "a95": [
+        -0.43000000000000005,
+        -0.25
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.16,
+       "a95": [
+        -0.23000000000000004,
+        -0.09
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BGE-M3",
+      "b": "o200k",
+      "p1k": {
+       "fark": -62.366235327228225,
+       "a95": [
+        -65.5132997498038,
+        -59.344511734885
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.33999999999999997,
+       "a95": [
+        -0.43000000000000005,
+        -0.25
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.05000000000000002,
+       "a95": [
+        -0.09999999999999999,
+        -0.009999999999999995
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "Qwen3",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -34.72309713099082,
+       "a95": [
+        -38.75829733469095,
+        -30.3957813986486
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": -0.03,
+       "a95": [
+        -0.06999999999999998,
+        0.0
+       ],
+       "sifir_icinde": true
+      }
+     },
+     {
+      "a": "Qwen3",
+      "b": "o200k",
+      "p1k": {
+       "fark": 64.45374793287135,
+       "a95": [
+        61.51377222188961,
+        67.6063139087955
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": 0.07999999999999999,
+       "a95": [
+        0.03,
+        0.13999999999999999
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "cl100k",
+      "b": "o200k",
+      "p1k": {
+       "fark": 99.17684506386217,
+       "a95": [
+        96.6447672865086,
+        101.6422911983935
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": 0.10999999999999999,
+       "a95": [
+        0.05000000000000002,
+        0.17999999999999997
+       ],
+       "sifir_icinde": false
+      }
+     }
+    ]
+   },
+   "toplam": {
+    "tek": {
+     "BERTurk": {
+      "p1k": {
+       "deger": 209.044410207698,
+       "a95": [
+        206.20101432629636,
+        211.9896106286663
+       ]
+      },
+      "geri": {
+       "deger": 0.006666666666666667,
+       "a95": [
+        0.0,
+        0.016666666666666666
+       ]
+      },
+      "asim512": {
+       "deger": 0.11,
+       "a95": [
+        0.07666666666666666,
+        0.14666666666666667
+       ]
+      }
+     },
+     "ModernBERT-tr": {
+      "p1k": {
+       "deger": 197.95847368925092,
+       "a95": [
+        195.2248146851204,
+        200.84291063339705
+       ]
+      },
+      "geri": {
+       "deger": 0.006666666666666667,
+       "a95": [
+        0.0,
+        0.016666666666666666
+       ]
+      },
+      "asim512": {
+       "deger": 0.09666666666666666,
+       "a95": [
+        0.06333333333333334,
+        0.13
+       ]
+      }
+     },
+     "BGE-M3": {
+      "p1k": {
+       "deger": 243.41382958146642,
+       "a95": [
+        241.0268057918479,
+        245.8507720371543
+       ]
+      },
+      "geri": {
+       "deger": 0.22,
+       "a95": [
+        0.19,
+        0.25
+       ]
+      },
+      "asim512": {
+       "deger": 0.13333333333333333,
+       "a95": [
+        0.09666666666666666,
+        0.17333333333333334
+       ]
+      }
+     },
+     "Qwen3": {
+      "p1k": {
+       "deger": 366.4089110347489,
+       "a95": [
+        362.6646596020729,
+        370.1224835629549
+       ]
+      },
+      "geri": {
+       "deger": 1.0,
+       "a95": [
+        1.0,
+        1.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.23333333333333334,
+       "a95": [
+        0.18666666666666668,
+        0.28
+       ]
+      }
+     },
+     "cl100k": {
+      "p1k": {
+       "deger": 401.4219898060624,
+       "a95": [
+        398.6941839260357,
+        404.13186058407763
+       ]
+      },
+      "geri": {
+       "deger": 1.0,
+       "a95": [
+        1.0,
+        1.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.2733333333333333,
+       "a95": [
+        0.22333333333333333,
+        0.3233333333333333
+       ]
+      }
+     },
+     "o200k": {
+      "p1k": {
+       "deger": 310.0266694091854,
+       "a95": [
+        307.1314020624629,
+        312.8809012498601
+       ]
+      },
+      "geri": {
+       "deger": 1.0,
+       "a95": [
+        1.0,
+        1.0
+       ]
+      },
+      "asim512": {
+       "deger": 0.17666666666666667,
+       "a95": [
+        0.13333333333333333,
+        0.22
+       ]
+      }
+     }
+    },
+    "cift": [
+     {
+      "a": "BERTurk",
+      "b": "ModernBERT-tr",
+      "p1k": {
+       "fark": 11.085936518447085,
+       "a95": [
+        10.35850208713355,
+        11.855927551738127
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": 0.013333333333333336,
+       "a95": [
+        0.003333333333333327,
+        0.026666666666666672
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "BGE-M3",
+      "p1k": {
+       "fark": -34.36941937376841,
+       "a95": [
+        -36.418240298739974,
+        -32.32215489555626
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.21333333333333335,
+       "a95": [
+        -0.24333333333333335,
+        -0.18333333333333332
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.02333333333333333,
+       "a95": [
+        -0.04333333333333332,
+        -0.006666666666666682
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "Qwen3",
+      "p1k": {
+       "fark": -157.36450082705088,
+       "a95": [
+        -160.7777205743196,
+        -153.9813935873908
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.9933333333333333,
+       "a95": [
+        -1.0,
+        -0.9833333333333333
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.12333333333333334,
+       "a95": [
+        -0.16000000000000003,
+        -0.08666666666666667
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -192.3775795983644,
+       "a95": [
+        -195.91634441200114,
+        -188.7821440660666
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.9933333333333333,
+       "a95": [
+        -1.0,
+        -0.9833333333333333
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.16333333333333333,
+       "a95": [
+        -0.20666666666666667,
+        -0.12333333333333334
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BERTurk",
+      "b": "o200k",
+      "p1k": {
+       "fark": -100.98225920148738,
+       "a95": [
+        -103.92215438242911,
+        -98.08632347968415
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.9933333333333333,
+       "a95": [
+        -1.0,
+        -0.9833333333333333
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.06666666666666667,
+       "a95": [
+        -0.09666666666666666,
+        -0.039999999999999994
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "BGE-M3",
+      "p1k": {
+       "fark": -45.45535589221549,
+       "a95": [
+        -47.39832202359089,
+        -43.52449327308899
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.21333333333333335,
+       "a95": [
+        -0.24333333333333335,
+        -0.18333333333333332
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.03666666666666667,
+       "a95": [
+        -0.06,
+        -0.016666666666666663
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "Qwen3",
+      "p1k": {
+       "fark": -168.45043734549796,
+       "a95": [
+        -171.72236852572541,
+        -165.18669807410274
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.9933333333333333,
+       "a95": [
+        -1.0,
+        -0.9833333333333333
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.13666666666666666,
+       "a95": [
+        -0.17666666666666667,
+        -0.09999999999999999
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -203.4635161168115,
+       "a95": [
+        -206.8280476891904,
+        -200.05939498422293
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.9933333333333333,
+       "a95": [
+        -1.0,
+        -0.9833333333333333
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.17666666666666664,
+       "a95": [
+        -0.22000000000000003,
+        -0.13666666666666666
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "ModernBERT-tr",
+      "b": "o200k",
+      "p1k": {
+       "fark": -112.06819571993447,
+       "a95": [
+        -114.81966169746575,
+        -109.32584811945041
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.9933333333333333,
+       "a95": [
+        -1.0,
+        -0.9833333333333333
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.08,
+       "a95": [
+        -0.11000000000000001,
+        -0.05000000000000002
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BGE-M3",
+      "b": "Qwen3",
+      "p1k": {
+       "fark": -122.99508145328247,
+       "a95": [
+        -126.1706280698828,
+        -119.80696472959555
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.78,
+       "a95": [
+        -0.81,
+        -0.75
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.1,
+       "a95": [
+        -0.13666666666666663,
+        -0.06666666666666668
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BGE-M3",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -158.008160224596,
+       "a95": [
+        -160.71327687523055,
+        -155.26136847342042
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.78,
+       "a95": [
+        -0.81,
+        -0.75
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.13999999999999999,
+       "a95": [
+        -0.18000000000000002,
+        -0.10333333333333333
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "BGE-M3",
+      "b": "o200k",
+      "p1k": {
+       "fark": -66.61283982771897,
+       "a95": [
+        -68.95673913629562,
+        -64.30529413982859
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": -0.78,
+       "a95": [
+        -0.81,
+        -0.75
+       ],
+       "sifir_icinde": false
+      },
+      "asim512": {
+       "fark": -0.043333333333333335,
+       "a95": [
+        -0.06666666666666668,
+        -0.023333333333333317
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "Qwen3",
+      "b": "cl100k",
+      "p1k": {
+       "fark": -35.01307877131353,
+       "a95": [
+        -37.357870107608974,
+        -32.585791003149126
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": -0.03999999999999998,
+       "a95": [
+        -0.06333333333333332,
+        -0.01999999999999999
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "Qwen3",
+      "b": "o200k",
+      "p1k": {
+       "fark": 56.382241625563495,
+       "a95": [
+        54.64421435987367,
+        58.150846523807964
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": 0.05666666666666667,
+       "a95": [
+        0.033333333333333326,
+        0.08333333333333334
+       ],
+       "sifir_icinde": false
+      }
+     },
+     {
+      "a": "cl100k",
+      "b": "o200k",
+      "p1k": {
+       "fark": 91.39532039687703,
+       "a95": [
+        89.51587783949947,
+        93.2614495209479
+       ],
+       "sifir_icinde": false
+      },
+      "geri": {
+       "fark": 0.0,
+       "a95": [
+        0.0,
+        0.0
+       ],
+       "sifir_icinde": true
+      },
+      "asim512": {
+       "fark": 0.09666666666666665,
+       "a95": [
+        0.06333333333333335,
+        0.1333333333333333
+       ],
+       "sifir_icinde": false
+      }
+     }
+    ]
+   }
+  }
+ },
+ "notlar": [
+  "Metin NFC, baş/son boşluk atıldı; büyük/küçük harfe dokunulmadı.",
+  "HF: add_special_tokens=False, truncation=False; decode skip_special_tokens=False, clean_up_tokenization_spaces=False.",
+  "tiktoken: encode(x, disallowed_special=()); bayt düzeyi, unk yok (0 yapı gereği)."
+ ],
+ "sure_sn": 45.7
+}

@@ -1,0 +1,3614 @@
+[
+ {
+  "id": "k01",
+  "grup": "harf",
+  "metin": "çğıöşü ÇĞİÖŞÜ",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 10,
+    "parcalar": [
+     "ç",
+     "##ğı",
+     "##ö",
+     "##ş",
+     "##ü",
+     "Ç",
+     "##Ğİ",
+     "##Ö",
+     "##Ş",
+     "##Ü"
+    ],
+    "geri": "çğıöşü ÇĞİÖŞÜ",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 10,
+    "parcalar": [
+     "ç",
+     "##ğı",
+     "##ö",
+     "##ş",
+     "##ü",
+     "Ç",
+     "##Ğİ",
+     "##Ö",
+     "##Ş",
+     "##Ü"
+    ],
+    "geri": "çğıöşü ÇĞİÖŞÜ",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 10,
+    "parcalar": [
+     "▁ç",
+     "ğı",
+     "ö",
+     "şü",
+     "▁Ç",
+     "Ğ",
+     "İ",
+     "Ö",
+     "Ş",
+     "Ü"
+    ],
+    "geri": "çğıöşü ÇĞİÖŞÜ",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 11,
+    "parcalar": [
+     "Ã§",
+     "ÄŁÄ±",
+     "Ã¶",
+     "ÅŁ",
+     "Ã¼",
+     "ĠÃĩ",
+     "Äŀ",
+     "Ä°",
+     "Ãĸ",
+     "Åŀ",
+     "Ãľ"
+    ],
+    "geri": "çğıöşü ÇĞİÖŞÜ",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 13,
+    "parcalar": [
+     "ç",
+     "ğı",
+     "ö",
+     "ş",
+     "ü",
+     " Ç",
+     "<0xC4>",
+     "<0x9E>",
+     "İ",
+     "Ö",
+     "<0xC5>",
+     "<0x9E>",
+     "Ü"
+    ],
+    "geri": "çğıöşü ÇĞİÖŞÜ",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 11,
+    "parcalar": [
+     "ç",
+     "ğı",
+     "ö",
+     "ş",
+     "ü",
+     " Ç",
+     "Ğ",
+     "İ",
+     "Ö",
+     "Ş",
+     "Ü"
+    ],
+    "geri": "çğıöşü ÇĞİÖŞÜ",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k02",
+  "grup": "harf",
+  "metin": "I İ ı i",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 4,
+    "parcalar": [
+     "I",
+     "İ",
+     "ı",
+     "i"
+    ],
+    "geri": "I İ ı i",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 4,
+    "parcalar": [
+     "I",
+     "İ",
+     "ı",
+     "i"
+    ],
+    "geri": "I İ ı i",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 5,
+    "parcalar": [
+     "▁I",
+     "▁İ",
+     "▁",
+     "ı",
+     "▁i"
+    ],
+    "geri": "I İ ı i",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 5,
+    "parcalar": [
+     "I",
+     "ĠÄ°",
+     "Ġ",
+     "Ä±",
+     "Ġi"
+    ],
+    "geri": "I İ ı i",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 5,
+    "parcalar": [
+     "I",
+     " İ",
+     " ",
+     "ı",
+     " i"
+    ],
+    "geri": "I İ ı i",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 5,
+    "parcalar": [
+     "I",
+     " İ",
+     " ",
+     "ı",
+     " i"
+    ],
+    "geri": "I İ ı i",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k03",
+  "grup": "harf",
+  "metin": "ISPARTA Isparta ıspanak İSTANBUL İstanbul istanbul",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 10,
+    "parcalar": [
+     "IS",
+     "##PA",
+     "##R",
+     "##TA",
+     "Isparta",
+     "ıspan",
+     "##ak",
+     "İSTANBUL",
+     "İstanbul",
+     "istanbul"
+    ],
+    "geri": "ISPARTA Isparta ıspanak İSTANBUL İstanbul istanbul",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 7,
+    "parcalar": [
+     "ISP",
+     "##ARTA",
+     "Isparta",
+     "ıspanak",
+     "İSTANBUL",
+     "İstanbul",
+     "istanbul"
+    ],
+    "geri": "ISPARTA Isparta ıspanak İSTANBUL İstanbul istanbul",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 14,
+    "parcalar": [
+     "▁I",
+     "SP",
+     "ARTA",
+     "▁Is",
+     "parta",
+     "▁",
+     "ı",
+     "span",
+     "ak",
+     "▁İSTANBUL",
+     "▁İstanbul",
+     "▁ist",
+     "an",
+     "bul"
+    ],
+    "geri": "ISPARTA Isparta ıspanak İSTANBUL İstanbul istanbul",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 19,
+    "parcalar": [
+     "IS",
+     "PART",
+     "A",
+     "ĠI",
+     "sp",
+     "arta",
+     "Ġ",
+     "Ä±",
+     "span",
+     "ak",
+     "ĠÄ°",
+     "ST",
+     "AN",
+     "B",
+     "UL",
+     "ĠÄ°stanbul",
+     "Ġist",
+     "an",
+     "bul"
+    ],
+    "geri": "ISPARTA Isparta ıspanak İSTANBUL İstanbul istanbul",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 20,
+    "parcalar": [
+     "IS",
+     "PART",
+     "A",
+     " I",
+     "sp",
+     "arta",
+     " ",
+     "ı",
+     "span",
+     "ak",
+     " İ",
+     "ST",
+     "AN",
+     "B",
+     "UL",
+     " İ",
+     "stanbul",
+     " ist",
+     "an",
+     "bul"
+    ],
+    "geri": "ISPARTA Isparta ıspanak İSTANBUL İstanbul istanbul",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 19,
+    "parcalar": [
+     "IS",
+     "PART",
+     "A",
+     " I",
+     "sp",
+     "arta",
+     " ",
+     "ı",
+     "span",
+     "ak",
+     " İ",
+     "ST",
+     "AN",
+     "B",
+     "UL",
+     " İstanbul",
+     " ist",
+     "an",
+     "bul"
+    ],
+    "geri": "ISPARTA Isparta ıspanak İSTANBUL İstanbul istanbul",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k04",
+  "grup": "harf",
+  "metin": "KIRIK kırık KİRİŞ kiriş",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 8,
+    "parcalar": [
+     "KIR",
+     "##IK",
+     "kırık",
+     "K",
+     "##İR",
+     "##İŞ",
+     "kir",
+     "##iş"
+    ],
+    "geri": "KIRIK kırık KİRİŞ kiriş",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 7,
+    "parcalar": [
+     "KIR",
+     "##IK",
+     "kırık",
+     "KİR",
+     "##İŞ",
+     "kir",
+     "##iş"
+    ],
+    "geri": "KIRIK kırık KİRİŞ kiriş",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 9,
+    "parcalar": [
+     "▁KI",
+     "RIK",
+     "▁kır",
+     "ık",
+     "▁K",
+     "İR",
+     "İŞ",
+     "▁kir",
+     "iş"
+    ],
+    "geri": "KIRIK kırık KİRİŞ kiriş",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 11,
+    "parcalar": [
+     "K",
+     "IR",
+     "IK",
+     "Ġk",
+     "Ä±r",
+     "Ä±k",
+     "ĠK",
+     "Ä°R",
+     "Ä°Åŀ",
+     "Ġk",
+     "iriÅŁ"
+    ],
+    "geri": "KIRIK kırık KİRİŞ kiriş",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 15,
+    "parcalar": [
+     "K",
+     "IR",
+     "IK",
+     " k",
+     "ır",
+     "ık",
+     " K",
+     "İ",
+     "R",
+     "İ",
+     "<0xC5>",
+     "<0x9E>",
+     " k",
+     "iri",
+     "ş"
+    ],
+    "geri": "KIRIK kırık KİRİŞ kiriş",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 11,
+    "parcalar": [
+     "K",
+     "IR",
+     "IK",
+     " kır",
+     "ık",
+     " K",
+     "İR",
+     "İ",
+     "Ş",
+     " k",
+     "iriş"
+    ],
+    "geri": "KIRIK kırık KİRİŞ kiriş",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k05",
+  "grup": "harf",
+  "metin": "Hâkim hakim; kâr kar; Kur'ân-ı Kerîm",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 14,
+    "parcalar": [
+     "Hâ",
+     "##kim",
+     "hakim",
+     ";",
+     "kâr",
+     "kar",
+     ";",
+     "Kur",
+     "'",
+     "ân",
+     "-",
+     "ı",
+     "Ker",
+     "##îm"
+    ],
+    "geri": "Hâkim hakim ; kâr kar ; Kur ' ân - ı Kerîm",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 12,
+    "parcalar": [
+     "Hâkim",
+     "hakim",
+     ";",
+     "kâr",
+     "kar",
+     ";",
+     "Kur",
+     "'",
+     "ân",
+     "-",
+     "ı",
+     "Kerîm"
+    ],
+    "geri": "Hâkim hakim ; kâr kar ; Kur ' ân - ı Kerîm",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 16,
+    "parcalar": [
+     "▁H",
+     "â",
+     "kim",
+     "▁hakim",
+     ";",
+     "▁",
+     "kâr",
+     "▁kar",
+     ";",
+     "▁Kur",
+     "'",
+     "ân",
+     "-",
+     "ı",
+     "▁Ker",
+     "îm"
+    ],
+    "geri": "Hâkim hakim; kâr kar; Kur'ân-ı Kerîm",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 19,
+    "parcalar": [
+     "H",
+     "Ã¢",
+     "kim",
+     "Ġhak",
+     "im",
+     ";",
+     "Ġk",
+     "Ã¢",
+     "r",
+     "Ġkar",
+     ";",
+     "ĠKur",
+     "'",
+     "Ã¢n",
+     "-",
+     "Ä±",
+     "ĠKer",
+     "Ã®",
+     "m"
+    ],
+    "geri": "Hâkim hakim; kâr kar; Kur'ân-ı Kerîm",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 19,
+    "parcalar": [
+     "H",
+     "â",
+     "kim",
+     " hak",
+     "im",
+     ";",
+     " k",
+     "â",
+     "r",
+     " kar",
+     ";",
+     " Kur",
+     "'",
+     "ân",
+     "-",
+     "ı",
+     " Ker",
+     "î",
+     "m"
+    ],
+    "geri": "Hâkim hakim; kâr kar; Kur'ân-ı Kerîm",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 16,
+    "parcalar": [
+     "H",
+     "â",
+     "kim",
+     " hakim",
+     ";",
+     " k",
+     "âr",
+     " kar",
+     ";",
+     " Kur",
+     "'",
+     "ân",
+     "-",
+     "ı",
+     " Ker",
+     "îm"
+    ],
+    "geri": "Hâkim hakim; kâr kar; Kur'ân-ı Kerîm",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k06",
+  "grup": "atif",
+  "metin": "TBK m. 344/1",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 8,
+    "parcalar": [
+     "TB",
+     "##K",
+     "m",
+     ".",
+     "34",
+     "##4",
+     "/",
+     "1"
+    ],
+    "geri": "TBK m. 344 / 1",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 8,
+    "parcalar": [
+     "TB",
+     "##K",
+     "m",
+     ".",
+     "34",
+     "##4",
+     "/",
+     "1"
+    ],
+    "geri": "TBK m. 344 / 1",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 7,
+    "parcalar": [
+     "▁T",
+     "BK",
+     "▁m",
+     ".",
+     "▁",
+     "344",
+     "/1"
+    ],
+    "geri": "TBK m. 344/1",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 10,
+    "parcalar": [
+     "TB",
+     "K",
+     "Ġm",
+     ".",
+     "Ġ",
+     "3",
+     "4",
+     "4",
+     "/",
+     "1"
+    ],
+    "geri": "TBK m. 344/1",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 8,
+    "parcalar": [
+     "TB",
+     "K",
+     " m",
+     ".",
+     " ",
+     "344",
+     "/",
+     "1"
+    ],
+    "geri": "TBK m. 344/1",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 8,
+    "parcalar": [
+     "TB",
+     "K",
+     " m",
+     ".",
+     " ",
+     "344",
+     "/",
+     "1"
+    ],
+    "geri": "TBK m. 344/1",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k07",
+  "grup": "atif",
+  "metin": "6098 sayılı Türk Borçlar Kanunu'nun 344'üncü maddesinin birinci fıkrası",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 16,
+    "parcalar": [
+     "60",
+     "##98",
+     "sayılı",
+     "Türk",
+     "Borç",
+     "##lar",
+     "Kanunu",
+     "'",
+     "nun",
+     "34",
+     "##4",
+     "'",
+     "üncü",
+     "maddesinin",
+     "birinci",
+     "fıkrası"
+    ],
+    "geri": "6098 sayılı Türk Borçlar Kanunu ' nun 344 ' üncü maddesinin birinci fıkrası",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 15,
+    "parcalar": [
+     "60",
+     "##98",
+     "sayılı",
+     "Türk",
+     "Borçlar",
+     "Kanunu",
+     "'",
+     "nun",
+     "34",
+     "##4",
+     "'",
+     "üncü",
+     "maddesinin",
+     "birinci",
+     "fıkrası"
+    ],
+    "geri": "6098 sayılı Türk Borçlar Kanunu ' nun 344 ' üncü maddesinin birinci fıkrası",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 20,
+    "parcalar": [
+     "▁60",
+     "98",
+     "▁sayılı",
+     "▁Türk",
+     "▁Bor",
+     "ç",
+     "lar",
+     "▁Kanunu",
+     "'",
+     "nun",
+     "▁",
+     "344",
+     "'",
+     "üncü",
+     "▁maddesi",
+     "nin",
+     "▁birinci",
+     "▁fı",
+     "k",
+     "rası"
+    ],
+    "geri": "6098 sayılı Türk Borçlar Kanunu'nun 344'üncü maddesinin birinci fıkrası",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 28,
+    "parcalar": [
+     "6",
+     "0",
+     "9",
+     "8",
+     "ĠsayÄ±lÄ±",
+     "ĠTÃ¼rk",
+     "ĠBor",
+     "Ã§",
+     "lar",
+     "ĠKan",
+     "unu",
+     "'n",
+     "un",
+     "Ġ",
+     "3",
+     "4",
+     "4",
+     "'",
+     "Ã¼ncÃ¼",
+     "Ġm",
+     "add",
+     "es",
+     "inin",
+     "Ġbir",
+     "inci",
+     "ĠfÄ±",
+     "kr",
+     "asÄ±"
+    ],
+    "geri": "6098 sayılı Türk Borçlar Kanunu'nun 344'üncü maddesinin birinci fıkrası",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 29,
+    "parcalar": [
+     "609",
+     "8",
+     " say",
+     "ılı",
+     " Tür",
+     "k",
+     " Bor",
+     "ç",
+     "lar",
+     " Kan",
+     "unu",
+     "'n",
+     "un",
+     " ",
+     "344",
+     "'",
+     "ü",
+     "nc",
+     "ü",
+     " m",
+     "add",
+     "es",
+     "inin",
+     " bir",
+     "inci",
+     " f",
+     "ı",
+     "kr",
+     "ası"
+    ],
+    "geri": "6098 sayılı Türk Borçlar Kanunu'nun 344'üncü maddesinin birinci fıkrası",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 25,
+    "parcalar": [
+     "609",
+     "8",
+     " say",
+     "ılı",
+     " Türk",
+     " Bor",
+     "ç",
+     "lar",
+     " Kan",
+     "unu",
+     "'n",
+     "un",
+     " ",
+     "344",
+     "'",
+     "ün",
+     "cü",
+     " madd",
+     "es",
+     "inin",
+     " bir",
+     "inci",
+     " f",
+     "ık",
+     "rası"
+    ],
+    "geri": "6098 sayılı Türk Borçlar Kanunu'nun 344'üncü maddesinin birinci fıkrası",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k08",
+  "grup": "atif",
+  "metin": "Geçici Madde 2",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 3,
+    "parcalar": [
+     "Geçici",
+     "Madde",
+     "2"
+    ],
+    "geri": "Geçici Madde 2",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 3,
+    "parcalar": [
+     "Geçici",
+     "Madde",
+     "2"
+    ],
+    "geri": "Geçici Madde 2",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 4,
+    "parcalar": [
+     "▁Geç",
+     "ici",
+     "▁Madde",
+     "▁2"
+    ],
+    "geri": "Geçici Madde 2",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 7,
+    "parcalar": [
+     "Ge",
+     "Ã§",
+     "ici",
+     "ĠMad",
+     "de",
+     "Ġ",
+     "2"
+    ],
+    "geri": "Geçici Madde 2",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 7,
+    "parcalar": [
+     "Ge",
+     "ç",
+     "ici",
+     " Mad",
+     "de",
+     " ",
+     "2"
+    ],
+    "geri": "Geçici Madde 2",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 7,
+    "parcalar": [
+     "Ge",
+     "ç",
+     "ici",
+     " Mad",
+     "de",
+     " ",
+     "2"
+    ],
+    "geri": "Geçici Madde 2",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k09",
+  "grup": "atif",
+  "metin": "HMK m. 107/1-a ve TMK md. 4",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 16,
+    "parcalar": [
+     "H",
+     "##M",
+     "##K",
+     "m",
+     ".",
+     "107",
+     "/",
+     "1",
+     "-",
+     "a",
+     "ve",
+     "TM",
+     "##K",
+     "md",
+     ".",
+     "4"
+    ],
+    "geri": "HMK m. 107 / 1 - a ve TMK md. 4",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 15,
+    "parcalar": [
+     "HM",
+     "##K",
+     "m",
+     ".",
+     "107",
+     "/",
+     "1",
+     "-",
+     "a",
+     "ve",
+     "TM",
+     "##K",
+     "md",
+     ".",
+     "4"
+    ],
+    "geri": "HMK m. 107 / 1 - a ve TMK md. 4",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 15,
+    "parcalar": [
+     "▁H",
+     "MK",
+     "▁m",
+     ".",
+     "▁107",
+     "/1",
+     "-",
+     "a",
+     "▁ve",
+     "▁T",
+     "MK",
+     "▁m",
+     "d",
+     ".",
+     "▁4"
+    ],
+    "geri": "HMK m. 107/1-a ve TMK md. 4",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 18,
+    "parcalar": [
+     "H",
+     "MK",
+     "Ġm",
+     ".",
+     "Ġ",
+     "1",
+     "0",
+     "7",
+     "/",
+     "1",
+     "-a",
+     "Ġve",
+     "ĠTM",
+     "K",
+     "Ġmd",
+     ".",
+     "Ġ",
+     "4"
+    ],
+    "geri": "HMK m. 107/1-a ve TMK md. 4",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 16,
+    "parcalar": [
+     "H",
+     "MK",
+     " m",
+     ".",
+     " ",
+     "107",
+     "/",
+     "1",
+     "-a",
+     " ve",
+     " TM",
+     "K",
+     " md",
+     ".",
+     " ",
+     "4"
+    ],
+    "geri": "HMK m. 107/1-a ve TMK md. 4",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 16,
+    "parcalar": [
+     "HM",
+     "K",
+     " m",
+     ".",
+     " ",
+     "107",
+     "/",
+     "1",
+     "-a",
+     " ve",
+     " TM",
+     "K",
+     " md",
+     ".",
+     " ",
+     "4"
+    ],
+    "geri": "HMK m. 107/1-a ve TMK md. 4",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k10",
+  "grup": "atif",
+  "metin": "5237 s. TCK'nın 53/1-b maddesi",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 13,
+    "parcalar": [
+     "52",
+     "##37",
+     "s",
+     ".",
+     "TCK",
+     "'",
+     "nın",
+     "53",
+     "/",
+     "1",
+     "-",
+     "b",
+     "maddesi"
+    ],
+    "geri": "5237 s. TCK ' nın 53 / 1 - b maddesi",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 13,
+    "parcalar": [
+     "52",
+     "##37",
+     "s",
+     ".",
+     "TCK",
+     "'",
+     "nın",
+     "53",
+     "/",
+     "1",
+     "-",
+     "b",
+     "maddesi"
+    ],
+    "geri": "5237 s. TCK ' nın 53 / 1 - b maddesi",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 13,
+    "parcalar": [
+     "▁52",
+     "37",
+     "▁s",
+     ".",
+     "▁T",
+     "CK",
+     "'",
+     "nın",
+     "▁53",
+     "/1",
+     "-",
+     "b",
+     "▁maddesi"
+    ],
+    "geri": "5237 s. TCK'nın 53/1-b maddesi",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 19,
+    "parcalar": [
+     "5",
+     "2",
+     "3",
+     "7",
+     "Ġs",
+     ".",
+     "ĠT",
+     "CK",
+     "'n",
+     "Ä±n",
+     "Ġ",
+     "5",
+     "3",
+     "/",
+     "1",
+     "-b",
+     "Ġm",
+     "add",
+     "esi"
+    ],
+    "geri": "5237 s. TCK'nın 53/1-b maddesi",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 16,
+    "parcalar": [
+     "523",
+     "7",
+     " s",
+     ".",
+     " T",
+     "CK",
+     "'n",
+     "ın",
+     " ",
+     "53",
+     "/",
+     "1",
+     "-b",
+     " m",
+     "add",
+     "esi"
+    ],
+    "geri": "5237 s. TCK'nın 53/1-b maddesi",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 14,
+    "parcalar": [
+     "523",
+     "7",
+     " s",
+     ".",
+     " T",
+     "CK",
+     "'nın",
+     " ",
+     "53",
+     "/",
+     "1",
+     "-b",
+     " madd",
+     "esi"
+    ],
+    "geri": "5237 s. TCK'nın 53/1-b maddesi",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k11",
+  "grup": "atif",
+  "metin": "Ek Madde 3 – (Ek: 1/1/2020-7200/5 md.)",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 20,
+    "parcalar": [
+     "Ek",
+     "Madde",
+     "3",
+     "–",
+     "(",
+     "Ek",
+     ":",
+     "1",
+     "/",
+     "1",
+     "/",
+     "2020",
+     "-",
+     "720",
+     "##0",
+     "/",
+     "5",
+     "md",
+     ".",
+     ")"
+    ],
+    "geri": "Ek Madde 3 – ( Ek : 1 / 1 / 2020 - 7200 / 5 md. )",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 20,
+    "parcalar": [
+     "Ek",
+     "Madde",
+     "3",
+     "–",
+     "(",
+     "Ek",
+     ":",
+     "1",
+     "/",
+     "1",
+     "/",
+     "2020",
+     "-",
+     "720",
+     "##0",
+     "/",
+     "5",
+     "md",
+     ".",
+     ")"
+    ],
+    "geri": "Ek Madde 3 – ( Ek : 1 / 1 / 2020 - 7200 / 5 md. )",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 17,
+    "parcalar": [
+     "▁Ek",
+     "▁Madde",
+     "▁3",
+     "▁–",
+     "▁(",
+     "Ek",
+     ":",
+     "▁1/1",
+     "/",
+     "2020",
+     "-7",
+     "200",
+     "/5",
+     "▁m",
+     "d",
+     ".",
+     ")"
+    ],
+    "geri": "Ek Madde 3 – (Ek: 1/1/2020-7200/5 md.)",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 27,
+    "parcalar": [
+     "Ek",
+     "ĠMad",
+     "de",
+     "Ġ",
+     "3",
+     "ĠâĢĵ",
+     "Ġ(",
+     "Ek",
+     ":",
+     "Ġ",
+     "1",
+     "/",
+     "1",
+     "/",
+     "2",
+     "0",
+     "2",
+     "0",
+     "-",
+     "7",
+     "2",
+     "0",
+     "0",
+     "/",
+     "5",
+     "Ġmd",
+     ".)"
+    ],
+    "geri": "Ek Madde 3 – (Ek: 1/1/2020-7200/5 md.)",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 23,
+    "parcalar": [
+     "Ek",
+     " Mad",
+     "de",
+     " ",
+     "3",
+     " –",
+     " (",
+     "Ek",
+     ":",
+     " ",
+     "1",
+     "/",
+     "1",
+     "/",
+     "202",
+     "0",
+     "-",
+     "720",
+     "0",
+     "/",
+     "5",
+     " md",
+     ".)"
+    ],
+    "geri": "Ek Madde 3 – (Ek: 1/1/2020-7200/5 md.)",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 23,
+    "parcalar": [
+     "Ek",
+     " Mad",
+     "de",
+     " ",
+     "3",
+     " –",
+     " (",
+     "Ek",
+     ":",
+     " ",
+     "1",
+     "/",
+     "1",
+     "/",
+     "202",
+     "0",
+     "-",
+     "720",
+     "0",
+     "/",
+     "5",
+     " md",
+     ".)"
+    ],
+    "geri": "Ek Madde 3 – (Ek: 1/1/2020-7200/5 md.)",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k12",
+  "grup": "kunye",
+  "metin": "E. 2023/125, K. 2024/87",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 12,
+    "parcalar": [
+     "E",
+     ".",
+     "2023",
+     "/",
+     "125",
+     ",",
+     "K",
+     ".",
+     "20",
+     "##24",
+     "/",
+     "87"
+    ],
+    "geri": "E. 2023 / 125, K. 2024 / 87",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 11,
+    "parcalar": [
+     "E",
+     ".",
+     "2023",
+     "/",
+     "125",
+     ",",
+     "K",
+     ".",
+     "2024",
+     "/",
+     "87"
+    ],
+    "geri": "E. 2023 / 125, K. 2024 / 87",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 12,
+    "parcalar": [
+     "▁E",
+     ".",
+     "▁2023",
+     "/",
+     "125",
+     ",",
+     "▁K",
+     ".",
+     "▁20",
+     "24",
+     "/",
+     "87"
+    ],
+    "geri": "E. 2023/125, K. 2024/87",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 22,
+    "parcalar": [
+     "E",
+     ".",
+     "Ġ",
+     "2",
+     "0",
+     "2",
+     "3",
+     "/",
+     "1",
+     "2",
+     "5",
+     ",",
+     "ĠK",
+     ".",
+     "Ġ",
+     "2",
+     "0",
+     "2",
+     "4",
+     "/",
+     "8",
+     "7"
+    ],
+    "geri": "E. 2023/125, K. 2024/87",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 15,
+    "parcalar": [
+     "E",
+     ".",
+     " ",
+     "202",
+     "3",
+     "/",
+     "125",
+     ",",
+     " K",
+     ".",
+     " ",
+     "202",
+     "4",
+     "/",
+     "87"
+    ],
+    "geri": "E. 2023/125, K. 2024/87",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 15,
+    "parcalar": [
+     "E",
+     ".",
+     " ",
+     "202",
+     "3",
+     "/",
+     "125",
+     ",",
+     " K",
+     ".",
+     " ",
+     "202",
+     "4",
+     "/",
+     "87"
+    ],
+    "geri": "E. 2023/125, K. 2024/87",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k13",
+  "grup": "kunye",
+  "metin": "Yargıtay 3. HD, 12.03.2024, E. 2023/1250 K. 2024/870",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 25,
+    "parcalar": [
+     "Yargıtay",
+     "3",
+     ".",
+     "HD",
+     ",",
+     "12",
+     ".",
+     "03",
+     ".",
+     "20",
+     "##24",
+     ",",
+     "E",
+     ".",
+     "2023",
+     "/",
+     "125",
+     "##0",
+     "K",
+     ".",
+     "20",
+     "##24",
+     "/",
+     "87",
+     "##0"
+    ],
+    "geri": "Yargıtay 3. HD, 12. 03. 2024, E. 2023 / 1250 K. 2024 / 870",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 23,
+    "parcalar": [
+     "Yargıtay",
+     "3",
+     ".",
+     "HD",
+     ",",
+     "12",
+     ".",
+     "03",
+     ".",
+     "2024",
+     ",",
+     "E",
+     ".",
+     "2023",
+     "/",
+     "125",
+     "##0",
+     "K",
+     ".",
+     "2024",
+     "/",
+     "87",
+     "##0"
+    ],
+    "geri": "Yargıtay 3. HD, 12. 03. 2024, E. 2023 / 1250 K. 2024 / 870",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 21,
+    "parcalar": [
+     "▁Yar",
+     "gı",
+     "tay",
+     "▁3.",
+     "▁HD",
+     ",",
+     "▁12.",
+     "03.20",
+     "24",
+     ",",
+     "▁E",
+     ".",
+     "▁2023",
+     "/12",
+     "50",
+     "▁K",
+     ".",
+     "▁20",
+     "24",
+     "/",
+     "870"
+    ],
+    "geri": "Yargıtay 3. HD, 12.03.2024, E. 2023/1250 K. 2024/870",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 44,
+    "parcalar": [
+     "Y",
+     "arg",
+     "Ä±t",
+     "ay",
+     "Ġ",
+     "3",
+     ".",
+     "ĠHD",
+     ",",
+     "Ġ",
+     "1",
+     "2",
+     ".",
+     "0",
+     "3",
+     ".",
+     "2",
+     "0",
+     "2",
+     "4",
+     ",",
+     "ĠE",
+     ".",
+     "Ġ",
+     "2",
+     "0",
+     "2",
+     "3",
+     "/",
+     "1",
+     "2",
+     "5",
+     "0",
+     "ĠK",
+     ".",
+     "Ġ",
+     "2",
+     "0",
+     "2",
+     "4",
+     "/",
+     "8",
+     "7",
+     "0"
+    ],
+    "geri": "Yargıtay 3. HD, 12.03.2024, E. 2023/1250 K. 2024/870",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 33,
+    "parcalar": [
+     "Y",
+     "arg",
+     "ı",
+     "t",
+     "ay",
+     " ",
+     "3",
+     ".",
+     " HD",
+     ",",
+     " ",
+     "12",
+     ".",
+     "03",
+     ".",
+     "202",
+     "4",
+     ",",
+     " E",
+     ".",
+     " ",
+     "202",
+     "3",
+     "/",
+     "125",
+     "0",
+     " K",
+     ".",
+     " ",
+     "202",
+     "4",
+     "/",
+     "870"
+    ],
+    "geri": "Yargıtay 3. HD, 12.03.2024, E. 2023/1250 K. 2024/870",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 32,
+    "parcalar": [
+     "Y",
+     "arg",
+     "ıt",
+     "ay",
+     " ",
+     "3",
+     ".",
+     " HD",
+     ",",
+     " ",
+     "12",
+     ".",
+     "03",
+     ".",
+     "202",
+     "4",
+     ",",
+     " E",
+     ".",
+     " ",
+     "202",
+     "3",
+     "/",
+     "125",
+     "0",
+     " K",
+     ".",
+     " ",
+     "202",
+     "4",
+     "/",
+     "870"
+    ],
+    "geri": "Yargıtay 3. HD, 12.03.2024, E. 2023/1250 K. 2024/870",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k14",
+  "grup": "kunye",
+  "metin": "AYM, B. No: 2019/12345, 15/6/2022",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 18,
+    "parcalar": [
+     "AY",
+     "##M",
+     ",",
+     "B",
+     ".",
+     "No",
+     ":",
+     "2019",
+     "/",
+     "123",
+     "##45",
+     ",",
+     "15",
+     "/",
+     "6",
+     "/",
+     "20",
+     "##22"
+    ],
+    "geri": "AYM, B. No : 2019 / 12345, 15 / 6 / 2022",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 16,
+    "parcalar": [
+     "AYM",
+     ",",
+     "B",
+     ".",
+     "No",
+     ":",
+     "2019",
+     "/",
+     "123",
+     "##45",
+     ",",
+     "15",
+     "/",
+     "6",
+     "/",
+     "2022"
+    ],
+    "geri": "AYM, B. No : 2019 / 12345, 15 / 6 / 2022",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 15,
+    "parcalar": [
+     "▁A",
+     "YM",
+     ",",
+     "▁B",
+     ".",
+     "▁No",
+     ":",
+     "▁2019",
+     "/12",
+     "345",
+     ",",
+     "▁15",
+     "/6",
+     "/",
+     "2022"
+    ],
+    "geri": "AYM, B. No: 2019/12345, 15/6/2022",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 29,
+    "parcalar": [
+     "AY",
+     "M",
+     ",",
+     "ĠB",
+     ".",
+     "ĠNo",
+     ":",
+     "Ġ",
+     "2",
+     "0",
+     "1",
+     "9",
+     "/",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     ",",
+     "Ġ",
+     "1",
+     "5",
+     "/",
+     "6",
+     "/",
+     "2",
+     "0",
+     "2",
+     "2"
+    ],
+    "geri": "AYM, B. No: 2019/12345, 15/6/2022",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 21,
+    "parcalar": [
+     "AY",
+     "M",
+     ",",
+     " B",
+     ".",
+     " No",
+     ":",
+     " ",
+     "201",
+     "9",
+     "/",
+     "123",
+     "45",
+     ",",
+     " ",
+     "15",
+     "/",
+     "6",
+     "/",
+     "202",
+     "2"
+    ],
+    "geri": "AYM, B. No: 2019/12345, 15/6/2022",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 21,
+    "parcalar": [
+     "AY",
+     "M",
+     ",",
+     " B",
+     ".",
+     " No",
+     ":",
+     " ",
+     "201",
+     "9",
+     "/",
+     "123",
+     "45",
+     ",",
+     " ",
+     "15",
+     "/",
+     "6",
+     "/",
+     "202",
+     "2"
+    ],
+    "geri": "AYM, B. No: 2019/12345, 15/6/2022",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k15",
+  "grup": "tarih_sayi",
+  "metin": "12.03.2024 tarihinde",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 7,
+    "parcalar": [
+     "12",
+     ".",
+     "03",
+     ".",
+     "20",
+     "##24",
+     "tarihinde"
+    ],
+    "geri": "12. 03. 2024 tarihinde",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 6,
+    "parcalar": [
+     "12",
+     ".",
+     "03",
+     ".",
+     "2024",
+     "tarihinde"
+    ],
+    "geri": "12. 03. 2024 tarihinde",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 4,
+    "parcalar": [
+     "▁12.",
+     "03.20",
+     "24",
+     "▁tarihinde"
+    ],
+    "geri": "12.03.2024 tarihinde",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 13,
+    "parcalar": [
+     "1",
+     "2",
+     ".",
+     "0",
+     "3",
+     ".",
+     "2",
+     "0",
+     "2",
+     "4",
+     "Ġt",
+     "arih",
+     "inde"
+    ],
+    "geri": "12.03.2024 tarihinde",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 9,
+    "parcalar": [
+     "12",
+     ".",
+     "03",
+     ".",
+     "202",
+     "4",
+     " t",
+     "arih",
+     "inde"
+    ],
+    "geri": "12.03.2024 tarihinde",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 7,
+    "parcalar": [
+     "12",
+     ".",
+     "03",
+     ".",
+     "202",
+     "4",
+     " tarihinde"
+    ],
+    "geri": "12.03.2024 tarihinde",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k16",
+  "grup": "tarih_sayi",
+  "metin": "1 Ocak 2025 ile 31/12/2025 arası",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 12,
+    "parcalar": [
+     "1",
+     "Ocak",
+     "20",
+     "##25",
+     "ile",
+     "31",
+     "/",
+     "12",
+     "/",
+     "20",
+     "##25",
+     "arası"
+    ],
+    "geri": "1 Ocak 2025 ile 31 / 12 / 2025 arası",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 10,
+    "parcalar": [
+     "1",
+     "Ocak",
+     "2025",
+     "ile",
+     "31",
+     "/",
+     "12",
+     "/",
+     "2025",
+     "arası"
+    ],
+    "geri": "1 Ocak 2025 ile 31 / 12 / 2025 arası",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 8,
+    "parcalar": [
+     "▁1",
+     "▁Ocak",
+     "▁2025",
+     "▁ile",
+     "▁31",
+     "/12/",
+     "2025",
+     "▁arası"
+    ],
+    "geri": "1 Ocak 2025 ile 31/12/2025 arası",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 22,
+    "parcalar": [
+     "1",
+     "ĠOc",
+     "ak",
+     "Ġ",
+     "2",
+     "0",
+     "2",
+     "5",
+     "Ġile",
+     "Ġ",
+     "3",
+     "1",
+     "/",
+     "1",
+     "2",
+     "/",
+     "2",
+     "0",
+     "2",
+     "5",
+     "Ġar",
+     "asÄ±"
+    ],
+    "geri": "1 Ocak 2025 ile 31/12/2025 arası",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 16,
+    "parcalar": [
+     "1",
+     " Oc",
+     "ak",
+     " ",
+     "202",
+     "5",
+     " ile",
+     " ",
+     "31",
+     "/",
+     "12",
+     "/",
+     "202",
+     "5",
+     " ar",
+     "ası"
+    ],
+    "geri": "1 Ocak 2025 ile 31/12/2025 arası",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 16,
+    "parcalar": [
+     "1",
+     " Oc",
+     "ak",
+     " ",
+     "202",
+     "5",
+     " ile",
+     " ",
+     "31",
+     "/",
+     "12",
+     "/",
+     "202",
+     "5",
+     " ar",
+     "ası"
+    ],
+    "geri": "1 Ocak 2025 ile 31/12/2025 arası",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k17",
+  "grup": "tarih_sayi",
+  "metin": "%25 oranında, yüzde 12,5 faiz",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 9,
+    "parcalar": [
+     "%",
+     "25",
+     "oranında",
+     ",",
+     "yüzde",
+     "12",
+     ",",
+     "5",
+     "faiz"
+    ],
+    "geri": "% 25 oranında, yüzde 12, 5 faiz",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 9,
+    "parcalar": [
+     "%",
+     "25",
+     "oranında",
+     ",",
+     "yüzde",
+     "12",
+     ",",
+     "5",
+     "faiz"
+    ],
+    "geri": "% 25 oranında, yüzde 12, 5 faiz",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 7,
+    "parcalar": [
+     "▁%",
+     "25",
+     "▁oranında",
+     ",",
+     "▁yüzde",
+     "▁12,5",
+     "▁faiz"
+    ],
+    "geri": "%25 oranında, yüzde 12,5 faiz",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 14,
+    "parcalar": [
+     "%",
+     "2",
+     "5",
+     "Ġoran",
+     "Ä±nda",
+     ",",
+     "ĠyÃ¼zde",
+     "Ġ",
+     "1",
+     "2",
+     ",",
+     "5",
+     "Ġfa",
+     "iz"
+    ],
+    "geri": "%25 oranında, yüzde 12,5 faiz",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 15,
+    "parcalar": [
+     "%",
+     "25",
+     " or",
+     "an",
+     "ında",
+     ",",
+     " y",
+     "üz",
+     "de",
+     " ",
+     "12",
+     ",",
+     "5",
+     " fa",
+     "iz"
+    ],
+    "geri": "%25 oranında, yüzde 12,5 faiz",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 11,
+    "parcalar": [
+     "%",
+     "25",
+     " oran",
+     "ında",
+     ",",
+     " yüzde",
+     " ",
+     "12",
+     ",",
+     "5",
+     " faiz"
+    ],
+    "geri": "%25 oranında, yüzde 12,5 faiz",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k18",
+  "grup": "tarih_sayi",
+  "metin": "1.250.000,00 TL",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 8,
+    "parcalar": [
+     "1",
+     ".",
+     "250",
+     ".",
+     "000",
+     ",",
+     "00",
+     "TL"
+    ],
+    "geri": "1. 250. 000, 00 TL",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 8,
+    "parcalar": [
+     "1",
+     ".",
+     "250",
+     ".",
+     "000",
+     ",",
+     "00",
+     "TL"
+    ],
+    "geri": "1. 250. 000, 00 TL",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 4,
+    "parcalar": [
+     "▁1.",
+     "25",
+     "0.000,00",
+     "▁TL"
+    ],
+    "geri": "1.250.000,00 TL",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 13,
+    "parcalar": [
+     "1",
+     ".",
+     "2",
+     "5",
+     "0",
+     ".",
+     "0",
+     "0",
+     "0",
+     ",",
+     "0",
+     "0",
+     "ĠTL"
+    ],
+    "geri": "1.250.000,00 TL",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 8,
+    "parcalar": [
+     "1",
+     ".",
+     "250",
+     ".",
+     "000",
+     ",",
+     "00",
+     " TL"
+    ],
+    "geri": "1.250.000,00 TL",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 8,
+    "parcalar": [
+     "1",
+     ".",
+     "250",
+     ".",
+     "000",
+     ",",
+     "00",
+     " TL"
+    ],
+    "geri": "1.250.000,00 TL",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k19",
+  "grup": "tarih_sayi",
+  "metin": "₺3.500,75 ve 2.000 USD",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 11,
+    "parcalar": [
+     "₺",
+     "##3",
+     ".",
+     "500",
+     ",",
+     "75",
+     "ve",
+     "2",
+     ".",
+     "000",
+     "USD"
+    ],
+    "geri": "₺3. 500, 75 ve 2. 000 USD",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 11,
+    "parcalar": [
+     "₺",
+     "##3",
+     ".",
+     "500",
+     ",",
+     "75",
+     "ve",
+     "2",
+     ".",
+     "000",
+     "USD"
+    ],
+    "geri": "₺3. 500, 75 ve 2. 000 USD",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 10,
+    "parcalar": [
+     "▁",
+     "₺",
+     "3",
+     ".",
+     "500",
+     ",",
+     "75",
+     "▁ve",
+     "▁2.000",
+     "▁USD"
+    ],
+    "geri": "₺3.500,75 ve 2.000 USD",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 17,
+    "parcalar": [
+     "âĤº",
+     "3",
+     ".",
+     "5",
+     "0",
+     "0",
+     ",",
+     "7",
+     "5",
+     "Ġve",
+     "Ġ",
+     "2",
+     ".",
+     "0",
+     "0",
+     "0",
+     "ĠUSD"
+    ],
+    "geri": "₺3.500,75 ve 2.000 USD",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 13,
+    "parcalar": [
+     "<0xE2><0x82>",
+     "<0xBA>",
+     "3",
+     ".",
+     "500",
+     ",",
+     "75",
+     " ve",
+     " ",
+     "2",
+     ".",
+     "000",
+     " USD"
+    ],
+    "geri": "₺3.500,75 ve 2.000 USD",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 13,
+    "parcalar": [
+     "<0xE2><0x82>",
+     "<0xBA>",
+     "3",
+     ".",
+     "500",
+     ",",
+     "75",
+     " ve",
+     " ",
+     "2",
+     ".",
+     "000",
+     " USD"
+    ],
+    "geri": "₺3.500,75 ve 2.000 USD",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k20",
+  "grup": "uzun_ek",
+  "metin": "hükümsüzlüğünün",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 3,
+    "parcalar": [
+     "hüküm",
+     "##süz",
+     "##lüğünün"
+    ],
+    "geri": "hükümsüzlüğünün",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 3,
+    "parcalar": [
+     "hüküm",
+     "##süz",
+     "##lüğünün"
+    ],
+    "geri": "hükümsüzlüğünün",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 4,
+    "parcalar": [
+     "▁hüküm",
+     "süz",
+     "lüğünü",
+     "n"
+    ],
+    "geri": "hükümsüzlüğünün",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 8,
+    "parcalar": [
+     "h",
+     "Ã¼k",
+     "Ã¼",
+     "ms",
+     "Ã¼",
+     "zl",
+     "Ã¼ÄŁ",
+     "Ã¼nÃ¼n"
+    ],
+    "geri": "hükümsüzlüğünün",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 10,
+    "parcalar": [
+     "h",
+     "ük",
+     "ü",
+     "ms",
+     "ü",
+     "zl",
+     "ü",
+     "ğ",
+     "ün",
+     "ün"
+    ],
+    "geri": "hükümsüzlüğünün",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 7,
+    "parcalar": [
+     "h",
+     "ük",
+     "ü",
+     "ms",
+     "üz",
+     "lüğ",
+     "ünün"
+    ],
+    "geri": "hükümsüzlüğünün",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k21",
+  "grup": "uzun_ek",
+  "metin": "değerlendirilemeyeceğinden",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 5,
+    "parcalar": [
+     "değerlendir",
+     "##ile",
+     "##meyeceği",
+     "##nde",
+     "##n"
+    ],
+    "geri": "değerlendirilemeyeceğinden",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 5,
+    "parcalar": [
+     "değerlendir",
+     "##ile",
+     "##meyeceği",
+     "##nde",
+     "##n"
+    ],
+    "geri": "değerlendirilemeyeceğinden",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 4,
+    "parcalar": [
+     "▁değerlendiril",
+     "e",
+     "meyeceği",
+     "nden"
+    ],
+    "geri": "değerlendirilemeyeceğinden",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 9,
+    "parcalar": [
+     "de",
+     "ÄŁer",
+     "l",
+     "endir",
+     "ile",
+     "meye",
+     "ce",
+     "ÄŁ",
+     "inden"
+    ],
+    "geri": "değerlendirilemeyeceğinden",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 10,
+    "parcalar": [
+     "de",
+     "ğer",
+     "l",
+     "endir",
+     "ile",
+     "m",
+     "eye",
+     "ce",
+     "ğ",
+     "inden"
+    ],
+    "geri": "değerlendirilemeyeceğinden",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 9,
+    "parcalar": [
+     "de",
+     "ğ",
+     "erl",
+     "endir",
+     "ile",
+     "meye",
+     "ce",
+     "ğ",
+     "inden"
+    ],
+    "geri": "değerlendirilemeyeceğinden",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k22",
+  "grup": "uzun_ek",
+  "metin": "sorumluluklarından kurtulamayacaklarını",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 5,
+    "parcalar": [
+     "sorumlulukları",
+     "##ndan",
+     "kurtula",
+     "##mayacak",
+     "##larını"
+    ],
+    "geri": "sorumluluklarından kurtulamayacaklarını",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 4,
+    "parcalar": [
+     "sorumlulukları",
+     "##ndan",
+     "kurtula",
+     "##mayacaklarını"
+    ],
+    "geri": "sorumluluklarından kurtulamayacaklarını",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 7,
+    "parcalar": [
+     "▁sorumluluk",
+     "larından",
+     "▁kur",
+     "tul",
+     "a",
+     "mayacak",
+     "larını"
+    ],
+    "geri": "sorumluluklarından kurtulamayacaklarını",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 13,
+    "parcalar": [
+     "s",
+     "orum",
+     "l",
+     "ul",
+     "uk",
+     "larÄ±ndan",
+     "Ġk",
+     "urt",
+     "ul",
+     "am",
+     "ay",
+     "acak",
+     "larÄ±nÄ±"
+    ],
+    "geri": "sorumluluklarından kurtulamayacaklarını",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 16,
+    "parcalar": [
+     "s",
+     "orum",
+     "l",
+     "ul",
+     "uk",
+     "ları",
+     "nd",
+     "an",
+     " k",
+     "urt",
+     "ul",
+     "am",
+     "ay",
+     "acak",
+     "lar",
+     "ını"
+    ],
+    "geri": "sorumluluklarından kurtulamayacaklarını",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 10,
+    "parcalar": [
+     "s",
+     "orum",
+     "l",
+     "uluk",
+     "larından",
+     " kurt",
+     "ul",
+     "amay",
+     "acak",
+     "larını"
+    ],
+    "geri": "sorumluluklarından kurtulamayacaklarını",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k23",
+  "grup": "uzun_ek",
+  "metin": "Çekoslovakyalılaştıramadıklarımızdan mısınız",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 9,
+    "parcalar": [
+     "Çek",
+     "##os",
+     "##lovak",
+     "##yalı",
+     "##laştır",
+     "##amadı",
+     "##k",
+     "##larımızdan",
+     "mısınız"
+    ],
+    "geri": "Çekoslovakyalılaştıramadıklarımızdan mısınız",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 8,
+    "parcalar": [
+     "Çek",
+     "##os",
+     "##lovak",
+     "##yalı",
+     "##laştır",
+     "##amadık",
+     "##larımızdan",
+     "mısınız"
+    ],
+    "geri": "Çekoslovakyalılaştıramadıklarımızdan mısınız",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 13,
+    "parcalar": [
+     "▁Çek",
+     "o",
+     "slova",
+     "ky",
+     "a",
+     "lı",
+     "laştı",
+     "rama",
+     "dıkları",
+     "mızda",
+     "n",
+     "▁mı",
+     "sınız"
+    ],
+    "geri": "Çekoslovakyalılaştıramadıklarımızdan mısınız",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 18,
+    "parcalar": [
+     "Ãĩ",
+     "ek",
+     "os",
+     "lovak",
+     "yal",
+     "Ä±",
+     "la",
+     "ÅŁt",
+     "Ä±",
+     "ram",
+     "ad",
+     "Ä±kl",
+     "ar",
+     "Ä±mÄ±z",
+     "dan",
+     "Ġm",
+     "Ä±s",
+     "Ä±nÄ±z"
+    ],
+    "geri": "Çekoslovakyalılaştıramadıklarımızdan mısınız",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 20,
+    "parcalar": [
+     "Ç",
+     "ek",
+     "os",
+     "lovak",
+     "yal",
+     "ı",
+     "la",
+     "şt",
+     "ı",
+     "ram",
+     "ad",
+     "ıkl",
+     "ar",
+     "ım",
+     "ız",
+     "dan",
+     " m",
+     "ıs",
+     "ını",
+     "z"
+    ],
+    "geri": "Çekoslovakyalılaştıramadıklarımızdan mısınız",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 18,
+    "parcalar": [
+     "Ç",
+     "ek",
+     "os",
+     "lov",
+     "ak",
+     "yal",
+     "ı",
+     "la",
+     "şt",
+     "ı",
+     "ram",
+     "ad",
+     "ık",
+     "larımız",
+     "dan",
+     " m",
+     "ıs",
+     "ınız"
+    ],
+    "geri": "Çekoslovakyalılaştıramadıklarımızdan mısınız",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k24",
+  "grup": "uzun_ek",
+  "metin": "kiralayanın tahliye edilmesine karar verilmesine",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 6,
+    "parcalar": [
+     "kiralaya",
+     "##nın",
+     "tahliye",
+     "edilmesine",
+     "karar",
+     "verilmesine"
+    ],
+    "geri": "kiralayanın tahliye edilmesine karar verilmesine",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 6,
+    "parcalar": [
+     "kirala",
+     "##yanın",
+     "tahliye",
+     "edilmesine",
+     "karar",
+     "verilmesine"
+    ],
+    "geri": "kiralayanın tahliye edilmesine karar verilmesine",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 10,
+    "parcalar": [
+     "▁kira",
+     "la",
+     "yanın",
+     "▁tah",
+     "liye",
+     "▁edilmesi",
+     "ne",
+     "▁karar",
+     "▁verilmesi",
+     "ne"
+    ],
+    "geri": "kiralayanın tahliye edilmesine karar verilmesine",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 17,
+    "parcalar": [
+     "k",
+     "iral",
+     "ayan",
+     "Ä±n",
+     "Ġtah",
+     "li",
+     "ye",
+     "Ġed",
+     "il",
+     "mes",
+     "ine",
+     "Ġkar",
+     "ar",
+     "Ġver",
+     "il",
+     "mes",
+     "ine"
+    ],
+    "geri": "kiralayanın tahliye edilmesine karar verilmesine",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 17,
+    "parcalar": [
+     "k",
+     "iral",
+     "ayan",
+     "ın",
+     " tah",
+     "li",
+     "ye",
+     " ed",
+     "il",
+     "mes",
+     "ine",
+     " kar",
+     "ar",
+     " ver",
+     "il",
+     "mes",
+     "ine"
+    ],
+    "geri": "kiralayanın tahliye edilmesine karar verilmesine",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 11,
+    "parcalar": [
+     "kir",
+     "al",
+     "ayan",
+     "ın",
+     " tah",
+     "liye",
+     " edil",
+     "mesine",
+     " karar",
+     " veril",
+     "mesine"
+    ],
+    "geri": "kiralayanın tahliye edilmesine karar verilmesine",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k25",
+  "grup": "bicim",
+  "metin": "Birinci satır.\n\n  İkinci satır\tsekmeli.",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 8,
+    "parcalar": [
+     "Birinci",
+     "satır",
+     ".",
+     "İkinci",
+     "satır",
+     "sek",
+     "##meli",
+     "."
+    ],
+    "geri": "Birinci satır. İkinci satır sekmeli.",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 8,
+    "parcalar": [
+     "Birinci",
+     "satır",
+     ".",
+     "İkinci",
+     "satır",
+     "sek",
+     "##meli",
+     "."
+    ],
+    "geri": "Birinci satır. İkinci satır sekmeli.",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 10,
+    "parcalar": [
+     "▁Birinci",
+     "▁sa",
+     "tır",
+     ".",
+     "▁İkinci",
+     "▁sa",
+     "tır",
+     "▁sek",
+     "meli",
+     "."
+    ],
+    "geri": "Birinci satır. İkinci satır sekmeli.",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 16,
+    "parcalar": [
+     "B",
+     "ir",
+     "inci",
+     "Ġsat",
+     "Ä±r",
+     ".ĊĊ",
+     "Ġ",
+     "ĠÄ°",
+     "k",
+     "inci",
+     "Ġsat",
+     "Ä±r",
+     "ĉse",
+     "km",
+     "eli",
+     "."
+    ],
+    "geri": "Birinci satır.\n\n  İkinci satır\tsekmeli.",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 16,
+    "parcalar": [
+     "B",
+     "ir",
+     "inci",
+     " sat",
+     "ır",
+     ".\n\n",
+     " ",
+     " İ",
+     "k",
+     "inci",
+     " sat",
+     "ır",
+     "\tse",
+     "km",
+     "eli",
+     "."
+    ],
+    "geri": "Birinci satır.\n\n  İkinci satır\tsekmeli.",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 15,
+    "parcalar": [
+     "Bir",
+     "inci",
+     " sat",
+     "ır",
+     ".\n\n",
+     " ",
+     " İ",
+     "kin",
+     "ci",
+     " sat",
+     "ır",
+     "\tse",
+     "km",
+     "eli",
+     "."
+    ],
+    "geri": "Birinci satır.\n\n  İkinci satır\tsekmeli.",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ },
+ {
+  "id": "k26",
+  "grup": "bicim",
+  "metin": "“Tırnaklı” — uzun tire – kısa tire … üç nokta",
+  "tokenizer": {
+   "BERTurk": {
+    "parca_sayisi": 16,
+    "parcalar": [
+     "“",
+     "Tır",
+     "##nak",
+     "##lı",
+     "”",
+     "—",
+     "uzun",
+     "tir",
+     "##e",
+     "–",
+     "kısa",
+     "tir",
+     "##e",
+     "…",
+     "üç",
+     "nokta"
+    ],
+    "geri": "“ Tırnaklı ” — uzun tire – kısa tire … üç nokta",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "ModernBERT-tr": {
+    "parca_sayisi": 15,
+    "parcalar": [
+     "“",
+     "Tırnak",
+     "##lı",
+     "”",
+     "—",
+     "uzun",
+     "tir",
+     "##e",
+     "–",
+     "kısa",
+     "tir",
+     "##e",
+     "…",
+     "üç",
+     "nokta"
+    ],
+    "geri": "“ Tırnaklı ” — uzun tire – kısa tire … üç nokta",
+    "birebir": false,
+    "fark": "bosluk",
+    "unk": 0
+   },
+   "BGE-M3": {
+    "parca_sayisi": 15,
+    "parcalar": [
+     "▁“",
+     "T",
+     "ır",
+     "nak",
+     "lı",
+     "”",
+     "▁—",
+     "▁uzun",
+     "▁tire",
+     "▁–",
+     "▁kısa",
+     "▁tire",
+     "▁...",
+     "▁üç",
+     "▁nokta"
+    ],
+    "geri": "“Tırnaklı” — uzun tire – kısa tire ... üç nokta",
+    "birebir": false,
+    "fark": "harf",
+    "unk": 0
+   },
+   "Qwen3": {
+    "parca_sayisi": 17,
+    "parcalar": [
+     "âĢľ",
+     "T",
+     "Ä±r",
+     "nak",
+     "lÄ±",
+     "âĢĿ",
+     "ĠâĢĶ",
+     "Ġuz",
+     "un",
+     "Ġtire",
+     "ĠâĢĵ",
+     "ĠkÄ±sa",
+     "Ġtire",
+     "ĠâĢ¦",
+     "ĠÃ¼Ã§",
+     "Ġnok",
+     "ta"
+    ],
+    "geri": "“Tırnaklı” — uzun tire – kısa tire … üç nokta",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "cl100k": {
+    "parca_sayisi": 20,
+    "parcalar": [
+     "“",
+     "T",
+     "ır",
+     "nak",
+     "lı",
+     "”",
+     " —",
+     " uz",
+     "un",
+     " tire",
+     " –",
+     " k",
+     "ı",
+     "sa",
+     " tire",
+     " …",
+     " ü",
+     "ç",
+     " nok",
+     "ta"
+    ],
+    "geri": "“Tırnaklı” — uzun tire – kısa tire … üç nokta",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   },
+   "o200k": {
+    "parca_sayisi": 15,
+    "parcalar": [
+     "“T",
+     "ır",
+     "nak",
+     "lı",
+     "”",
+     " —",
+     " uzun",
+     " tire",
+     " –",
+     " kısa",
+     " tire",
+     " …",
+     " üç",
+     " nok",
+     "ta"
+    ],
+    "geri": "“Tırnaklı” — uzun tire – kısa tire … üç nokta",
+    "birebir": true,
+    "fark": "",
+    "unk": 0
+   }
+  }
+ }
+]
