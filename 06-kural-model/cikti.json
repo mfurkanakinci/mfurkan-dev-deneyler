@@ -1,0 +1,728 @@
+[
+ {
+  "metin": "6098 sayılı Türk Borçlar Kanunu'nun 49. maddesi uygulanır.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [
+     {
+      "text": "nun 49. maddesi",
+      "confidence": 0.997,
+      "start": 32,
+      "end": 47
+     }
+    ],
+    "kanun anışı": [
+     {
+      "text": "6098 sayılı Türk Borçlar Kanunu",
+      "confidence": 0.997,
+      "start": 0,
+      "end": 31
+     }
+    ],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": [
+     {
+      "head": {
+       "text": "nun 49. maddesi",
+       "start": 32,
+       "end": 47,
+       "confidence": 0.972
+      },
+      "tail": {
+       "text": "6098 sayılı Türk Borçlar Kanunu",
+       "start": 0,
+       "end": 31,
+       "confidence": 0.923
+      },
+      "confidence": 0.702
+     }
+    ]
+   }
+  }
+ },
+ {
+  "metin": "Davalının sorumluluğu 6098 sayılı Türk Borçlar Kanunu'nun 49. maddesi uyarınca değerlendirilmiştir.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [
+     {
+      "text": "nun 49. maddesi",
+      "confidence": 0.998,
+      "start": 54,
+      "end": 69
+     }
+    ],
+    "kanun anışı": [
+     {
+      "text": "6098 sayılı Türk Borçlar Kanunu",
+      "confidence": 0.998,
+      "start": 22,
+      "end": 53
+     }
+    ],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": [
+     {
+      "head": {
+       "text": "nun 49. maddesi",
+       "start": 54,
+       "end": 69,
+       "confidence": 0.973
+      },
+      "tail": {
+       "text": "6098 sayılı Türk Borçlar Kanunu",
+       "start": 22,
+       "end": 53,
+       "confidence": 0.942
+      },
+      "confidence": 0.73
+     }
+    ]
+   }
+  }
+ },
+ {
+  "metin": "Hukuk Genel Kurulunun 12.03.2019 tarihli ve E. 2017/1234, K. 2019/567 sayılı kararında da aynı sonuca varılmıştır.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [],
+    "kanun anışı": [],
+    "mahkeme kararı atfı": [
+     {
+      "text": "E. 2017/1234, K. 2019/567",
+      "confidence": 0.996,
+      "start": 44,
+      "end": 69
+     }
+    ]
+   },
+   "relation_extraction": {
+    "madde_kanunu": []
+   }
+  }
+ },
+ {
+  "metin": "Sanık hakkında TCK'nin 150/2. maddesinin uygulanması gerekirken bu hususun gözetilmemesi hukuka aykırıdır.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [
+     {
+      "text": "nin 150/2. maddesinin",
+      "confidence": 0.998,
+      "start": 19,
+      "end": 40
+     }
+    ],
+    "kanun anışı": [
+     {
+      "text": "TCK",
+      "confidence": 1.0,
+      "start": 15,
+      "end": 18
+     }
+    ],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": [
+     {
+      "head": {
+       "text": "nin 150/2. maddesinin",
+       "start": 19,
+       "end": 40,
+       "confidence": 0.973
+      },
+      "tail": {
+       "text": "TCK",
+       "start": 15,
+       "end": 18,
+       "confidence": 0.979
+      },
+      "confidence": 0.822
+     }
+    ]
+   }
+  }
+ },
+ {
+  "metin": "3713 sayılı Yasanın 13 . maddesine göre işlem yapılmıştır.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [
+     {
+      "text": "13 . maddesine",
+      "confidence": 0.997,
+      "start": 20,
+      "end": 34
+     }
+    ],
+    "kanun anışı": [
+     {
+      "text": "3713 sayılı Yasanın",
+      "confidence": 1.0,
+      "start": 0,
+      "end": 19
+     }
+    ],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": [
+     {
+      "head": {
+       "text": "13 . maddesine",
+       "start": 20,
+       "end": 34,
+       "confidence": 0.969
+      },
+      "tail": {
+       "text": "3713 sayılı Yasanın",
+       "start": 0,
+       "end": 19,
+       "confidence": 0.976
+      },
+      "confidence": 0.904
+     }
+    ]
+   }
+  }
+ },
+ {
+  "metin": "6100 sayılı Yasanın 120.maddesine göre gider avansının yatırılması gerekir.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [
+     {
+      "text": "120.maddesine",
+      "confidence": 0.997,
+      "start": 20,
+      "end": 33
+     }
+    ],
+    "kanun anışı": [
+     {
+      "text": "6100 sayılı Yasanın",
+      "confidence": 1.0,
+      "start": 0,
+      "end": 19
+     }
+    ],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": [
+     {
+      "head": {
+       "text": "120.maddesine",
+       "start": 20,
+       "end": 33,
+       "confidence": 0.972
+      },
+      "tail": {
+       "text": "6100 sayılı Yasanın",
+       "start": 0,
+       "end": 19,
+       "confidence": 0.977
+      },
+      "confidence": 0.874
+     }
+    ]
+   }
+  }
+ },
+ {
+  "metin": "Anayasa Mahkemesinin 21/04/2022 tarih ve E:2021/42, K:2022/45 sayılı kararı ile hüküm iptal edilmiştir.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [],
+    "kanun anışı": [
+     {
+      "text": "Anayasa",
+      "confidence": 1.0,
+      "start": 0,
+      "end": 7
+     }
+    ],
+    "mahkeme kararı atfı": [
+     {
+      "text": "E:2021/42, K:2022/45",
+      "confidence": 0.997,
+      "start": 41,
+      "end": 61
+     }
+    ]
+   },
+   "relation_extraction": {
+    "madde_kanunu": []
+   }
+  }
+ },
+ {
+  "metin": "Anayasa Mahkemesinin benzer bir başvuruda verdiği kararda (B. No: 2014/2293, 1/12/2016, § 55) aynı ilke benimsenmiştir.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [],
+    "kanun anışı": [
+     {
+      "text": "Anayasa",
+      "confidence": 1.0,
+      "start": 0,
+      "end": 7
+     }
+    ],
+    "mahkeme kararı atfı": [
+     {
+      "text": "B. No: 2014/2293",
+      "confidence": 0.987,
+      "start": 59,
+      "end": 75
+     }
+    ]
+   },
+   "relation_extraction": {
+    "madde_kanunu": []
+   }
+  }
+ },
+ {
+  "metin": "Yargıtay Ceza Genel Kurulunun 11.11.1991 tarih, Esas 9-242, Karar 305 sayılı kararı da bu yöndedir.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [],
+    "kanun anışı": [],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": []
+   }
+  }
+ },
+ {
+  "metin": "Duruşma 12.03.2019 tarihinde saat 10.30'da yapılmış, dosya 2019/45 sıra numarasıyla kaydedilmiştir.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [],
+    "kanun anışı": [],
+    "mahkeme kararı atfı": [
+     {
+      "text": "2019/45",
+      "confidence": 0.863,
+      "start": 59,
+      "end": 66
+     }
+    ]
+   },
+   "relation_extraction": {
+    "madde_kanunu": []
+   }
+  }
+ },
+ {
+  "metin": "Miktarın kesinlik sınırının altında kalması halinde anılan Kanun'un 366. maddesi uyarınca karar kesindir.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [
+     {
+      "text": "366. maddesi",
+      "confidence": 0.998,
+      "start": 68,
+      "end": 80
+     }
+    ],
+    "kanun anışı": [
+     {
+      "text": "anılan Kanun'un",
+      "confidence": 0.999,
+      "start": 52,
+      "end": 67
+     }
+    ],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": [
+     {
+      "head": {
+       "text": "366. maddesi",
+       "start": 68,
+       "end": 80,
+       "confidence": 0.978
+      },
+      "tail": {
+       "text": "anılan Kanun'un",
+       "start": 52,
+       "end": 67,
+       "confidence": 0.974
+      },
+      "confidence": 0.826
+     }
+    ]
+   }
+  }
+ },
+ {
+  "metin": "Görev, aynı yasanın 5. maddesi uyarınca idare mahkemesine aittir.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [
+     {
+      "text": "5. maddesi",
+      "confidence": 0.998,
+      "start": 20,
+      "end": 30
+     }
+    ],
+    "kanun anışı": [
+     {
+      "text": "aynı yasanın",
+      "confidence": 0.999,
+      "start": 7,
+      "end": 19
+     }
+    ],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": [
+     {
+      "head": {
+       "text": "5. maddesi",
+       "start": 20,
+       "end": 30,
+       "confidence": 0.979
+      },
+      "tail": {
+       "text": "aynı yasanın",
+       "start": 7,
+       "end": 19,
+       "confidence": 0.983
+      },
+      "confidence": 0.917
+     }
+    ]
+   }
+  }
+ },
+ {
+  "metin": "3402 sayılı Yasaya eklenen Ek 4. madde uyarınca kullanım kadastrosu yapılmıştır.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [
+     {
+      "text": "Ek 4. madde",
+      "confidence": 0.936,
+      "start": 27,
+      "end": 38
+     }
+    ],
+    "kanun anışı": [
+     {
+      "text": "3402 sayılı Yasaya",
+      "confidence": 0.999,
+      "start": 0,
+      "end": 18
+     }
+    ],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": [
+     {
+      "head": {
+       "text": "Ek 4. madde",
+       "start": 27,
+       "end": 38,
+       "confidence": 0.788
+      },
+      "tail": {
+       "text": "3402 sayılı Yasaya",
+       "start": 0,
+       "end": 18,
+       "confidence": 0.948
+      },
+      "confidence": 0.285
+     }
+    ]
+   }
+  }
+ },
+ {
+  "metin": "2942 sayılı Kanun'un geçici 6. maddesinin uygulanma koşulları oluşmamıştır.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [
+     {
+      "text": "un geçici 6. maddesinin",
+      "confidence": 0.994,
+      "start": 18,
+      "end": 41
+     }
+    ],
+    "kanun anışı": [
+     {
+      "text": "2942 sayılı Kanun",
+      "confidence": 1.0,
+      "start": 0,
+      "end": 17
+     }
+    ],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": [
+     {
+      "head": {
+       "text": "un geçici 6. maddesinin",
+       "start": 18,
+       "end": 41,
+       "confidence": 0.948
+      },
+      "tail": {
+       "text": "2942 sayılı Kanun",
+       "start": 0,
+       "end": 17,
+       "confidence": 0.975
+      },
+      "confidence": 0.793
+     }
+    ]
+   }
+  }
+ },
+ {
+  "metin": "Devir, İİK'nun 44.madde koşullarına uygun yapılmamıştır.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [
+     {
+      "text": "nun 44.madde",
+      "confidence": 0.996,
+      "start": 11,
+      "end": 23
+     }
+    ],
+    "kanun anışı": [
+     {
+      "text": "İİK",
+      "confidence": 0.999,
+      "start": 7,
+      "end": 10
+     }
+    ],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": [
+     {
+      "head": {
+       "text": "nun 44.madde",
+       "start": 11,
+       "end": 23,
+       "confidence": 0.962
+      },
+      "tail": {
+       "text": "İİK",
+       "start": 7,
+       "end": 10,
+       "confidence": 0.966
+      },
+      "confidence": 0.702
+     }
+    ]
+   }
+  }
+ },
+ {
+  "metin": "TTK.`nun 708. maddesinde açıklandığı üzere keşide yeri zorunlu unsurdur.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [
+     {
+      "text": "nun 708. maddesinde",
+      "confidence": 0.995,
+      "start": 5,
+      "end": 24
+     }
+    ],
+    "kanun anışı": [
+     {
+      "text": "TTK",
+      "confidence": 0.999,
+      "start": 0,
+      "end": 3
+     }
+    ],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": [
+     {
+      "head": {
+       "text": "nun 708. maddesinde",
+       "start": 5,
+       "end": 24,
+       "confidence": 0.951
+      },
+      "tail": {
+       "text": "TTK",
+       "start": 0,
+       "end": 3,
+       "confidence": 0.968
+      },
+      "confidence": 0.791
+     }
+    ]
+   }
+  }
+ },
+ {
+  "metin": "Avrupa İnsan Hakları Mahkemesi de aynı görüştedir (Niemietz/Almanya, B. No: 13710/88, 16/12/1992, § 29).",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [],
+    "kanun anışı": [],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": []
+   }
+  }
+ },
+ {
+  "metin": "Yargıtay Ceza Genel Kurulunun 26.09.2017 tarih, 2017/16-956 Esas ve 2017/370 sayılı Kararı ile hüküm onanmıştır.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [],
+    "kanun anışı": [],
+    "mahkeme kararı atfı": [
+     {
+      "text": "2017/16-956 Esas ve 2017/370",
+      "confidence": 0.998,
+      "start": 48,
+      "end": 76
+     }
+    ]
+   },
+   "relation_extraction": {
+    "madde_kanunu": []
+   }
+  }
+ },
+ {
+  "metin": "Mahkemenin 24.4.1985 gün, esas 1984/337, karar 1985/190 sayılı görevsizlik kararı kesinleşmiştir.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [],
+    "kanun anışı": [],
+    "mahkeme kararı atfı": [
+     {
+      "text": "esas 1984/337, karar 1985/190",
+      "confidence": 0.989,
+      "start": 26,
+      "end": 55
+     }
+    ]
+   },
+   "relation_extraction": {
+    "madde_kanunu": []
+   }
+  }
+ },
+ {
+  "metin": "Yargıtay 9. Hukuk Dairesinin 2019/1234 Esas, 2020/567 Karar sayılı ilamı emsal niteliğindedir.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [],
+    "kanun anışı": [],
+    "mahkeme kararı atfı": [
+     {
+      "text": "2019/1234 Esas, 2020/567 Karar",
+      "confidence": 0.983,
+      "start": 29,
+      "end": 59
+     }
+    ]
+   },
+   "relation_extraction": {
+    "madde_kanunu": []
+   }
+  }
+ },
+ {
+  "metin": "Taraflar arasındaki sözleşmenin 6. maddesinde teslim süresi otuz gün olarak belirlenmiştir.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [
+     {
+      "text": "6. maddesinde",
+      "confidence": 0.315,
+      "start": 32,
+      "end": 45
+     }
+    ],
+    "kanun anışı": [],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": []
+   }
+  }
+ },
+ {
+  "metin": "Yönetmeliğin 12. maddesi uyarınca başvuru süresi on beş gündür.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [
+     {
+      "text": "12. maddesi",
+      "confidence": 0.521,
+      "start": 13,
+      "end": 24
+     }
+    ],
+    "kanun anışı": [],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": []
+   }
+  }
+ },
+ {
+  "metin": "Sözleşme'nin 10. maddesinin ikinci fıkrasında sınırlama sebepleri sayılmıştır.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [
+     {
+      "text": "10. maddesinin",
+      "confidence": 0.56,
+      "start": 13,
+      "end": 27
+     }
+    ],
+    "kanun anışı": [],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": []
+   }
+  }
+ },
+ {
+  "metin": "Davacı 15.06.2021 tarihinde 2021/3456 sayılı fatura ile ödeme yapmıştır.",
+  "cikti": {
+   "entities": {
+    "kanun maddesi atfı": [],
+    "kanun anışı": [],
+    "mahkeme kararı atfı": []
+   },
+   "relation_extraction": {
+    "madde_kanunu": []
+   }
+  }
+ }
+]

@@ -1,0 +1,2135 @@
+{
+ "aciklama": "Kural tabanlı atıf ayrıştırıcısı ile ince ayarlı GLiNER2.5 modelinin aynı test kararlarında karşılaştırması. Bütün sayılar test bölümünden (4.033 karar), büyüme eğrisi doğrulama bölümünden (1.993 karar).",
+ "n_karar_test": 4033,
+ "model_esikleri": {
+  "madde_aralik": 0.3,
+  "karar_aralik": 0.7,
+  "madde_anahtar": 0.6,
+  "karar_anahtar": 0.7
+ },
+ "olcu": {
+  "kural": {
+   "madde_aralik": {
+    "P": 0.9924,
+    "R": 0.8041,
+    "F1": 0.8884,
+    "tp": 15445,
+    "n_tahmin": 15564,
+    "n_ogretmen": 19207
+   },
+   "karar_aralik": {
+    "P": 0.9401,
+    "R": 0.7755,
+    "F1": 0.8499,
+    "tp": 3392,
+    "n_tahmin": 3608,
+    "n_ogretmen": 4374
+   },
+   "madde_anahtar": {
+    "P": 0.9744,
+    "R": 0.6841,
+    "F1": 0.8038,
+    "tp": 11490,
+    "n_tahmin": 11792,
+    "n_ogretmen": 16796
+   },
+   "karar_anahtar": {
+    "P": 0.9412,
+    "R": 0.7187,
+    "F1": 0.8151,
+    "tp": 2803,
+    "n_tahmin": 2978,
+    "n_ogretmen": 3900
+   }
+  },
+  "model": {
+   "madde_aralik": {
+    "P": 0.8789,
+    "R": 0.909,
+    "F1": 0.8937,
+    "tp": 17460,
+    "n_tahmin": 19866,
+    "n_ogretmen": 19207
+   },
+   "karar_aralik": {
+    "P": 0.9068,
+    "R": 0.9502,
+    "F1": 0.928,
+    "tp": 4156,
+    "n_tahmin": 4583,
+    "n_ogretmen": 4374
+   },
+   "madde_anahtar": {
+    "P": 0.8819,
+    "R": 0.7281,
+    "F1": 0.7977,
+    "tp": 12230,
+    "n_tahmin": 13868,
+    "n_ogretmen": 16796
+   },
+   "karar_anahtar": {
+    "P": 0.863,
+    "R": 0.8105,
+    "F1": 0.8359,
+    "tp": 3161,
+    "n_tahmin": 3663,
+    "n_ogretmen": 3900
+   }
+  },
+  "a_birlesim": {
+   "madde_aralik": {
+    "P": 0.8832,
+    "R": 0.95,
+    "F1": 0.9154,
+    "tp": 18246,
+    "n_tahmin": 20659,
+    "n_ogretmen": 19207
+   },
+   "karar_aralik": {
+    "P": 0.8851,
+    "R": 0.9634,
+    "F1": 0.9226,
+    "tp": 4214,
+    "n_tahmin": 4761,
+    "n_ogretmen": 4374
+   },
+   "madde_anahtar": {
+    "P": 0.8814,
+    "R": 0.7521,
+    "F1": 0.8117,
+    "tp": 12633,
+    "n_tahmin": 14333,
+    "n_ogretmen": 16796
+   },
+   "karar_anahtar": {
+    "P": 0.8434,
+    "R": 0.8215,
+    "F1": 0.8323,
+    "tp": 3204,
+    "n_tahmin": 3799,
+    "n_ogretmen": 3900
+   }
+  },
+  "b_kural_oncelikli": {
+   "madde_aralik": {
+    "P": 0.8838,
+    "R": 0.957,
+    "F1": 0.9189,
+    "tp": 18382,
+    "n_tahmin": 20800,
+    "n_ogretmen": 19207
+   },
+   "karar_aralik": {
+    "P": 0.8851,
+    "R": 0.9634,
+    "F1": 0.9226,
+    "tp": 4214,
+    "n_tahmin": 4761,
+    "n_ogretmen": 4374
+   },
+   "madde_anahtar": {
+    "P": 0.8814,
+    "R": 0.7521,
+    "F1": 0.8117,
+    "tp": 12633,
+    "n_tahmin": 14333,
+    "n_ogretmen": 16796
+   },
+   "karar_anahtar": {
+    "P": 0.8434,
+    "R": 0.8215,
+    "F1": 0.8323,
+    "tp": 3204,
+    "n_tahmin": 3799,
+    "n_ogretmen": 3900
+   }
+  },
+  "c_ikisi_de": {
+   "madde_aralik": {
+    "P": 0.9935,
+    "R": 0.7632,
+    "F1": 0.8633,
+    "tp": 14659,
+    "n_tahmin": 14755,
+    "n_ogretmen": 19207
+   },
+   "karar_aralik": {
+    "P": 0.9729,
+    "R": 0.7622,
+    "F1": 0.8548,
+    "tp": 3334,
+    "n_tahmin": 3427,
+    "n_ogretmen": 4374
+   },
+   "madde_anahtar": {
+    "P": 0.9789,
+    "R": 0.6594,
+    "F1": 0.788,
+    "tp": 11075,
+    "n_tahmin": 11314,
+    "n_ogretmen": 16796
+   },
+   "karar_anahtar": {
+    "P": 0.9715,
+    "R": 0.7074,
+    "F1": 0.8187,
+    "tp": 2759,
+    "n_tahmin": 2840,
+    "n_ogretmen": 3900
+   }
+  }
+ },
+ "dort_kume_aralik": {
+  "MADDE": {
+   "ikisi": 14521,
+   "yalniz_model": 2939,
+   "yalniz_kural": 924,
+   "ikisi_de_kacirdi": 823
+  },
+  "KARAR": {
+   "ikisi": 3334,
+   "ikisi_de_kacirdi": 160,
+   "yalniz_model": 822,
+   "yalniz_kural": 58
+  }
+ },
+ "dort_kume_anahtar": {
+  "madde": {
+   "ikisi_de_kacirdi": 4163,
+   "yalniz_model": 1143,
+   "ikisi": 11087,
+   "yalniz_kural": 403
+  },
+  "karar": {
+   "ikisi": 2760,
+   "ikisi_de_kacirdi": 696,
+   "yalniz_kural": 43,
+   "yalniz_model": 401
+  }
+ },
+ "dort_kume_aralik_kokene_gore": {
+  "MADDE": {
+   "A": {
+    "ikisi": 14401,
+    "yalniz_kural": 903
+   },
+   "B1": {
+    "yalniz_model": 2103,
+    "ikisi_de_kacirdi": 736
+   },
+   "B2": {
+    "ikisi": 120,
+    "yalniz_kural": 21
+   },
+   "B3": {
+    "yalniz_model": 836,
+    "ikisi_de_kacirdi": 87
+   }
+  },
+  "KARAR": {
+   "A": {
+    "ikisi": 3334,
+    "yalniz_kural": 58
+   },
+   "B3": {
+    "ikisi_de_kacirdi": 160,
+    "yalniz_model": 822
+   }
+  }
+ },
+ "kokler": {
+  "A": "öğretmen anahtarı kuralın çözdüğü bir aralıkla aynı",
+  "B1": "kural numarayı buldu, kanunu bağlayamadı",
+  "B2": "kural aralığı buldu, başka kanuna bağladı",
+  "B3": "metin aramasıyla bulunan aralık (kural bulamadı)"
+ },
+ "metinde_araligi_bulunamayan_ogretmen_anahtari": {
+  "madde": 2034,
+  "karar": 369
+ },
+ "kacirma_nedeni_anahtar": {
+  "madde": {
+   "kural": {
+    "aralik_yok": 2034,
+    "isaretlemedi": 3121,
+    "isaretledi_cozum_farkli": 151
+   },
+   "model": {
+    "aralik_yok": 1872,
+    "isaretledi_cozum_farkli": 1734,
+    "isaretlemedi": 960
+   }
+  },
+  "karar": {
+   "kural": {
+    "isaretlemedi": 726,
+    "aralik_yok": 369,
+    "isaretledi_cozum_farkli": 2
+   },
+   "model": {
+    "isaretlemedi": 139,
+    "isaretledi_cozum_farkli": 231,
+    "aralik_yok": 369
+   }
+  }
+ },
+ "yazim_bicimi": {
+  "MADDE": {
+   "yalniz_model": {
+    "n": 2939,
+    "kategoriler": {
+     "kanun_adi_uzakta": {
+      "sayi": 562,
+      "pay": 0.1912
+     },
+     "kanun_adiyla_numarasiz": {
+      "sayi": 459,
+      "pay": 0.1562
+     },
+     "egik_cizgili_fikra": {
+      "sayi": 408,
+      "pay": 0.1388
+     },
+     "diger": {
+      "sayi": 372,
+      "pay": 0.1266
+     },
+     "kisaltma_madde_sozcuksuz": {
+      "sayi": 344,
+      "pay": 0.117
+     },
+     "md_kisaltmasi": {
+      "sayi": 255,
+      "pay": 0.0868
+     },
+     "bitisik_yazim": {
+      "sayi": 188,
+      "pay": 0.064
+     },
+     "ek_gecici": {
+      "sayi": 156,
+      "pay": 0.0531
+     },
+     "genel_adla_gonderme": {
+      "sayi": 119,
+      "pay": 0.0405
+     },
+     "liste_ogesi": {
+      "sayi": 53,
+      "pay": 0.018
+     },
+     "kararname_maddesi": {
+      "sayi": 12,
+      "pay": 0.0041
+     },
+     "noktadan_once_bosluk": {
+      "sayi": 9,
+      "pay": 0.0031
+     },
+     "kesme_bosluk_aykiri": {
+      "sayi": 1,
+      "pay": 0.0003
+     },
+     "uluslararasi_sozlesme": {
+      "sayi": 1,
+      "pay": 0.0003
+     }
+    }
+   },
+   "ikisi_de_kacirdi": {
+    "n": 823,
+    "kategoriler": {
+     "kanun_adi_uzakta": {
+      "sayi": 258,
+      "pay": 0.3135
+     },
+     "diger": {
+      "sayi": 104,
+      "pay": 0.1264
+     },
+     "egik_cizgili_fikra": {
+      "sayi": 86,
+      "pay": 0.1045
+     },
+     "liste_ogesi": {
+      "sayi": 85,
+      "pay": 0.1033
+     },
+     "kisaltma_madde_sozcuksuz": {
+      "sayi": 52,
+      "pay": 0.0632
+     },
+     "kanun_adiyla_numarasiz": {
+      "sayi": 50,
+      "pay": 0.0608
+     },
+     "ek_gecici": {
+      "sayi": 44,
+      "pay": 0.0535
+     },
+     "genel_adla_gonderme": {
+      "sayi": 41,
+      "pay": 0.0498
+     },
+     "md_kisaltmasi": {
+      "sayi": 40,
+      "pay": 0.0486
+     },
+     "bitisik_yazim": {
+      "sayi": 36,
+      "pay": 0.0437
+     },
+     "kararname_maddesi": {
+      "sayi": 21,
+      "pay": 0.0255
+     },
+     "uluslararasi_sozlesme": {
+      "sayi": 4,
+      "pay": 0.0049
+     },
+     "noktadan_once_bosluk": {
+      "sayi": 2,
+      "pay": 0.0024
+     }
+    }
+   }
+  },
+  "KARAR": {
+   "yalniz_model": {
+    "n": 822,
+    "kategoriler": {
+     "yalniz_esas_dosya": {
+      "sayi": 260,
+      "pay": 0.3163
+     },
+     "tire_birlesik_kunye": {
+      "sayi": 213,
+      "pay": 0.2591
+     },
+     "ozel_dosya_turu": {
+      "sayi": 131,
+      "pay": 0.1594
+     },
+     "tek_numarali_karar": {
+      "sayi": 97,
+      "pay": 0.118
+     },
+     "bolu_sonrasi_bosluk": {
+      "sayi": 44,
+      "pay": 0.0535
+     },
+     "diger": {
+      "sayi": 42,
+      "pay": 0.0511
+     },
+     "iki_noktali_kunye": {
+      "sayi": 33,
+      "pay": 0.0401
+     },
+     "yilsiz_kunye": {
+      "sayi": 2,
+      "pay": 0.0024
+     }
+    }
+   },
+   "ikisi_de_kacirdi": {
+    "n": 160,
+    "kategoriler": {
+     "yalniz_esas_dosya": {
+      "sayi": 105,
+      "pay": 0.6562
+     },
+     "tek_numarali_karar": {
+      "sayi": 21,
+      "pay": 0.1313
+     },
+     "iki_noktali_kunye": {
+      "sayi": 11,
+      "pay": 0.0688
+     },
+     "yilsiz_kunye": {
+      "sayi": 8,
+      "pay": 0.05
+     },
+     "ozel_dosya_turu": {
+      "sayi": 8,
+      "pay": 0.05
+     },
+     "tire_birlesik_kunye": {
+      "sayi": 6,
+      "pay": 0.0375
+     },
+     "diger": {
+      "sayi": 1,
+      "pay": 0.0063
+     }
+    }
+   }
+  }
+ },
+ "yanlis_isaret": {
+  "kural": {
+   "MADDE": {
+    "n": 119,
+    "kategoriler": {
+     "ogretmenin_kacirdigi_aday": {
+      "sayi": 98,
+      "pay": 0.8235
+     },
+     "kanunsuz_madde_numarasi": {
+      "sayi": 21,
+      "pay": 0.1765
+     }
+    }
+   },
+   "KARAR": {
+    "n": 216,
+    "kategoriler": {
+     "ogretmenin_kacirdigi_aday": {
+      "sayi": 126,
+      "pay": 0.5833
+     },
+     "basvuru_numarasi": {
+      "sayi": 64,
+      "pay": 0.2963
+     },
+     "dosya_numarasi": {
+      "sayi": 15,
+      "pay": 0.0694
+     },
+     "idari_karar_numarasi": {
+      "sayi": 9,
+      "pay": 0.0417
+     },
+     "tarih": {
+      "sayi": 1,
+      "pay": 0.0046
+     },
+     "kararin_kendi_numarasi": {
+      "sayi": 1,
+      "pay": 0.0046
+     }
+    }
+   }
+  },
+  "model": {
+   "MADDE": {
+    "n": 2406,
+    "kategoriler": {
+     "ogretmenin_kacirdigi_aday": {
+      "sayi": 1496,
+      "pay": 0.6218
+     },
+     "kanunsuz_madde_numarasi": {
+      "sayi": 649,
+      "pay": 0.2697
+     },
+     "kararname_maddesi": {
+      "sayi": 91,
+      "pay": 0.0378
+     },
+     "diger": {
+      "sayi": 66,
+      "pay": 0.0274
+     },
+     "yonetmelik_tuzuk": {
+      "sayi": 37,
+      "pay": 0.0154
+     },
+     "uluslararasi_sozlesme": {
+      "sayi": 22,
+      "pay": 0.0091
+     },
+     "sozlesme_maddesi": {
+      "sayi": 21,
+      "pay": 0.0087
+     },
+     "cift_isaret": {
+      "sayi": 18,
+      "pay": 0.0075
+     },
+     "tarih": {
+      "sayi": 6,
+      "pay": 0.0025
+     }
+    }
+   },
+   "KARAR": {
+    "n": 427,
+    "kategoriler": {
+     "esas_sayili_dosya": {
+      "sayi": 153,
+      "pay": 0.3583
+     },
+     "diger": {
+      "sayi": 78,
+      "pay": 0.1827
+     },
+     "ogretmenin_kacirdigi_aday": {
+      "sayi": 51,
+      "pay": 0.1194
+     },
+     "kararin_kendi_numarasi": {
+      "sayi": 39,
+      "pay": 0.0913
+     },
+     "basvuru_numarasi": {
+      "sayi": 34,
+      "pay": 0.0796
+     },
+     "dosya_numarasi": {
+      "sayi": 33,
+      "pay": 0.0773
+     },
+     "idari_karar_numarasi": {
+      "sayi": 27,
+      "pay": 0.0632
+     },
+     "tarih": {
+      "sayi": 6,
+      "pay": 0.0141
+     },
+     "cift_isaret": {
+      "sayi": 6,
+      "pay": 0.0141
+     }
+    }
+   }
+  }
+ },
+ "kirilim": {
+  "mahkeme": {
+   "Anayasa Mahkemesi": {
+    "n_karar": 35,
+    "az_ornek": true,
+    "sistemler": {
+     "kural": {
+      "madde_aralik": {
+       "P": 0.9924,
+       "R": 0.8399,
+       "F1": 0.9098,
+       "tp": 787,
+       "n_tahmin": 793,
+       "n_ogretmen": 937
+      },
+      "karar_aralik": {
+       "P": 0.7479,
+       "R": 0.9674,
+       "F1": 0.8436,
+       "tp": 178,
+       "n_tahmin": 238,
+       "n_ogretmen": 184
+      },
+      "madde_anahtar": {
+       "P": 0.9885,
+       "R": 0.6528,
+       "F1": 0.7863,
+       "tp": 344,
+       "n_tahmin": 348,
+       "n_ogretmen": 527
+      },
+      "karar_anahtar": {
+       "P": 0.7833,
+       "R": 0.9755,
+       "F1": 0.8689,
+       "tp": 159,
+       "n_tahmin": 203,
+       "n_ogretmen": 163
+      }
+     },
+     "model": {
+      "madde_aralik": {
+       "P": 0.9007,
+       "R": 0.794,
+       "F1": 0.844,
+       "tp": 744,
+       "n_tahmin": 826,
+       "n_ogretmen": 937
+      },
+      "karar_aralik": {
+       "P": 0.7556,
+       "R": 0.7391,
+       "F1": 0.7473,
+       "tp": 136,
+       "n_tahmin": 180,
+       "n_ogretmen": 184
+      },
+      "madde_anahtar": {
+       "P": 0.8529,
+       "R": 0.649,
+       "F1": 0.7371,
+       "tp": 342,
+       "n_tahmin": 401,
+       "n_ogretmen": 527
+      },
+      "karar_anahtar": {
+       "P": 0.8077,
+       "R": 0.773,
+       "F1": 0.79,
+       "tp": 126,
+       "n_tahmin": 156,
+       "n_ogretmen": 163
+      }
+     }
+    }
+   },
+   "Danıştay": {
+    "n_karar": 257,
+    "az_ornek": false,
+    "sistemler": {
+     "kural": {
+      "madde_aralik": {
+       "P": 0.9898,
+       "R": 0.7792,
+       "F1": 0.872,
+       "tp": 1560,
+       "n_tahmin": 1576,
+       "n_ogretmen": 2002
+      },
+      "karar_aralik": {
+       "P": 0.9791,
+       "R": 0.9266,
+       "F1": 0.9521,
+       "tp": 328,
+       "n_tahmin": 335,
+       "n_ogretmen": 354
+      },
+      "madde_anahtar": {
+       "P": 0.9805,
+       "R": 0.7287,
+       "F1": 0.836,
+       "tp": 956,
+       "n_tahmin": 975,
+       "n_ogretmen": 1312
+      },
+      "karar_anahtar": {
+       "P": 0.9676,
+       "R": 0.897,
+       "F1": 0.931,
+       "tp": 209,
+       "n_tahmin": 216,
+       "n_ogretmen": 233
+      }
+     },
+     "model": {
+      "madde_aralik": {
+       "P": 0.8421,
+       "R": 0.9271,
+       "F1": 0.8825,
+       "tp": 1856,
+       "n_tahmin": 2204,
+       "n_ogretmen": 2002
+      },
+      "karar_aralik": {
+       "P": 0.9484,
+       "R": 0.9859,
+       "F1": 0.9668,
+       "tp": 349,
+       "n_tahmin": 368,
+       "n_ogretmen": 354
+      },
+      "madde_anahtar": {
+       "P": 0.862,
+       "R": 0.8712,
+       "F1": 0.8666,
+       "tp": 1143,
+       "n_tahmin": 1326,
+       "n_ogretmen": 1312
+      },
+      "karar_anahtar": {
+       "P": 0.9163,
+       "R": 0.9399,
+       "F1": 0.928,
+       "tp": 219,
+       "n_tahmin": 239,
+       "n_ogretmen": 233
+      }
+     }
+    }
+   },
+   "Yargıtay": {
+    "n_karar": 3219,
+    "az_ornek": false,
+    "sistemler": {
+     "kural": {
+      "madde_aralik": {
+       "P": 0.9942,
+       "R": 0.7979,
+       "F1": 0.8853,
+       "tp": 9706,
+       "n_tahmin": 9763,
+       "n_ogretmen": 12164
+      },
+      "karar_aralik": {
+       "P": 0.9721,
+       "R": 0.7562,
+       "F1": 0.8507,
+       "tp": 2267,
+       "n_tahmin": 2332,
+       "n_ogretmen": 2998
+      },
+      "madde_anahtar": {
+       "P": 0.974,
+       "R": 0.6795,
+       "F1": 0.8005,
+       "tp": 7879,
+       "n_tahmin": 8089,
+       "n_ogretmen": 11596
+      },
+      "karar_anahtar": {
+       "P": 0.9709,
+       "R": 0.6838,
+       "F1": 0.8024,
+       "tp": 1970,
+       "n_tahmin": 2029,
+       "n_ogretmen": 2881
+      }
+     },
+     "model": {
+      "madde_aralik": {
+       "P": 0.8945,
+       "R": 0.9161,
+       "F1": 0.9052,
+       "tp": 11144,
+       "n_tahmin": 12459,
+       "n_ogretmen": 12164
+      },
+      "karar_aralik": {
+       "P": 0.9266,
+       "R": 0.9643,
+       "F1": 0.9451,
+       "tp": 2891,
+       "n_tahmin": 3120,
+       "n_ogretmen": 2998
+      },
+      "madde_anahtar": {
+       "P": 0.8835,
+       "R": 0.7153,
+       "F1": 0.7906,
+       "tp": 8295,
+       "n_tahmin": 9389,
+       "n_ogretmen": 11596
+      },
+      "karar_anahtar": {
+       "P": 0.8638,
+       "R": 0.7883,
+       "F1": 0.8243,
+       "tp": 2271,
+       "n_tahmin": 2629,
+       "n_ogretmen": 2881
+      }
+     }
+    }
+   },
+   "bölge adliye/idare": {
+    "n_karar": 111,
+    "az_ornek": false,
+    "sistemler": {
+     "kural": {
+      "madde_aralik": {
+       "P": 0.9868,
+       "R": 0.8612,
+       "F1": 0.9197,
+       "tp": 1197,
+       "n_tahmin": 1213,
+       "n_ogretmen": 1390
+      },
+      "karar_aralik": {
+       "P": 0.9871,
+       "R": 0.7872,
+       "F1": 0.8759,
+       "tp": 307,
+       "n_tahmin": 311,
+       "n_ogretmen": 390
+      },
+      "madde_anahtar": {
+       "P": 0.9808,
+       "R": 0.762,
+       "F1": 0.8576,
+       "tp": 765,
+       "n_tahmin": 780,
+       "n_ogretmen": 1004
+      },
+      "karar_anahtar": {
+       "P": 0.9858,
+       "R": 0.7628,
+       "F1": 0.8601,
+       "tp": 209,
+       "n_tahmin": 212,
+       "n_ogretmen": 274
+      }
+     },
+     "model": {
+      "madde_aralik": {
+       "P": 0.8593,
+       "R": 0.9317,
+       "F1": 0.894,
+       "tp": 1295,
+       "n_tahmin": 1507,
+       "n_ogretmen": 1390
+      },
+      "karar_aralik": {
+       "P": 0.8936,
+       "R": 0.9256,
+       "F1": 0.9093,
+       "tp": 361,
+       "n_tahmin": 404,
+       "n_ogretmen": 390
+      },
+      "madde_anahtar": {
+       "P": 0.8854,
+       "R": 0.8078,
+       "F1": 0.8448,
+       "tp": 811,
+       "n_tahmin": 916,
+       "n_ogretmen": 1004
+      },
+      "karar_anahtar": {
+       "P": 0.8897,
+       "R": 0.8832,
+       "F1": 0.8864,
+       "tp": 242,
+       "n_tahmin": 272,
+       "n_ogretmen": 274
+      }
+     }
+    }
+   },
+   "diğer": {
+    "n_karar": 26,
+    "az_ornek": true,
+    "sistemler": {
+     "kural": {
+      "madde_aralik": {
+       "P": 0.9789,
+       "R": 0.7152,
+       "F1": 0.8265,
+       "tp": 324,
+       "n_tahmin": 331,
+       "n_ogretmen": 453
+      },
+      "karar_aralik": {
+       "P": 0.8932,
+       "R": 0.7863,
+       "F1": 0.8364,
+       "tp": 92,
+       "n_tahmin": 103,
+       "n_ogretmen": 117
+      },
+      "madde_anahtar": {
+       "P": 0.9328,
+       "R": 0.5812,
+       "F1": 0.7161,
+       "tp": 222,
+       "n_tahmin": 238,
+       "n_ogretmen": 382
+      },
+      "karar_anahtar": {
+       "P": 0.875,
+       "R": 0.7778,
+       "F1": 0.8235,
+       "tp": 70,
+       "n_tahmin": 80,
+       "n_ogretmen": 90
+      }
+     },
+     "model": {
+      "madde_aralik": {
+       "P": 0.8763,
+       "R": 0.7196,
+       "F1": 0.7903,
+       "tp": 326,
+       "n_tahmin": 372,
+       "n_ogretmen": 453
+      },
+      "karar_aralik": {
+       "P": 0.9076,
+       "R": 0.9231,
+       "F1": 0.9153,
+       "tp": 108,
+       "n_tahmin": 119,
+       "n_ogretmen": 117
+      },
+      "madde_anahtar": {
+       "P": 0.8977,
+       "R": 0.6204,
+       "F1": 0.7337,
+       "tp": 237,
+       "n_tahmin": 264,
+       "n_ogretmen": 382
+      },
+      "karar_anahtar": {
+       "P": 0.8617,
+       "R": 0.9,
+       "F1": 0.8804,
+       "tp": 81,
+       "n_tahmin": 94,
+       "n_ogretmen": 90
+      }
+     }
+    }
+   },
+   "ilk derece": {
+    "n_karar": 385,
+    "az_ornek": false,
+    "sistemler": {
+     "kural": {
+      "madde_aralik": {
+       "P": 0.991,
+       "R": 0.8275,
+       "F1": 0.9019,
+       "tp": 1871,
+       "n_tahmin": 1888,
+       "n_ogretmen": 2261
+      },
+      "karar_aralik": {
+       "P": 0.7612,
+       "R": 0.6647,
+       "F1": 0.7097,
+       "tp": 220,
+       "n_tahmin": 289,
+       "n_ogretmen": 331
+      },
+      "madde_anahtar": {
+       "P": 0.9721,
+       "R": 0.6704,
+       "F1": 0.7935,
+       "tp": 1324,
+       "n_tahmin": 1362,
+       "n_ogretmen": 1975
+      },
+      "karar_anahtar": {
+       "P": 0.7815,
+       "R": 0.7181,
+       "F1": 0.7485,
+       "tp": 186,
+       "n_tahmin": 238,
+       "n_ogretmen": 259
+      }
+     },
+     "model": {
+      "madde_aralik": {
+       "P": 0.8387,
+       "R": 0.9266,
+       "F1": 0.8804,
+       "tp": 2095,
+       "n_tahmin": 2498,
+       "n_ogretmen": 2261
+      },
+      "karar_aralik": {
+       "P": 0.7934,
+       "R": 0.9396,
+       "F1": 0.8603,
+       "tp": 311,
+       "n_tahmin": 392,
+       "n_ogretmen": 331
+      },
+      "madde_anahtar": {
+       "P": 0.8919,
+       "R": 0.7099,
+       "F1": 0.7905,
+       "tp": 1402,
+       "n_tahmin": 1572,
+       "n_ogretmen": 1975
+      },
+      "karar_anahtar": {
+       "P": 0.8132,
+       "R": 0.8571,
+       "F1": 0.8346,
+       "tp": 222,
+       "n_tahmin": 273,
+       "n_ogretmen": 259
+      }
+     }
+    }
+   }
+  },
+  "yil": {
+   "2000 öncesi": {
+    "n_karar": 459,
+    "az_ornek": false,
+    "sistemler": {
+     "kural": {
+      "madde_aralik": {
+       "P": 1.0,
+       "R": 0.7232,
+       "F1": 0.8394,
+       "tp": 750,
+       "n_tahmin": 750,
+       "n_ogretmen": 1037
+      },
+      "karar_aralik": {
+       "P": 0.9853,
+       "R": 0.6381,
+       "F1": 0.7746,
+       "tp": 67,
+       "n_tahmin": 68,
+       "n_ogretmen": 105
+      },
+      "madde_anahtar": {
+       "P": 0.99,
+       "R": 0.6301,
+       "F1": 0.7701,
+       "tp": 695,
+       "n_tahmin": 702,
+       "n_ogretmen": 1103
+      },
+      "karar_anahtar": {
+       "P": 0.9833,
+       "R": 0.3172,
+       "F1": 0.4797,
+       "tp": 59,
+       "n_tahmin": 60,
+       "n_ogretmen": 186
+      }
+     },
+     "model": {
+      "madde_aralik": {
+       "P": 0.873,
+       "R": 0.9479,
+       "F1": 0.9089,
+       "tp": 983,
+       "n_tahmin": 1126,
+       "n_ogretmen": 1037
+      },
+      "karar_aralik": {
+       "P": 0.8547,
+       "R": 0.9524,
+       "F1": 0.9009,
+       "tp": 100,
+       "n_tahmin": 117,
+       "n_ogretmen": 105
+      },
+      "madde_anahtar": {
+       "P": 0.8989,
+       "R": 0.6609,
+       "F1": 0.7618,
+       "tp": 729,
+       "n_tahmin": 811,
+       "n_ogretmen": 1103
+      },
+      "karar_anahtar": {
+       "P": 0.71,
+       "R": 0.3817,
+       "F1": 0.4965,
+       "tp": 71,
+       "n_tahmin": 100,
+       "n_ogretmen": 186
+      }
+     }
+    }
+   },
+   "2000-2009": {
+    "n_karar": 789,
+    "az_ornek": false,
+    "sistemler": {
+     "kural": {
+      "madde_aralik": {
+       "P": 0.9975,
+       "R": 0.7445,
+       "F1": 0.8526,
+       "tp": 1611,
+       "n_tahmin": 1615,
+       "n_ogretmen": 2164
+      },
+      "karar_aralik": {
+       "P": 0.9679,
+       "R": 0.6991,
+       "F1": 0.8118,
+       "tp": 302,
+       "n_tahmin": 312,
+       "n_ogretmen": 432
+      },
+      "madde_anahtar": {
+       "P": 0.9861,
+       "R": 0.6166,
+       "F1": 0.7588,
+       "tp": 1277,
+       "n_tahmin": 1295,
+       "n_ogretmen": 2071
+      },
+      "karar_anahtar": {
+       "P": 0.9644,
+       "R": 0.5815,
+       "F1": 0.7256,
+       "tp": 271,
+       "n_tahmin": 281,
+       "n_ogretmen": 466
+      }
+     },
+     "model": {
+      "madde_aralik": {
+       "P": 0.8772,
+       "R": 0.921,
+       "F1": 0.8986,
+       "tp": 1993,
+       "n_tahmin": 2272,
+       "n_ogretmen": 2164
+      },
+      "karar_aralik": {
+       "P": 0.9239,
+       "R": 0.956,
+       "F1": 0.9397,
+       "tp": 413,
+       "n_tahmin": 447,
+       "n_ogretmen": 432
+      },
+      "madde_anahtar": {
+       "P": 0.8462,
+       "R": 0.6427,
+       "F1": 0.7305,
+       "tp": 1331,
+       "n_tahmin": 1573,
+       "n_ogretmen": 2071
+      },
+      "karar_anahtar": {
+       "P": 0.7775,
+       "R": 0.6674,
+       "F1": 0.7182,
+       "tp": 311,
+       "n_tahmin": 400,
+       "n_ogretmen": 466
+      }
+     }
+    }
+   },
+   "2010-2019": {
+    "n_karar": 2076,
+    "az_ornek": false,
+    "sistemler": {
+     "kural": {
+      "madde_aralik": {
+       "P": 0.9914,
+       "R": 0.8007,
+       "F1": 0.8859,
+       "tp": 7910,
+       "n_tahmin": 7979,
+       "n_ogretmen": 9879
+      },
+      "karar_aralik": {
+       "P": 0.938,
+       "R": 0.758,
+       "F1": 0.8385,
+       "tp": 1814,
+       "n_tahmin": 1934,
+       "n_ogretmen": 2393
+      },
+      "madde_anahtar": {
+       "P": 0.9658,
+       "R": 0.6655,
+       "F1": 0.788,
+       "tp": 5922,
+       "n_tahmin": 6132,
+       "n_ogretmen": 8899
+      },
+      "karar_anahtar": {
+       "P": 0.938,
+       "R": 0.7215,
+       "F1": 0.8156,
+       "tp": 1544,
+       "n_tahmin": 1646,
+       "n_ogretmen": 2140
+      }
+     },
+     "model": {
+      "madde_aralik": {
+       "P": 0.8895,
+       "R": 0.9073,
+       "F1": 0.8983,
+       "tp": 8963,
+       "n_tahmin": 10077,
+       "n_ogretmen": 9879
+      },
+      "karar_aralik": {
+       "P": 0.9008,
+       "R": 0.9453,
+       "F1": 0.9225,
+       "tp": 2262,
+       "n_tahmin": 2511,
+       "n_ogretmen": 2393
+      },
+      "madde_anahtar": {
+       "P": 0.8791,
+       "R": 0.7193,
+       "F1": 0.7912,
+       "tp": 6401,
+       "n_tahmin": 7281,
+       "n_ogretmen": 8899
+      },
+      "karar_anahtar": {
+       "P": 0.8648,
+       "R": 0.8248,
+       "F1": 0.8443,
+       "tp": 1765,
+       "n_tahmin": 2041,
+       "n_ogretmen": 2140
+      }
+     }
+    }
+   },
+   "2020 ve sonrası": {
+    "n_karar": 709,
+    "az_ornek": false,
+    "sistemler": {
+     "kural": {
+      "madde_aralik": {
+       "P": 0.9912,
+       "R": 0.8445,
+       "F1": 0.912,
+       "tp": 5174,
+       "n_tahmin": 5220,
+       "n_ogretmen": 6127
+      },
+      "karar_aralik": {
+       "P": 0.9343,
+       "R": 0.8373,
+       "F1": 0.8831,
+       "tp": 1209,
+       "n_tahmin": 1294,
+       "n_ogretmen": 1444
+      },
+      "madde_anahtar": {
+       "P": 0.9817,
+       "R": 0.7614,
+       "F1": 0.8576,
+       "tp": 3596,
+       "n_tahmin": 3663,
+       "n_ogretmen": 4723
+      },
+      "karar_anahtar": {
+       "P": 0.9374,
+       "R": 0.8384,
+       "F1": 0.8852,
+       "tp": 929,
+       "n_tahmin": 991,
+       "n_ogretmen": 1108
+      }
+     },
+     "model": {
+      "madde_aralik": {
+       "P": 0.8639,
+       "R": 0.9011,
+       "F1": 0.8821,
+       "tp": 5521,
+       "n_tahmin": 6391,
+       "n_ogretmen": 6127
+      },
+      "karar_aralik": {
+       "P": 0.9158,
+       "R": 0.9564,
+       "F1": 0.9356,
+       "tp": 1381,
+       "n_tahmin": 1508,
+       "n_ogretmen": 1444
+      },
+      "madde_anahtar": {
+       "P": 0.8967,
+       "R": 0.798,
+       "F1": 0.8445,
+       "tp": 3769,
+       "n_tahmin": 4203,
+       "n_ogretmen": 4723
+      },
+      "karar_anahtar": {
+       "P": 0.9037,
+       "R": 0.9152,
+       "F1": 0.9094,
+       "tp": 1014,
+       "n_tahmin": 1122,
+       "n_ogretmen": 1108
+      }
+     }
+    }
+   }
+  }
+ },
+ "birlesim_bootstrap": {
+  "tekrar": 10000,
+  "tohum": 20261112,
+  "birim": "karar",
+  "fark": {
+   "a_birlesim": {
+    "model": {
+     "madde_aralik": {
+      "F1": {
+       "fark": 0.0217,
+       "ga": [
+        0.018,
+        0.0256
+       ]
+      },
+      "P": {
+       "fark": 0.0043,
+       "ga": [
+        0.0033,
+        0.0054
+       ]
+      },
+      "R": {
+       "fark": 0.0409,
+       "ga": [
+        0.0343,
+        0.0481
+       ]
+      }
+     },
+     "karar_aralik": {
+      "F1": {
+       "fark": -0.0054,
+       "ga": [
+        -0.0124,
+        0.0033
+       ]
+      },
+      "P": {
+       "fark": -0.0217,
+       "ga": [
+        -0.0299,
+        -0.0145
+       ]
+      },
+      "R": {
+       "fark": 0.0133,
+       "ga": [
+        0.0041,
+        0.0283
+       ]
+      }
+     },
+     "madde_anahtar": {
+      "F1": {
+       "fark": 0.014,
+       "ga": [
+        0.0111,
+        0.0171
+       ]
+      },
+      "P": {
+       "fark": -0.0005,
+       "ga": [
+        -0.0029,
+        0.0015
+       ]
+      },
+      "R": {
+       "fark": 0.024,
+       "ga": [
+        0.0195,
+        0.0288
+       ]
+      }
+     },
+     "karar_anahtar": {
+      "F1": {
+       "fark": -0.0036,
+       "ga": [
+        -0.01,
+        0.0053
+       ]
+      },
+      "P": {
+       "fark": -0.0196,
+       "ga": [
+        -0.0262,
+        -0.0136
+       ]
+      },
+      "R": {
+       "fark": 0.011,
+       "ga": [
+        0.0026,
+        0.0251
+       ]
+      }
+     }
+    },
+    "kural": {
+     "madde_aralik": {
+      "F1": {
+       "fark": 0.027,
+       "ga": [
+        0.0212,
+        0.0329
+       ]
+      },
+      "P": {
+       "fark": -0.1092,
+       "ga": [
+        -0.1159,
+        -0.1027
+       ]
+      },
+      "R": {
+       "fark": 0.1458,
+       "ga": [
+        0.1372,
+        0.1547
+       ]
+      }
+     },
+     "karar_aralik": {
+      "F1": {
+       "fark": 0.0727,
+       "ga": [
+        0.0585,
+        0.0883
+       ]
+      },
+      "P": {
+       "fark": -0.055,
+       "ga": [
+        -0.0664,
+        -0.0442
+       ]
+      },
+      "R": {
+       "fark": 0.1879,
+       "ga": [
+        0.1671,
+        0.2104
+       ]
+      }
+     },
+     "madde_anahtar": {
+      "F1": {
+       "fark": 0.0078,
+       "ga": [
+        0.0018,
+        0.0147
+       ]
+      },
+      "P": {
+       "fark": -0.093,
+       "ga": [
+        -0.1001,
+        -0.0861
+       ]
+      },
+      "R": {
+       "fark": 0.0681,
+       "ga": [
+        0.0603,
+        0.0769
+       ]
+      }
+     },
+     "karar_anahtar": {
+      "F1": {
+       "fark": 0.0173,
+       "ga": [
+        0.0073,
+        0.0278
+       ]
+      },
+      "P": {
+       "fark": -0.0979,
+       "ga": [
+        -0.1107,
+        -0.0857
+       ]
+      },
+      "R": {
+       "fark": 0.1028,
+       "ga": [
+        0.09,
+        0.1162
+       ]
+      }
+     }
+    }
+   },
+   "b_kural_oncelikli": {
+    "model": {
+     "madde_aralik": {
+      "F1": {
+       "fark": 0.0252,
+       "ga": [
+        0.0215,
+        0.0293
+       ]
+      },
+      "P": {
+       "fark": 0.0049,
+       "ga": [
+        0.0038,
+        0.006
+       ]
+      },
+      "R": {
+       "fark": 0.048,
+       "ga": [
+        0.0411,
+        0.0553
+       ]
+      }
+     },
+     "karar_aralik": {
+      "F1": {
+       "fark": -0.0054,
+       "ga": [
+        -0.0124,
+        0.0033
+       ]
+      },
+      "P": {
+       "fark": -0.0217,
+       "ga": [
+        -0.0299,
+        -0.0145
+       ]
+      },
+      "R": {
+       "fark": 0.0133,
+       "ga": [
+        0.0041,
+        0.0283
+       ]
+      }
+     },
+     "madde_anahtar": {
+      "F1": {
+       "fark": 0.014,
+       "ga": [
+        0.0111,
+        0.0171
+       ]
+      },
+      "P": {
+       "fark": -0.0005,
+       "ga": [
+        -0.0029,
+        0.0015
+       ]
+      },
+      "R": {
+       "fark": 0.024,
+       "ga": [
+        0.0195,
+        0.0288
+       ]
+      }
+     },
+     "karar_anahtar": {
+      "F1": {
+       "fark": -0.0036,
+       "ga": [
+        -0.01,
+        0.0053
+       ]
+      },
+      "P": {
+       "fark": -0.0196,
+       "ga": [
+        -0.0262,
+        -0.0136
+       ]
+      },
+      "R": {
+       "fark": 0.011,
+       "ga": [
+        0.0026,
+        0.0251
+       ]
+      }
+     }
+    },
+    "kural": {
+     "madde_aralik": {
+      "F1": {
+       "fark": 0.0306,
+       "ga": [
+        0.0249,
+        0.0363
+       ]
+      },
+      "P": {
+       "fark": -0.1086,
+       "ga": [
+        -0.1153,
+        -0.1022
+       ]
+      },
+      "R": {
+       "fark": 0.1529,
+       "ga": [
+        0.1445,
+        0.1615
+       ]
+      }
+     },
+     "karar_aralik": {
+      "F1": {
+       "fark": 0.0727,
+       "ga": [
+        0.0585,
+        0.0883
+       ]
+      },
+      "P": {
+       "fark": -0.055,
+       "ga": [
+        -0.0664,
+        -0.0442
+       ]
+      },
+      "R": {
+       "fark": 0.1879,
+       "ga": [
+        0.1671,
+        0.2104
+       ]
+      }
+     },
+     "madde_anahtar": {
+      "F1": {
+       "fark": 0.0078,
+       "ga": [
+        0.0018,
+        0.0147
+       ]
+      },
+      "P": {
+       "fark": -0.093,
+       "ga": [
+        -0.1001,
+        -0.0861
+       ]
+      },
+      "R": {
+       "fark": 0.0681,
+       "ga": [
+        0.0603,
+        0.0769
+       ]
+      }
+     },
+     "karar_anahtar": {
+      "F1": {
+       "fark": 0.0173,
+       "ga": [
+        0.0073,
+        0.0278
+       ]
+      },
+      "P": {
+       "fark": -0.0979,
+       "ga": [
+        -0.1107,
+        -0.0857
+       ]
+      },
+      "R": {
+       "fark": 0.1028,
+       "ga": [
+        0.09,
+        0.1162
+       ]
+      }
+     }
+    }
+   },
+   "c_ikisi_de": {
+    "model": {
+     "madde_aralik": {
+      "F1": {
+       "fark": -0.0305,
+       "ga": [
+        -0.0364,
+        -0.0245
+       ]
+      },
+      "P": {
+       "fark": 0.1146,
+       "ga": [
+        0.108,
+        0.1215
+       ]
+      },
+      "R": {
+       "fark": -0.1458,
+       "ga": [
+        -0.1547,
+        -0.1372
+       ]
+      }
+     },
+     "karar_aralik": {
+      "F1": {
+       "fark": -0.0732,
+       "ga": [
+        -0.089,
+        -0.0588
+       ]
+      },
+      "P": {
+       "fark": 0.066,
+       "ga": [
+        0.0553,
+        0.0775
+       ]
+      },
+      "R": {
+       "fark": -0.1879,
+       "ga": [
+        -0.2104,
+        -0.1671
+       ]
+      }
+     },
+     "madde_anahtar": {
+      "F1": {
+       "fark": -0.0097,
+       "ga": [
+        -0.0167,
+        -0.0035
+       ]
+      },
+      "P": {
+       "fark": 0.097,
+       "ga": [
+        0.0899,
+        0.1043
+       ]
+      },
+      "R": {
+       "fark": -0.0688,
+       "ga": [
+        -0.0776,
+        -0.061
+       ]
+      }
+     },
+     "karar_anahtar": {
+      "F1": {
+       "fark": -0.0172,
+       "ga": [
+        -0.0279,
+        -0.007
+       ]
+      },
+      "P": {
+       "fark": 0.1085,
+       "ga": [
+        0.096,
+        0.1219
+       ]
+      },
+      "R": {
+       "fark": -0.1031,
+       "ga": [
+        -0.1165,
+        -0.0902
+       ]
+      }
+     }
+    },
+    "kural": {
+     "madde_aralik": {
+      "F1": {
+       "fark": -0.0251,
+       "ga": [
+        -0.0297,
+        -0.0209
+       ]
+      },
+      "P": {
+       "fark": 0.0011,
+       "ga": [
+        0.0005,
+        0.0019
+       ]
+      },
+      "R": {
+       "fark": -0.0409,
+       "ga": [
+        -0.0481,
+        -0.0343
+       ]
+      }
+     },
+     "karar_aralik": {
+      "F1": {
+       "fark": 0.0048,
+       "ga": [
+        -0.0055,
+        0.0129
+       ]
+      },
+      "P": {
+       "fark": 0.0327,
+       "ga": [
+        0.0228,
+        0.044
+       ]
+      },
+      "R": {
+       "fark": -0.0133,
+       "ga": [
+        -0.0283,
+        -0.0041
+       ]
+      }
+     },
+     "madde_anahtar": {
+      "F1": {
+       "fark": -0.0159,
+       "ga": [
+        -0.0194,
+        -0.0126
+       ]
+      },
+      "P": {
+       "fark": 0.0045,
+       "ga": [
+        0.0018,
+        0.0078
+       ]
+      },
+      "R": {
+       "fark": -0.0247,
+       "ga": [
+        -0.0297,
+        -0.0201
+       ]
+      }
+     },
+     "karar_anahtar": {
+      "F1": {
+       "fark": 0.0036,
+       "ga": [
+        -0.0065,
+        0.0109
+       ]
+      },
+      "P": {
+       "fark": 0.0302,
+       "ga": [
+        0.022,
+        0.0393
+       ]
+      },
+      "R": {
+       "fark": -0.0113,
+       "ga": [
+        -0.0255,
+        -0.0029
+       ]
+      }
+     }
+    }
+   }
+  }
+ },
+ "buyume_egrisi_dogrulama": [
+  {
+   "surum": 1,
+   "tarih": "2026-10-05",
+   "duzenli_ifade_sayisi": 42,
+   "satir": 1412,
+   "madde_anahtar": {
+    "P": 0.9677,
+    "R": 0.2284,
+    "F1": 0.3695,
+    "tp": 1889,
+    "n_tahmin": 1952,
+    "n_ogretmen": 8272
+   },
+   "karar_anahtar": {
+    "P": 0.9723,
+    "R": 0.5824,
+    "F1": 0.7284,
+    "tp": 1089,
+    "n_tahmin": 1120,
+    "n_ogretmen": 1870
+   }
+  },
+  {
+   "surum": 2,
+   "tarih": "2026-10-06",
+   "duzenli_ifade_sayisi": 56,
+   "satir": 1699,
+   "madde_anahtar": {
+    "P": 0.9449,
+    "R": 0.516,
+    "F1": 0.6674,
+    "tp": 4268,
+    "n_tahmin": 4517,
+    "n_ogretmen": 8272
+   },
+   "karar_anahtar": {
+    "P": 0.9356,
+    "R": 0.6995,
+    "F1": 0.8005,
+    "tp": 1308,
+    "n_tahmin": 1398,
+    "n_ogretmen": 1870
+   }
+  },
+  {
+   "surum": 3,
+   "tarih": "2026-10-06",
+   "duzenli_ifade_sayisi": 79,
+   "satir": 2128,
+   "madde_anahtar": {
+    "P": 0.8912,
+    "R": 0.6506,
+    "F1": 0.7521,
+    "tp": 5382,
+    "n_tahmin": 6039,
+    "n_ogretmen": 8272
+   },
+   "karar_anahtar": {
+    "P": 0.9356,
+    "R": 0.6995,
+    "F1": 0.8005,
+    "tp": 1308,
+    "n_tahmin": 1398,
+    "n_ogretmen": 1870
+   }
+  },
+  {
+   "surum": 4,
+   "tarih": "2026-10-07",
+   "duzenli_ifade_sayisi": 79,
+   "satir": 2128,
+   "madde_anahtar": {
+    "P": 0.8912,
+    "R": 0.6506,
+    "F1": 0.7521,
+    "tp": 5382,
+    "n_tahmin": 6039,
+    "n_ogretmen": 8272
+   },
+   "karar_anahtar": {
+    "P": 0.9356,
+    "R": 0.6995,
+    "F1": 0.8005,
+    "tp": 1308,
+    "n_tahmin": 1398,
+    "n_ogretmen": 1870
+   }
+  },
+  {
+   "surum": 5,
+   "tarih": "2026-10-07",
+   "duzenli_ifade_sayisi": 95,
+   "satir": 2513,
+   "madde_anahtar": {
+    "P": 0.9747,
+    "R": 0.6759,
+    "F1": 0.7983,
+    "tp": 5591,
+    "n_tahmin": 5736,
+    "n_ogretmen": 8272
+   },
+   "karar_anahtar": {
+    "P": 0.9356,
+    "R": 0.6995,
+    "F1": 0.8005,
+    "tp": 1308,
+    "n_tahmin": 1398,
+    "n_ogretmen": 1870
+   }
+  },
+  {
+   "surum": 6,
+   "tarih": "2026-10-09",
+   "duzenli_ifade_sayisi": 98,
+   "satir": 2556,
+   "madde_anahtar": {
+    "P": 0.9728,
+    "R": 0.6789,
+    "F1": 0.7997,
+    "tp": 5616,
+    "n_tahmin": 5773,
+    "n_ogretmen": 8272
+   },
+   "karar_anahtar": {
+    "P": 0.9356,
+    "R": 0.6995,
+    "F1": 0.8005,
+    "tp": 1308,
+    "n_tahmin": 1398,
+    "n_ogretmen": 1870
+   }
+  },
+  {
+   "surum": 7,
+   "tarih": "2026-10-13",
+   "duzenli_ifade_sayisi": 98,
+   "satir": 2557,
+   "madde_anahtar": {
+    "P": 0.9728,
+    "R": 0.6789,
+    "F1": 0.7997,
+    "tp": 5616,
+    "n_tahmin": 5773,
+    "n_ogretmen": 8272
+   },
+   "karar_anahtar": {
+    "P": 0.9356,
+    "R": 0.6995,
+    "F1": 0.8005,
+    "tp": 1308,
+    "n_tahmin": 1398,
+    "n_ogretmen": 1870
+   }
+  },
+  {
+   "surum": 8,
+   "tarih": "2026-11-09",
+   "duzenli_ifade_sayisi": 98,
+   "satir": 2572,
+   "madde_anahtar": {
+    "P": 0.9728,
+    "R": 0.6789,
+    "F1": 0.7997,
+    "tp": 5616,
+    "n_tahmin": 5773,
+    "n_ogretmen": 8272
+   },
+   "karar_anahtar": {
+    "P": 0.9356,
+    "R": 0.6995,
+    "F1": 0.8005,
+    "tp": 1308,
+    "n_tahmin": 1398,
+    "n_ogretmen": 1870
+   }
+  },
+  {
+   "surum": 9,
+   "tarih": "2026-11-09",
+   "duzenli_ifade_sayisi": 100,
+   "satir": 2692,
+   "madde_anahtar": {
+    "P": 0.9726,
+    "R": 0.6788,
+    "F1": 0.7996,
+    "tp": 5615,
+    "n_tahmin": 5773,
+    "n_ogretmen": 8272
+   },
+   "karar_anahtar": {
+    "P": 0.9356,
+    "R": 0.6995,
+    "F1": 0.8005,
+    "tp": 1308,
+    "n_tahmin": 1398,
+    "n_ogretmen": 1870
+   }
+  }
+ ],
+ "elle_kontrol": {
+  "oge": 120,
+  "kume_tur": {
+   "ikisi_ogretmende_yok/KARAR": 20,
+   "ikisi_ogretmende_yok/MADDE": 20,
+   "yalniz_model/KARAR": 20,
+   "yalniz_model/MADDE": 20,
+   "yalniz_kural/KARAR": 20,
+   "yalniz_kural/MADDE": 20
+  },
+  "durum": "işaretleme bekliyor"
+ }
+}

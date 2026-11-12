@@ -11,6 +11,7 @@ dosyasından okunabilir.
 | `03-tokenizer-karsilastirma` | [Türkçe hukuk metninde altı tokenizer](https://mfurkan.dev/yazilar/tokenizer-karsilastirma/) | Altı tokenizer'ı 300 belgede uzunluk, sadakat ve sığma bakımından ölçer |
 | `04-ner` | [NER'den BERT'e](https://mfurkan.dev/yazilar/ner-bert/) | Aynı yazılışa sahip adların cümleye göre nasıl etiketlendiğini gösterir |
 | `05-model-karsilastirma` | [Türkçe hukuk metni için hangi BERT?](https://mfurkan.dev/yazilar/hangi-model/) | Beş modelin aynı işteki sonuçları ve belge katmanı karşılaştırması (yalnız sonuç dosyası) |
+| `06-kural-model` | [Atıfları bulmak için kural yeter mi?](https://mfurkan.dev/yazilar/kural-yeter-mi/) | Kural tabanlı ayrıştırıcı ile eğitilmiş modelin aynı kararlardaki dökümü (yalnız sonuç dosyaları) ve modelin elle yazılmış cümlelerde denemesi |
 
 ## Çalıştırma
 
@@ -34,6 +35,10 @@ ağırlıklarını indirir, yaklaşık 2,3 GB tutar.
 genel başarısı hakkında hüküm kurmaya yetmez. Amaç, yazıda anlatılan davranışı kendi bilgisayarınızda görebilmeniz.
 
 `03` ve `05` klasörleri ölçümdür. `05` klasöründe yalnız sonuç dosyası var, çünkü eğitim verisi paylaşılmıyor.
+
+`06` klasöründe ikisi de var. `ozet.json`, `kategoriler.md` ve `nasil-olculdu.md` ölçümdür ve yalnız sonuçları içerir.
+`deneme.py` ise açık [atıf modelini](https://huggingface.co/mfurkanakinci/gliner-tr-legal-extraction) elle yazılmış 24 cümlede dener.
+Çalıştırmak için `pip install gliner2==2.1.0` gerekir, model yaklaşık 1,2 GB tutar.
 
 `03` için: Plan sonuçlardan önce yazıldı, 300 belge önceden belirlenmiş bir kuralla seçildi ve
 farklar belirsizlik aralıklarıyla birlikte verildi.
