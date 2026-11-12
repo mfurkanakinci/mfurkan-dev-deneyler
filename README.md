@@ -10,6 +10,7 @@ dosyasından okunabilir.
 | `02-vektor` | [Vektör nedir? Yakın olan aynı değildir](https://mfurkan.dev/yazilar/vektor-nedir/) | Cümle çiftlerinin BGE-M3 ile kosinüs benzerliğini hesaplar |
 | `03-tokenizer-karsilastirma` | [Tokenizer'ları nasıl karşılaştırdım?](https://mfurkan.dev/yazilar/tokenizer-karsilastirma/) | Altı tokenizer'ı 300 belgede uzunluk, sadakat ve sığma bakımından ölçer |
 | `04-ner` | [NER'den BERT'e](https://mfurkan.dev/yazilar/ner-bert/) | Aynı yazılışa sahip adların cümleye göre nasıl etiketlendiğini gösterir |
+| `05-model-karsilastirma` | [Hukuk işinde hangi model?](https://mfurkan.dev/yazilar/hangi-model/) | Beş modelin aynı işteki sonuçları ve belge katmanı karşılaştırması (yalnız sonuç dosyası) |
 
 ## Çalıştırma
 
@@ -32,7 +33,9 @@ ağırlıklarını indirir, yaklaşık 2,3 GB tutar.
 `01`, `02` ve `04` klasörlerindeki metinler elle yazılmış birkaç kısa cümledir. Bir tokenizer'ın ya da modelin
 genel başarısı hakkında hüküm kurmaya yetmez. Amaç, yazıda anlatılan davranışı kendi bilgisayarınızda görebilmeniz.
 
-`03` klasörü bir ölçümdür. Plan sonuçlardan önce yazıldı, 300 belge önceden belirlenmiş bir kuralla seçildi ve
+`03` ve `05` klasörleri ölçümdür. `05` klasöründe yalnız sonuç dosyası var, çünkü eğitim verisi paylaşılmıyor.
+
+`03` için: Plan sonuçlardan önce yazıldı, 300 belge önceden belirlenmiş bir kuralla seçildi ve
 farklar belirsizlik aralıklarıyla birlikte verildi.
 
 Model ve kütüphane sürümleri sabittir. Sürüm değişirse sayılar da değişebilir.

@@ -1,0 +1,331 @@
+{
+  "yazi": "https://mfurkan.dev/yazilar/hangi-model/",
+  "gorev": "Bir kanun hükmü yükümlülük getiriyor mu, hak tanıyor mu, çare sağlıyor mu, yaptırım öngörüyor mu (dört evet/hayır sorusu).",
+  "tarif": "Bütün modellerde aynı: ilk parçanın çıktısı + doğrusal baş, 15 dönem, öğrenme oranı 3e-5, tek tohum, arama yok.",
+  "olcu": "Mikro F1. Farklar ModernBERT-tr'ye göre eşli; birim kanun, 2.000 tekrarlı bootstrap, yüzde 95 aralık.",
+  "veri": {
+    "capraz_dogrulama": "2.466 hüküm, 773 kanun, 5 kat; bir kanunun bütün hükümleri aynı katta",
+    "ayri_test": "eğitimdeki kanunlarla hiç örtüşmeyen 600 hüküm",
+    "not": "Veri kümesi yayımlanmıyor, yalnız toplu sonuçlar paylaşılıyor."
+  },
+  "modeller": {
+    "ModernBERT-tr": {
+      "depo": "ytu-ce-cosmos/modernbert-tr-base",
+      "surum": "d16b9da8f7dc0eadf8946255ee5f38042bdf59c2",
+      "baglam": 384,
+      "capraz_dogrulama": {
+        "f1": 0.862,
+        "aralik": [
+          0.85,
+          0.875
+        ],
+        "aileler": {
+          "yukumluluk": 0.901,
+          "hak": 0.807,
+          "care": 0.769,
+          "yaptirim": 0.846
+        }
+      },
+      "ayri_test": {
+        "f1": 0.867,
+        "aralik": [
+          0.843,
+          0.889
+        ],
+        "aileler": {
+          "yukumluluk": 0.909,
+          "hak": 0.762,
+          "care": 0.759,
+          "yaptirim": 0.857
+        }
+      },
+      "tokenizer": {
+        "hukum_basina_parca": 118.83,
+        "kesilen_hukum_orani": 0.045,
+        "birebir_geri_veren": 0.0053,
+        "bosluk_sayilmazsa_geri_veren": 0.9992
+      }
+    },
+    "BERTurk": {
+      "depo": "dbmdz/bert-base-turkish-cased",
+      "surum": "b6e1de16c983e0f2c70664591ea3f22810072608",
+      "baglam": 398,
+      "capraz_dogrulama": {
+        "f1": 0.869,
+        "aralik": [
+          0.857,
+          0.88
+        ],
+        "aileler": {
+          "yukumluluk": 0.91,
+          "hak": 0.797,
+          "care": 0.784,
+          "yaptirim": 0.876
+        }
+      },
+      "ayri_test": {
+        "f1": 0.855,
+        "aralik": [
+          0.827,
+          0.882
+        ],
+        "aileler": {
+          "yukumluluk": 0.911,
+          "hak": 0.744,
+          "care": 0.697,
+          "yaptirim": 0.796
+        }
+      },
+      "tokenizer": {
+        "hukum_basina_parca": 124.56,
+        "kesilen_hukum_orani": 0.045,
+        "birebir_geri_veren": 0.0053,
+        "bosluk_sayilmazsa_geri_veren": 0.9984
+      }
+    },
+    "modernbert-tr-legal": {
+      "depo": "mfurkanakinci/modernbert-tr-legal",
+      "surum": null,
+      "baglam": 383,
+      "capraz_dogrulama": {
+        "f1": 0.862,
+        "aralik": [
+          0.849,
+          0.874
+        ],
+        "aileler": {
+          "yukumluluk": 0.896,
+          "hak": 0.805,
+          "care": 0.788,
+          "yaptirim": 0.854
+        }
+      },
+      "ayri_test": {
+        "f1": 0.848,
+        "aralik": [
+          0.819,
+          0.875
+        ],
+        "aileler": {
+          "yukumluluk": 0.902,
+          "hak": 0.723,
+          "care": 0.706,
+          "yaptirim": 0.82
+        }
+      },
+      "tokenizer": {
+        "hukum_basina_parca": 118.83,
+        "kesilen_hukum_orani": 0.045,
+        "birebir_geri_veren": 0.0053,
+        "bosluk_sayilmazsa_geri_veren": 0.9992
+      }
+    },
+    "mmBERT": {
+      "depo": "jhu-clsp/mmBERT-base",
+      "surum": "c5955035435e2bf121cde7f3c8863ef52ff35d82",
+      "baglam": 768,
+      "capraz_dogrulama": {
+        "f1": 0.846,
+        "aralik": [
+          0.832,
+          0.859
+        ],
+        "aileler": {
+          "yukumluluk": 0.897,
+          "hak": 0.776,
+          "care": 0.707,
+          "yaptirim": 0.817
+        }
+      },
+      "ayri_test": {
+        "f1": 0.844,
+        "aralik": [
+          0.815,
+          0.874
+        ],
+        "aileler": {
+          "yukumluluk": 0.902,
+          "hak": 0.674,
+          "care": 0.759,
+          "yaptirim": 0.796
+        }
+      },
+      "tokenizer": {
+        "hukum_basina_parca": 203.28,
+        "kesilen_hukum_orani": 0.0365,
+        "birebir_geri_veren": 0.0,
+        "bosluk_sayilmazsa_geri_veren": 1.0
+      }
+    },
+    "NeoBERT": {
+      "depo": "chandar-lab/NeoBERT",
+      "surum": "5424c8efeea6491b151d62dee55a752165407430",
+      "baglam": 874,
+      "capraz_dogrulama": {
+        "f1": 0.741,
+        "aralik": [
+          0.724,
+          0.757
+        ],
+        "aileler": {
+          "yukumluluk": 0.786,
+          "hak": 0.649,
+          "care": 0.649,
+          "yaptirim": 0.76
+        }
+      },
+      "ayri_test": {
+        "f1": 0.79,
+        "aralik": [
+          0.755,
+          0.821
+        ],
+        "aileler": {
+          "yukumluluk": 0.852,
+          "hak": 0.657,
+          "care": 0.577,
+          "yaptirim": 0.745
+        }
+      },
+      "tokenizer": {
+        "hukum_basina_parca": 267.08,
+        "kesilen_hukum_orani": 0.045,
+        "birebir_geri_veren": 0.0,
+        "bosluk_sayilmazsa_geri_veren": 0.0
+      }
+    }
+  },
+  "esli_farklar": {
+    "BERTurk - ModernBERT-tr": {
+      "capraz_dogrulama": {
+        "fark": 0.007,
+        "aralik": [
+          -0.003,
+          0.016
+        ]
+      },
+      "ayri_test": {
+        "fark": -0.012,
+        "aralik": [
+          -0.03,
+          0.007
+        ]
+      }
+    },
+    "modernbert-tr-legal - ModernBERT-tr": {
+      "capraz_dogrulama": {
+        "fark": -0.001,
+        "aralik": [
+          -0.009,
+          0.007
+        ]
+      },
+      "ayri_test": {
+        "fark": -0.019,
+        "aralik": [
+          -0.033,
+          -0.005
+        ]
+      }
+    },
+    "mmBERT - ModernBERT-tr": {
+      "capraz_dogrulama": {
+        "fark": -0.017,
+        "aralik": [
+          -0.029,
+          -0.004
+        ]
+      },
+      "ayri_test": {
+        "fark": -0.023,
+        "aralik": [
+          -0.04,
+          -0.004
+        ]
+      }
+    },
+    "NeoBERT - ModernBERT-tr": {
+      "capraz_dogrulama": {
+        "fark": -0.122,
+        "aralik": [
+          -0.137,
+          -0.107
+        ]
+      },
+      "ayri_test": {
+        "fark": -0.076,
+        "aralik": [
+          -0.103,
+          -0.052
+        ]
+      }
+    }
+  },
+  "belge_katmani": {
+    "gorev": "Bir karardaki her gerekçe paragrafı mahkemenin kendi görüşü mü.",
+    "veri": "268 tam karar, 9.104 paragraf",
+    "olcu": "Ortalama kesinlik (AP), 3 tohumlu topluluk",
+    "not": "Keşif koşusu. Paragraf kodlayıcısı geçiciydi, sayılar bu kayıtla okunmalı.",
+    "kollar": [
+      {
+        "yontem": "Paragrafı tek başına okumak",
+        "ortalama_kesinlik": 0.952
+      },
+      {
+        "yontem": "BiGRU",
+        "ortalama_kesinlik": 0.969
+      },
+      {
+        "yontem": "Küçük Transformer",
+        "ortalama_kesinlik": 0.97
+      },
+      {
+        "yontem": "Hydra",
+        "ortalama_kesinlik": 0.9652
+      },
+      {
+        "yontem": "Paragraf modelinin kendi tahmini",
+        "ortalama_kesinlik": 0.8885
+      },
+      {
+        "yontem": "Kural tabanı",
+        "ortalama_kesinlik": 0.48
+      }
+    ],
+    "farklar_puan": {
+      "Hydra - Küçük Transformer": {
+        "fark": -0.48,
+        "aralik": [
+          -1.73,
+          0.42
+        ]
+      },
+      "Küçük Transformer - BiGRU": {
+        "fark": 0.1,
+        "aralik": [
+          -0.46,
+          0.68
+        ]
+      },
+      "Hydra - BiGRU": {
+        "fark": -0.38,
+        "aralik": [
+          -1.71,
+          0.63
+        ]
+      },
+      "BiGRU - Paragrafı tek başına okumak": {
+        "fark": 1.7,
+        "aralik": [
+          0.9,
+          2.57
+        ]
+      }
+    },
+    "parametre": {
+      "BiGRU": 4696511,
+      "Küçük Transformer": 2207551,
+      "Hydra": 9085339
+    }
+  }
+}
