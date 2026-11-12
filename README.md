@@ -8,9 +8,9 @@ dosyasından okunabilir.
 | --- | --- | --- |
 | `01-tokenizer` | [Model harf görmez, tokenizer'ın böldüğünü görür](https://mfurkan.dev/yazilar/tokenizer-nedir/) | Aynı metni altı tokenizer'a verir, parçaları ve sayılarını yazar |
 | `02-vektor` | [Vektör nedir? Yakın olan aynı değildir](https://mfurkan.dev/yazilar/vektor-nedir/) | Cümle çiftlerinin BGE-M3 ile kosinüs benzerliğini hesaplar |
-| `03-tokenizer-karsilastirma` | [Tokenizer'ları nasıl karşılaştırdım?](https://mfurkan.dev/yazilar/tokenizer-karsilastirma/) | Altı tokenizer'ı 300 belgede uzunluk, sadakat ve sığma bakımından ölçer |
+| `03-tokenizer-karsilastirma` | [Türkçe hukuk metninde altı tokenizer](https://mfurkan.dev/yazilar/tokenizer-karsilastirma/) | Altı tokenizer'ı 300 belgede uzunluk, sadakat ve sığma bakımından ölçer |
 | `04-ner` | [NER'den BERT'e](https://mfurkan.dev/yazilar/ner-bert/) | Aynı yazılışa sahip adların cümleye göre nasıl etiketlendiğini gösterir |
-| `05-model-karsilastirma` | [Hukuk işinde hangi model?](https://mfurkan.dev/yazilar/hangi-model/) | Beş modelin aynı işteki sonuçları ve belge katmanı karşılaştırması (yalnız sonuç dosyası) |
+| `05-model-karsilastirma` | [Türkçe hukuk metni için hangi BERT?](https://mfurkan.dev/yazilar/hangi-model/) | Beş modelin aynı işteki sonuçları ve belge katmanı karşılaştırması (yalnız sonuç dosyası) |
 
 ## Çalıştırma
 
