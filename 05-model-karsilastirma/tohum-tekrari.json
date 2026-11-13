@@ -1,0 +1,330 @@
+{
+ "task": "Turkish statute provision type, 4 independent binary families (obligates / entitles / provides remedy / provides sanction); 2,466 gold provisions, 773 statutes, 5 statute-grouped folds",
+ "models": {
+  "base": "ytu-ce-cosmos/modernbert-tr-base (revision d16b9da8f7dc0eadf8946255ee5f38042bdf59c2), max_len 384",
+  "legal": "modernbert-tr-legal (published weights, legal-domain continued pretraining of the base model), max_len 383; exposure caveat: ~97.6% of the provisions' articles were in its pretraining corpus (text, not labels)"
+ },
+ "recipe": "CLS + linear head, BCE with pos_weight clipped [1,8], AdamW wd 0.01, 10% warmup + linear decay, grad clip 1.0, 15 epochs, batch 8, last epoch, T4 fp16; lr 3e-5 unless stated",
+ "metric": "4-family micro F1; CV thresholds per test fold chosen on the other folds' out-of-fold predictions; held-out set thresholds chosen on all 2,466 OOF and applied blind",
+ "intervals": "per seed: statute-level bootstrap, 2,000 resamples, seed 7, 95%; combined: two-level bootstrap (seeds resampled with replacement, paired by seed, x statute resample shared across seeds), 2,000 resamples, 95%",
+ "decision_rule": "combined interval excludes 0 -> differs; otherwise no difference shown",
+ "seeds": [
+  42,
+  1,
+  2,
+  3,
+  4
+ ],
+ "cross_validation": {
+  "per_seed": {
+   "42": {
+    "base_micro_f1": 0.8624,
+    "base_ci95": [
+     0.8499,
+     0.8747
+    ],
+    "legal_micro_f1": 0.8617,
+    "legal_ci95": [
+     0.849,
+     0.874
+    ],
+    "paired_diff_legal_minus_base": -0.0007,
+    "paired_diff_ci95": [
+     -0.0087,
+     0.0072
+    ]
+   },
+   "1": {
+    "base_micro_f1": 0.8502,
+    "base_ci95": [
+     0.8362,
+     0.8635
+    ],
+    "legal_micro_f1": 0.8446,
+    "legal_ci95": [
+     0.8313,
+     0.858
+    ],
+    "paired_diff_legal_minus_base": -0.0056,
+    "paired_diff_ci95": [
+     -0.0142,
+     0.0035
+    ]
+   },
+   "2": {
+    "base_micro_f1": 0.861,
+    "base_ci95": [
+     0.8485,
+     0.8732
+    ],
+    "legal_micro_f1": 0.867,
+    "legal_ci95": [
+     0.8558,
+     0.8779
+    ],
+    "paired_diff_legal_minus_base": 0.006,
+    "paired_diff_ci95": [
+     -0.0029,
+     0.0148
+    ]
+   },
+   "3": {
+    "base_micro_f1": 0.8579,
+    "base_ci95": [
+     0.8448,
+     0.8706
+    ],
+    "legal_micro_f1": 0.8655,
+    "legal_ci95": [
+     0.8531,
+     0.8769
+    ],
+    "paired_diff_legal_minus_base": 0.0076,
+    "paired_diff_ci95": [
+     -0.0006,
+     0.0164
+    ]
+   },
+   "4": {
+    "base_micro_f1": 0.8599,
+    "base_ci95": [
+     0.8474,
+     0.8725
+    ],
+    "legal_micro_f1": 0.8646,
+    "legal_ci95": [
+     0.8526,
+     0.8759
+    ],
+    "paired_diff_legal_minus_base": 0.0047,
+    "paired_diff_ci95": [
+     -0.0035,
+     0.0133
+    ]
+   }
+  },
+  "summary": {
+   "base_mean": 0.8583,
+   "base_sd": 0.0048,
+   "legal_mean": 0.8607,
+   "legal_sd": 0.0092,
+   "diff_mean": 0.0024,
+   "diff_sd": 0.0055,
+   "diff_min": -0.0056,
+   "diff_max": 0.0076
+  },
+  "combined_two_level_bootstrap": {
+   "diff": 0.0024,
+   "ci95": [
+    -0.0049,
+    0.0094
+   ],
+   "differs": false,
+   "per_family_info": {
+    "OBLIGATES": {
+     "diff": 0.0002,
+     "ci95": [
+      -0.0072,
+      0.0075
+     ]
+    },
+    "ENTITLES": {
+     "diff": 0.0046,
+     "ci95": [
+      -0.0097,
+      0.0189
+     ]
+    },
+    "PROVIDES_REMEDY": {
+     "diff": 0.0102,
+     "ci95": [
+      -0.0311,
+      0.0484
+     ]
+    },
+    "PROVIDES_SANCTION": {
+     "diff": -0.0004,
+     "ci95": [
+      -0.0252,
+      0.0241
+     ]
+    }
+   }
+  }
+ },
+ "held_out_600": {
+  "per_seed": {
+   "42": {
+    "base_micro_f1": 0.8669,
+    "base_ci95": [
+     0.8426,
+     0.8891
+    ],
+    "legal_micro_f1": 0.848,
+    "legal_ci95": [
+     0.8189,
+     0.8746
+    ],
+    "paired_diff_legal_minus_base": -0.0189,
+    "paired_diff_ci95": [
+     -0.0334,
+     -0.0048
+    ]
+   },
+   "1": {
+    "base_micro_f1": 0.8419,
+    "base_ci95": [
+     0.8124,
+     0.8692
+    ],
+    "legal_micro_f1": 0.8474,
+    "legal_ci95": [
+     0.817,
+     0.8753
+    ],
+    "paired_diff_legal_minus_base": 0.0055,
+    "paired_diff_ci95": [
+     -0.0115,
+     0.0215
+    ]
+   },
+   "2": {
+    "base_micro_f1": 0.855,
+    "base_ci95": [
+     0.8292,
+     0.8801
+    ],
+    "legal_micro_f1": 0.8477,
+    "legal_ci95": [
+     0.8189,
+     0.8739
+    ],
+    "paired_diff_legal_minus_base": -0.0073,
+    "paired_diff_ci95": [
+     -0.0242,
+     0.0086
+    ]
+   },
+   "3": {
+    "base_micro_f1": 0.8482,
+    "base_ci95": [
+     0.8196,
+     0.8748
+    ],
+    "legal_micro_f1": 0.8445,
+    "legal_ci95": [
+     0.8136,
+     0.8717
+    ],
+    "paired_diff_legal_minus_base": -0.0037,
+    "paired_diff_ci95": [
+     -0.0187,
+     0.0117
+    ]
+   },
+   "4": {
+    "base_micro_f1": 0.858,
+    "base_ci95": [
+     0.8296,
+     0.8844
+    ],
+    "legal_micro_f1": 0.8444,
+    "legal_ci95": [
+     0.8148,
+     0.8725
+    ],
+    "paired_diff_legal_minus_base": -0.0136,
+    "paired_diff_ci95": [
+     -0.03,
+     0.0045
+    ]
+   }
+  },
+  "summary": {
+   "base_mean": 0.854,
+   "base_sd": 0.0095,
+   "legal_mean": 0.8464,
+   "legal_sd": 0.0018,
+   "diff_mean": -0.0076,
+   "diff_sd": 0.0094,
+   "diff_min": -0.0189,
+   "diff_max": 0.0055
+  },
+  "combined_two_level_bootstrap": {
+   "diff": -0.0076,
+   "ci95": [
+    -0.0206,
+    0.0055
+   ],
+   "differs": false,
+   "per_family_info": {
+    "OBLIGATES": {
+     "diff": -0.0037,
+     "ci95": [
+      -0.0166,
+      0.01
+     ]
+    },
+    "ENTITLES": {
+     "diff": -0.0161,
+     "ci95": [
+      -0.0514,
+      0.0178
+     ]
+    },
+    "PROVIDES_REMEDY": {
+     "diff": -0.0134,
+     "ci95": [
+      -0.0722,
+      0.0481
+     ]
+    },
+    "PROVIDES_SANCTION": {
+     "diff": -0.0149,
+     "ci95": [
+      -0.0712,
+      0.0493
+     ]
+    }
+   }
+  }
+ },
+ "held_out_note": "761 provisions from 84 statutes disjoint from training statutes; primary subset 600 (excludes a 161-item hint-targeted sample); LLM-labelled (two blind labellers + referee)",
+ "learning_rate_cv_seed42": {
+  "2e-5": {
+   "base_micro_f1": 0.8526,
+   "legal_micro_f1": 0.8545,
+   "paired_diff": 0.0019,
+   "paired_diff_ci95": [
+    -0.0068,
+    0.0102
+   ]
+  },
+  "3e-5": {
+   "base_micro_f1": 0.8624,
+   "legal_micro_f1": 0.8617,
+   "paired_diff": -0.0007,
+   "paired_diff_ci95": [
+    -0.0087,
+    0.0072
+   ]
+  },
+  "5e-5": {
+   "base_micro_f1": 0.8582,
+   "legal_micro_f1": 0.8637,
+   "paired_diff": 0.0055,
+   "paired_diff_ci95": [
+    -0.0028,
+    0.0135
+   ]
+  }
+ },
+ "seed42_runs": "reused from the earlier single-seed comparison; an environment re-run (base model, fold 0, seed 42) stayed within the pre-registered tolerance (fold-0 micro F1 with fixed thresholds 0.8669 vs 0.8742, |diff| 0.0073 <= 0.010; mean |dp| 0.022 <= 0.03)",
+ "held_out_use": "scoring only; no selection, threshold or recipe choice was made on the held-out set; learning-rate arms are cross-validation only and none was carried to the held-out set",
+ "versions": {
+  "transformers": "5.22.1",
+  "torch": "2.14.1+cu130",
+  "tokenizers": "0.23.3",
+  "gpu": "NVIDIA T4, fp16 autocast + GradScaler"
+ }
+}
