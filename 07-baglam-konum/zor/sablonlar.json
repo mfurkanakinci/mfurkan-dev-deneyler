@@ -1,0 +1,671 @@
+{
+ "ad_kokleri": [
+  "Zernova",
+  "Belkiran",
+  "Tavrosel",
+  "Mirçen",
+  "Koruncak",
+  "Yedisel",
+  "Dumrulhan",
+  "Sarpıl",
+  "Ilgazer",
+  "Çavlanık",
+  "Özgerim",
+  "Karabenk",
+  "Ardıçsoy",
+  "Sığırtan",
+  "Safranel",
+  "Mürdümsan",
+  "Zemherin",
+  "Kuşburan",
+  "Bölgüren",
+  "Turnagöl",
+  "Akçelin",
+  "Bozdural",
+  "Cevizhan",
+  "Dağkıran",
+  "Erguvansu",
+  "Fındıksal",
+  "Günvaran",
+  "İncesel",
+  "Laleser",
+  "Meşeberk"
+ ],
+ "sablonlar": [
+  {
+   "id": "s01",
+   "tur": "tarih",
+   "cumle": "Davalı {KOK} Lojistik A.Ş., ödeme emrini {DEGER} tarihinde tebellüğ etmiştir.",
+   "duz": "{KOK} Lojistik A.Ş. ödeme emrini hangi tarihte tebellüğ etmiştir?",
+   "sade": "Ödeme emri {KOK} Lojistik'in eline hangi gün geçmiştir?"
+  },
+  {
+   "id": "s02",
+   "tur": "tutar",
+   "cumle": "Davacı {KOK} Tekstil Ltd. Şti. vekili, talebini ıslah ederek {DEGER} TL'ye yükseltmiştir.",
+   "duz": "{KOK} Tekstil Ltd. Şti. vekili talebini ıslah ederek kaç TL'ye yükseltmiştir?",
+   "sade": "{KOK} Tekstil dava açtıktan sonra istediği parayı ne kadara çıkarmıştır?"
+  },
+  {
+   "id": "s03",
+   "tur": "tarih",
+   "cumle": "Borçlu {KOK} Yapı A.Ş., {DEGER} tarihinde temerrüde düşmüştür.",
+   "duz": "{KOK} Yapı A.Ş. hangi tarihte temerrüde düşmüştür?",
+   "sade": "{KOK} Yapı hangi günden itibaren borcunu geç ödemiş sayılmıştır?"
+  },
+  {
+   "id": "s04",
+   "tur": "tarih",
+   "cumle": "Kiracı {KOK} Gıda Ltd. Şti., kiralananı {DEGER} tarihinde tahliye etmiştir.",
+   "duz": "{KOK} Gıda Ltd. Şti. kiralananı hangi tarihte tahliye etmiştir?",
+   "sade": "{KOK} Gıda kiraladığı yerden hangi gün çıkmıştır?"
+  },
+  {
+   "id": "s05",
+   "tur": "tutar",
+   "cumle": "Sözleşmede {KOK} Madencilik A.Ş. aleyhine {DEGER} TL cezai şart kararlaştırılmıştır.",
+   "duz": "{KOK} Madencilik A.Ş. aleyhine kaç TL cezai şart kararlaştırılmıştır?",
+   "sade": "{KOK} Madencilik sözleşmeye uymazsa ne kadar para ödemeyi kabul etmiştir?"
+  },
+  {
+   "id": "s06",
+   "tur": "gun",
+   "cumle": "Poliçeye göre rizikonun {KOK} Sigorta A.Ş.'ye {DEGER} gün içinde ihbar edilmesi gerekmektedir.",
+   "duz": "Rizikonun {KOK} Sigorta A.Ş.'ye kaç gün içinde ihbar edilmesi gerekmektedir?",
+   "sade": "Hasar olunca {KOK} Sigorta'ya en geç kaç gün içinde haber verilmelidir?"
+  },
+  {
+   "id": "s07",
+   "tur": "tarih",
+   "cumle": "Alacağa {KOK} Kimya A.Ş. yönünden {DEGER} tarihinden itibaren avans faizi işletilmesine karar verilmiştir.",
+   "duz": "{KOK} Kimya A.Ş. yönünden avans faizi hangi tarihten itibaren işletilecektir?",
+   "sade": "{KOK} Kimya'nın borcuna faiz hangi günden başlayarak hesaplanacaktır?"
+  },
+  {
+   "id": "s08",
+   "tur": "yuzde",
+   "cumle": "Bilirkişi raporunda {KOK} Taşımacılık Ltd. Şti. yüzde {DEGER} oranında kusurlu bulunmuştur.",
+   "duz": "Bilirkişi raporunda {KOK} Taşımacılık Ltd. Şti. yüzde kaç oranında kusurlu bulunmuştur?",
+   "sade": "Olayda {KOK} Taşımacılık'ın payına düşen sorumluluk yüzde kaçtır?"
+  },
+  {
+   "id": "s09",
+   "tur": "tutar",
+   "cumle": "İhtiyati tedbirin uygulanması için {KOK} Turizm A.Ş.'nin {DEGER} TL teminat yatırmasına karar verilmiştir.",
+   "duz": "{KOK} Turizm A.Ş.'nin kaç TL teminat yatırmasına karar verilmiştir?",
+   "sade": "{KOK} Turizm geçici koruma kararı için ne kadar güvence parası yatıracaktır?"
+  },
+  {
+   "id": "s10",
+   "tur": "tarih",
+   "cumle": "Davacı {KOK} Mobilya Ltd. Şti., {DEGER} tarihli duruşmada davasından feragat etmiştir.",
+   "duz": "{KOK} Mobilya Ltd. Şti. hangi tarihli duruşmada davasından feragat etmiştir?",
+   "sade": "{KOK} Mobilya davasından hangi gün vazgeçmiştir?"
+  },
+  {
+   "id": "s11",
+   "tur": "tarih",
+   "cumle": "İşveren {KOK} Ambalaj A.Ş., iş sözleşmesini {DEGER} tarihinde feshetmiştir.",
+   "duz": "{KOK} Ambalaj A.Ş. iş sözleşmesini hangi tarihte feshetmiştir?",
+   "sade": "{KOK} Ambalaj işçiyi hangi gün işten çıkarmıştır?"
+  },
+  {
+   "id": "s12",
+   "tur": "yil",
+   "cumle": "Davacının {KOK} Denizcilik A.Ş. işyerindeki kıdemi {DEGER} yıldır.",
+   "duz": "Davacının {KOK} Denizcilik A.Ş. işyerindeki kıdemi kaç yıldır?",
+   "sade": "İşçi {KOK} Denizcilik'te kaç yıl çalışmıştır?"
+  },
+  {
+   "id": "s13",
+   "tur": "tarih",
+   "cumle": "Mahkemece {KOK} Orman Ürünleri Ltd. Şti.'ne ait tesiste {DEGER} tarihinde keşif yapılmıştır.",
+   "duz": "{KOK} Orman Ürünleri Ltd. Şti.'ne ait tesiste hangi tarihte keşif yapılmıştır?",
+   "sade": "Mahkeme {KOK} Orman Ürünleri'nin tesisini yerinde görmeye hangi gün gitmiştir?"
+  },
+  {
+   "id": "s14",
+   "tur": "dosya",
+   "cumle": "Alacaklı {KOK} Finansal Kiralama A.Ş., {DEGER} esas sayılı dosyayla ilamsız icra takibi başlatmıştır.",
+   "duz": "{KOK} Finansal Kiralama A.Ş. hangi esas sayılı dosyayla ilamsız icra takibi başlatmıştır?",
+   "sade": "{KOK} Finansal Kiralama'nın alacağını almak için açtığı takip dosyasının numarası nedir?"
+  },
+  {
+   "id": "s15",
+   "tur": "tutar",
+   "cumle": "Davalı {KOK} Reklam Ltd. Şti. lehine {DEGER} TL vekalet ücretine hükmedilmiştir.",
+   "duz": "{KOK} Reklam Ltd. Şti. lehine kaç TL vekalet ücretine hükmedilmiştir?",
+   "sade": "{KOK} Reklam'ın avukatı için karşı taraf ne kadar ödeyecektir?"
+  },
+  {
+   "id": "s16",
+   "tur": "il",
+   "cumle": "Sözleşmede {KOK} Elektrik A.Ş. ile doğacak uyuşmazlıklar için {DEGER} mahkemeleri yetkili kılınmıştır.",
+   "duz": "{KOK} Elektrik A.Ş. ile doğacak uyuşmazlıklar için hangi mahkemeler yetkili kılınmıştır?",
+   "sade": "{KOK} Elektrik'le anlaşmazlık çıkarsa dava hangi ilde açılacaktır?"
+  },
+  {
+   "id": "s17",
+   "tur": "tarih",
+   "cumle": "{KOK} Soğutma Ltd. Şti. ile yürütülen arabuluculuk görüşmeleri {DEGER} tarihinde anlaşamama tutanağıyla sona ermiştir.",
+   "duz": "{KOK} Soğutma Ltd. Şti. ile yürütülen arabuluculuk görüşmeleri hangi tarihte anlaşamama tutanağıyla sona ermiştir?",
+   "sade": "{KOK} Soğutma ile arabulucu önündeki görüşmeler hangi gün sonuçsuz bitmiştir?"
+  },
+  {
+   "id": "s18",
+   "tur": "tarih",
+   "cumle": "Lehtarı {KOK} İlaç A.Ş. olan bononun vadesi {DEGER} tarihidir.",
+   "duz": "Lehtarı {KOK} İlaç A.Ş. olan bononun vadesi hangi tarihtir?",
+   "sade": "{KOK} İlaç'a verilen senedin ödeme günü nedir?"
+  },
+  {
+   "id": "s19",
+   "tur": "gun",
+   "cumle": "Alıcı {KOK} Tarım Ltd. Şti., ayıbı teslimden {DEGER} gün sonra satıcıya ihbar etmiştir.",
+   "duz": "{KOK} Tarım Ltd. Şti. ayıbı teslimden kaç gün sonra satıcıya ihbar etmiştir?",
+   "sade": "{KOK} Tarım malın kusurlu çıktığını teslimden kaç gün sonra satıcıya bildirmiştir?"
+  },
+  {
+   "id": "s20",
+   "tur": "tutar",
+   "cumle": "Mahkemece {KOK} Havacılık A.Ş.'nin davacıya {DEGER} TL maddi tazminat ödemesine hükmedilmiştir.",
+   "duz": "{KOK} Havacılık A.Ş.'nin davacıya kaç TL maddi tazminat ödemesine hükmedilmiştir?",
+   "sade": "{KOK} Havacılık davacının uğradığı zarar için ne kadar ödeyecektir?"
+  }
+ ],
+ "celdiriciler": {
+  "aciklama": "Çeldirici kalıpları (kural tabanlı, model kullanılmadan yazıldı). Her şablon için: ad = hedef cümledeki şirket adı (unvanıyla); sektor = sade sorudaki ad parçası ({KOK} + sektor); yakin_ad = aynı kök, farklı sektör sözcüğü, aynı unvan (hedef cümlede ad bu biçimle değiştirilir; olay aynı kalır); baska_olay = aynı şirket (aynı ad), aynı değer türü, farklı olay; iddia = hedef önermenin aynısı, doğrulanmamış iddia olarak (gerçek değer hedef cümlede); Yalnız unvanı farklı yakın ad (ör. aynı sektör, A.Ş. yerine Ltd. Şti.) kullanılmaz: sade soruda unvan geçmediği için soruya iki cevap doğardı.",
+  "sablonlar": {
+   "s01": {
+    "ad": "{KOK} Lojistik A.Ş.",
+    "sektor": "Lojistik",
+    "yakin_ad": [
+     "{KOK} Nakliyat A.Ş.",
+     "{KOK} Taşımacılık A.Ş.",
+     "{KOK} Depoculuk A.Ş.",
+     "{KOK} Kargo A.Ş."
+    ],
+    "baska_olay": [
+     "Davalı {KOK} Lojistik A.Ş., ödeme emrine {DEGER} tarihinde itiraz etmiştir.",
+     "Davalı {KOK} Lojistik A.Ş. hakkındaki ödeme emri {DEGER} tarihinde düzenlenmiştir.",
+     "Davalı {KOK} Lojistik A.Ş. aleyhine {DEGER} tarihinde ilamsız icra takibi başlatılmıştır.",
+     "Davalı {KOK} Lojistik A.Ş.'ye gönderilen ödeme emri {DEGER} tarihinde postaya verilmiştir."
+    ],
+    "iddia": [
+     "Davalı {KOK} Lojistik A.Ş., ödeme emrini {DEGER} tarihinde tebellüğ ettiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Alacaklı vekili, ödeme emrinin davalı {KOK} Lojistik A.Ş.'ye {DEGER} tarihinde tebliğ edildiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s02": {
+    "ad": "{KOK} Tekstil Ltd. Şti.",
+    "sektor": "Tekstil",
+    "yakin_ad": [
+     "{KOK} Konfeksiyon Ltd. Şti.",
+     "{KOK} İplik Ltd. Şti.",
+     "{KOK} Dokuma Ltd. Şti.",
+     "{KOK} Örme Ltd. Şti."
+    ],
+    "baska_olay": [
+     "Davacı {KOK} Tekstil Ltd. Şti., davayı {DEGER} TL üzerinden açmıştır.",
+     "Bilirkişi, davacı {KOK} Tekstil Ltd. Şti.'nin alacağını {DEGER} TL olarak hesaplamıştır.",
+     "Davacı {KOK} Tekstil Ltd. Şti. lehine {DEGER} TL üzerinden ihtiyati haciz kararı verilmiştir.",
+     "Davacı {KOK} Tekstil Ltd. Şti., davalıya dava öncesinde {DEGER} TL'lik fatura düzenlemiştir."
+    ],
+    "iddia": [
+     "Davacı {KOK} Tekstil Ltd. Şti. vekili, talebini ıslah ederek {DEGER} TL'ye yükselttiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Davalı vekili, davacı {KOK} Tekstil Ltd. Şti.'nin talebini {DEGER} TL'ye yükselttiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s03": {
+    "ad": "{KOK} Yapı A.Ş.",
+    "sektor": "Yapı",
+    "yakin_ad": [
+     "{KOK} İnşaat A.Ş.",
+     "{KOK} Gayrimenkul A.Ş.",
+     "{KOK} Taahhüt A.Ş.",
+     "{KOK} Proje A.Ş."
+    ],
+    "baska_olay": [
+     "Borçlu {KOK} Yapı A.Ş.'ye {DEGER} tarihinde ihtarname tebliğ edilmiştir.",
+     "Borçlu {KOK} Yapı A.Ş. ile alacaklı arasındaki sözleşme {DEGER} tarihinde imzalanmıştır.",
+     "Borçlu {KOK} Yapı A.Ş., borcun bir kısmını {DEGER} tarihinde ödemiştir.",
+     "Borçlu {KOK} Yapı A.Ş.'ye ait inşaatın iskân izni {DEGER} tarihinde alınmıştır."
+    ],
+    "iddia": [
+     "Alacaklı, borçlu {KOK} Yapı A.Ş.'nin {DEGER} tarihinde temerrüde düştüğünü ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Davacı vekili, borçlu {KOK} Yapı A.Ş.'nin borcunun {DEGER} tarihinden beri temerrüt hâlinde olduğunu ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s04": {
+    "ad": "{KOK} Gıda Ltd. Şti.",
+    "sektor": "Gıda",
+    "yakin_ad": [
+     "{KOK} Süt Ürünleri Ltd. Şti.",
+     "{KOK} Unlu Mamuller Ltd. Şti.",
+     "{KOK} Market Ltd. Şti.",
+     "{KOK} Pazarlama Ltd. Şti."
+    ],
+    "baska_olay": [
+     "Kiracı {KOK} Gıda Ltd. Şti. ile kira sözleşmesi {DEGER} tarihinde imzalanmıştır.",
+     "Kiracı {KOK} Gıda Ltd. Şti.'ne {DEGER} tarihinde tahliye ihtarnamesi tebliğ edilmiştir.",
+     "Kiracı {KOK} Gıda Ltd. Şti., kiralananı {DEGER} tarihinde teslim almıştır.",
+     "Kiracı {KOK} Gıda Ltd. Şti. hakkında {DEGER} tarihinde tahliye davası açılmıştır."
+    ],
+    "iddia": [
+     "Kiracı {KOK} Gıda Ltd. Şti., kiralananı {DEGER} tarihinde tahliye ettiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Kiraya veren, kiracı {KOK} Gıda Ltd. Şti.'nin kiralananı {DEGER} tarihinde tahliye ettiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s05": {
+    "ad": "{KOK} Madencilik A.Ş.",
+    "sektor": "Madencilik",
+    "yakin_ad": [
+     "{KOK} Mermer A.Ş.",
+     "{KOK} Enerji A.Ş.",
+     "{KOK} Çimento A.Ş.",
+     "{KOK} Kömür A.Ş."
+    ],
+    "baska_olay": [
+     "Sözleşmede {KOK} Madencilik A.Ş. lehine {DEGER} TL cezai şart kararlaştırılmıştır.",
+     "Sözleşmede {KOK} Madencilik A.Ş.'ye ödenecek bedel {DEGER} TL olarak kararlaştırılmıştır.",
+     "Bilirkişi, {KOK} Madencilik A.Ş.'nin uğradığı zararı {DEGER} TL olarak hesaplamıştır.",
+     "{KOK} Madencilik A.Ş.'nin esas sermayesi {DEGER} TL'dir."
+    ],
+    "iddia": [
+     "Davacı, sözleşmede {KOK} Madencilik A.Ş. aleyhine {DEGER} TL cezai şart kararlaştırıldığını ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Davalı {KOK} Madencilik A.Ş., aleyhine kararlaştırılan cezai şartın {DEGER} TL olduğunu ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s06": {
+    "ad": "{KOK} Sigorta A.Ş.",
+    "sektor": "Sigorta",
+    "yakin_ad": [
+     "{KOK} Reasürans A.Ş.",
+     "{KOK} Emeklilik A.Ş.",
+     "{KOK} Eksperlik A.Ş.",
+     "{KOK} Acentelik A.Ş."
+    ],
+    "baska_olay": [
+     "Poliçeye göre {KOK} Sigorta A.Ş., hasar bedelini {DEGER} gün içinde ödemekle yükümlüdür.",
+     "Poliçeye göre sigorta ettirenin {KOK} Sigorta A.Ş.'ye primi {DEGER} gün içinde ödemesi gerekmektedir.",
+     "{KOK} Sigorta A.Ş.'nin eksper raporunu {DEGER} gün içinde düzenlemesi gerekmektedir.",
+     "Poliçe, {KOK} Sigorta A.Ş. tarafından {DEGER} gün süreyle uzatılmıştır."
+    ],
+    "iddia": [
+     "Davalı {KOK} Sigorta A.Ş., poliçeye göre rizikonun kendisine {DEGER} gün içinde ihbar edilmesi gerektiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Davacı, rizikonun {KOK} Sigorta A.Ş.'ye {DEGER} gün içinde ihbar edilmesinin yeterli olduğunu ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s07": {
+    "ad": "{KOK} Kimya A.Ş.",
+    "sektor": "Kimya",
+    "yakin_ad": [
+     "{KOK} Boya A.Ş.",
+     "{KOK} Plastik A.Ş.",
+     "{KOK} Kozmetik A.Ş.",
+     "{KOK} Deterjan A.Ş."
+    ],
+    "baska_olay": [
+     "{KOK} Kimya A.Ş.'ye {DEGER} tarihinde ihtarname gönderilmiştir.",
+     "{KOK} Kimya A.Ş.'nin borcuna ilişkin fatura {DEGER} tarihinde düzenlenmiştir.",
+     "{KOK} Kimya A.Ş. aleyhine açılan dava {DEGER} tarihinde karara bağlanmıştır.",
+     "{KOK} Kimya A.Ş. aleyhine {DEGER} tarihinde icra takibi başlatılmıştır."
+    ],
+    "iddia": [
+     "Davacı, alacağa {KOK} Kimya A.Ş. yönünden {DEGER} tarihinden itibaren avans faizi işletilmesi gerektiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Davalı {KOK} Kimya A.Ş., faizin {DEGER} tarihinden itibaren işletilebileceğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s08": {
+    "ad": "{KOK} Taşımacılık Ltd. Şti.",
+    "sektor": "Taşımacılık",
+    "yakin_ad": [
+     "{KOK} Lojistik Ltd. Şti.",
+     "{KOK} Nakliyat Ltd. Şti.",
+     "{KOK} Kargo Ltd. Şti.",
+     "{KOK} Turizm Ltd. Şti."
+    ],
+    "baska_olay": [
+     "{KOK} Taşımacılık Ltd. Şti.'ne ait araçta yüzde {DEGER} oranında değer kaybı saptanmıştır.",
+     "{KOK} Taşımacılık Ltd. Şti.'nin şirket paylarının yüzde {DEGER} oranındaki kısmı davalıya devredilmiştir.",
+     "Bilirkişi raporunda {KOK} Taşımacılık Ltd. Şti. çalışanının sürekli iş göremezlik oranı yüzde {DEGER} olarak belirlenmiştir.",
+     "{KOK} Taşımacılık Ltd. Şti.'nin taşıma ücretine yüzde {DEGER} oranında zam yaptığı anlaşılmıştır."
+    ],
+    "iddia": [
+     "Davalı, {KOK} Taşımacılık Ltd. Şti.'nin yüzde {DEGER} oranında kusurlu olduğunu ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "{KOK} Taşımacılık Ltd. Şti., olayda kendi kusurunun yüzde {DEGER} oranında olduğunu ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s09": {
+    "ad": "{KOK} Turizm A.Ş.",
+    "sektor": "Turizm",
+    "yakin_ad": [
+     "{KOK} Otelcilik A.Ş.",
+     "{KOK} Seyahat A.Ş.",
+     "{KOK} Konaklama A.Ş.",
+     "{KOK} Eğlence A.Ş."
+    ],
+    "baska_olay": [
+     "{KOK} Turizm A.Ş., ihtiyati tedbir talebinde dava değerini {DEGER} TL olarak göstermiştir.",
+     "Mahkemece {KOK} Turizm A.Ş.'nin {DEGER} TL tutarındaki alacağı yönünden ihtiyati haciz kararı verilmiştir.",
+     "{KOK} Turizm A.Ş. aleyhine {DEGER} TL tazminat istenmiştir.",
+     "{KOK} Turizm A.Ş.'nin otel işletmesi için ödediği yıllık kira bedeli {DEGER} TL'dir."
+    ],
+    "iddia": [
+     "{KOK} Turizm A.Ş., ihtiyati tedbir için {DEGER} TL teminat yatırdığını ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Karşı taraf, {KOK} Turizm A.Ş.'nin {DEGER} TL teminat yatırması gerektiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s10": {
+    "ad": "{KOK} Mobilya Ltd. Şti.",
+    "sektor": "Mobilya",
+    "yakin_ad": [
+     "{KOK} Dekorasyon Ltd. Şti.",
+     "{KOK} Kereste Ltd. Şti.",
+     "{KOK} Döşeme Ltd. Şti.",
+     "{KOK} Aksesuar Ltd. Şti."
+    ],
+    "baska_olay": [
+     "Davacı {KOK} Mobilya Ltd. Şti., davasını {DEGER} tarihinde açmıştır.",
+     "Davacı {KOK} Mobilya Ltd. Şti. vekili, {DEGER} tarihli duruşmaya katılmamıştır.",
+     "Davacı {KOK} Mobilya Ltd. Şti., {DEGER} tarihli dilekçesiyle talebini ıslah etmiştir.",
+     "Davacı {KOK} Mobilya Ltd. Şti., {DEGER} tarihli duruşmada tanık dinletmiştir."
+    ],
+    "iddia": [
+     "Davalı, davacı {KOK} Mobilya Ltd. Şti.'nin {DEGER} tarihli duruşmada davasından feragat ettiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Davalı vekili, davacı {KOK} Mobilya Ltd. Şti.'nin {DEGER} tarihli dilekçeyle davasından feragat ettiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s11": {
+    "ad": "{KOK} Ambalaj A.Ş.",
+    "sektor": "Ambalaj",
+    "yakin_ad": [
+     "{KOK} Karton A.Ş.",
+     "{KOK} Plastik A.Ş.",
+     "{KOK} Matbaacılık A.Ş.",
+     "{KOK} Kâğıt A.Ş."
+    ],
+    "baska_olay": [
+     "İşveren {KOK} Ambalaj A.Ş., davacıyı {DEGER} tarihinde işe almıştır.",
+     "İşveren {KOK} Ambalaj A.Ş., davacıya {DEGER} tarihinde savunma istem yazısı göndermiştir.",
+     "İşveren {KOK} Ambalaj A.Ş., davacıyı {DEGER} tarihinde başka bir işyerinde görevlendirmiştir.",
+     "İşveren {KOK} Ambalaj A.Ş., davacının ücretini en son {DEGER} tarihinde ödemiştir."
+    ],
+    "iddia": [
+     "Davacı, iş sözleşmesinin işveren {KOK} Ambalaj A.Ş. tarafından {DEGER} tarihinde feshedildiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "İşveren {KOK} Ambalaj A.Ş., iş sözleşmesini {DEGER} tarihinde feshettiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s12": {
+    "ad": "{KOK} Denizcilik A.Ş.",
+    "sektor": "Denizcilik",
+    "yakin_ad": [
+     "{KOK} Gemicilik A.Ş.",
+     "{KOK} Tersanecilik A.Ş.",
+     "{KOK} Liman İşletmeciliği A.Ş.",
+     "{KOK} Balıkçılık A.Ş."
+    ],
+    "baska_olay": [
+     "{KOK} Denizcilik A.Ş. ile liman işletmesi arasındaki kira sözleşmesinin süresi {DEGER} yıldır.",
+     "{KOK} Denizcilik A.Ş.'ye ait geminin yaşı {DEGER} yıldır.",
+     "Davacı, {KOK} Denizcilik A.Ş.'den önce {DEGER} yıl başka bir işyerinde çalışmıştır.",
+     "{KOK} Denizcilik A.Ş., {DEGER} yıldır aynı limanda faaliyet göstermektedir."
+    ],
+    "iddia": [
+     "Davacı, {KOK} Denizcilik A.Ş. işyerindeki kıdeminin {DEGER} yıl olduğunu ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Davalı {KOK} Denizcilik A.Ş., davacının işyerindeki kıdeminin {DEGER} yıl olduğunu ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s13": {
+    "ad": "{KOK} Orman Ürünleri Ltd. Şti.",
+    "sektor": "Orman Ürünleri",
+    "yakin_ad": [
+     "{KOK} Kereste Ltd. Şti.",
+     "{KOK} Ahşap Ltd. Şti.",
+     "{KOK} Kâğıt Ltd. Şti.",
+     "{KOK} Doğrama Ltd. Şti."
+    ],
+    "baska_olay": [
+     "Mahkemece {KOK} Orman Ürünleri Ltd. Şti.'ne ait tesiste keşif yapılmasına {DEGER} tarihli ara kararla karar verilmiştir.",
+     "{KOK} Orman Ürünleri Ltd. Şti.'ne ait tesis {DEGER} tarihinde faaliyete geçmiştir.",
+     "{KOK} Orman Ürünleri Ltd. Şti.'ne ait tesiste {DEGER} tarihinde yangın çıkmıştır.",
+     "{KOK} Orman Ürünleri Ltd. Şti.'ne ait tesisin ruhsatı {DEGER} tarihinde iptal edilmiştir."
+    ],
+    "iddia": [
+     "Davalı {KOK} Orman Ürünleri Ltd. Şti., tesisinde {DEGER} tarihinde keşif yapıldığını ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Davacı, {KOK} Orman Ürünleri Ltd. Şti.'ne ait tesiste {DEGER} tarihinde keşif yapıldığını ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s14": {
+    "ad": "{KOK} Finansal Kiralama A.Ş.",
+    "sektor": "Finansal Kiralama",
+    "yakin_ad": [
+     "{KOK} Faktoring A.Ş.",
+     "{KOK} Varlık Yönetim A.Ş.",
+     "{KOK} Yatırım A.Ş.",
+     "{KOK} Tüketici Finansmanı A.Ş."
+    ],
+    "baska_olay": [
+     "Alacaklı {KOK} Finansal Kiralama A.Ş.'nin açtığı itirazın iptali davası {DEGER} esas sayısıyla görülmüştür.",
+     "Alacaklı {KOK} Finansal Kiralama A.Ş. aleyhine {DEGER} esas sayılı dosyayla menfi tespit davası açılmıştır.",
+     "Alacaklı {KOK} Finansal Kiralama A.Ş., {DEGER} esas sayılı dosyayla kiralanan malın iadesi için dava açmıştır.",
+     "Alacaklı {KOK} Finansal Kiralama A.Ş.'nin taraf olduğu tahkim yargılaması {DEGER} esas sayılı dosyada yürütülmüştür."
+    ],
+    "iddia": [
+     "Borçlu, alacaklı {KOK} Finansal Kiralama A.Ş.'nin {DEGER} esas sayılı dosyayla ilamsız icra takibi başlattığını ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Alacaklı {KOK} Finansal Kiralama A.Ş., {DEGER} esas sayılı dosyayla da icra takibi başlattığını ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s15": {
+    "ad": "{KOK} Reklam Ltd. Şti.",
+    "sektor": "Reklam",
+    "yakin_ad": [
+     "{KOK} Medya Ltd. Şti.",
+     "{KOK} Tanıtım Ltd. Şti.",
+     "{KOK} Matbaa Ltd. Şti.",
+     "{KOK} Yayıncılık Ltd. Şti."
+    ],
+    "baska_olay": [
+     "Davalı {KOK} Reklam Ltd. Şti. aleyhine {DEGER} TL yargılama giderine hükmedilmiştir.",
+     "Davalı {KOK} Reklam Ltd. Şti., vekiline {DEGER} TL sözleşmeden doğan avukatlık ücreti ödemiştir.",
+     "Davalı {KOK} Reklam Ltd. Şti. aleyhine açılan davanın değeri {DEGER} TL'dir.",
+     "Davalı {KOK} Reklam Ltd. Şti.'nin davacıya kestiği reklam faturası {DEGER} TL'dir."
+    ],
+    "iddia": [
+     "Davalı {KOK} Reklam Ltd. Şti. vekili, lehlerine {DEGER} TL vekalet ücretine hükmedilmesi gerektiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Davalı {KOK} Reklam Ltd. Şti., lehine hükmedilecek vekalet ücretinin {DEGER} TL olması gerektiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s16": {
+    "ad": "{KOK} Elektrik A.Ş.",
+    "sektor": "Elektrik",
+    "yakin_ad": [
+     "{KOK} Enerji A.Ş.",
+     "{KOK} Elektronik A.Ş.",
+     "{KOK} Aydınlatma A.Ş.",
+     "{KOK} Kablo A.Ş."
+    ],
+    "baska_olay": [
+     "{KOK} Elektrik A.Ş.'nin merkezi {DEGER} ilindedir.",
+     "{KOK} Elektrik A.Ş. ile yapılan sözleşme {DEGER} ilinde imzalanmıştır.",
+     "Sözleşmeye göre {KOK} Elektrik A.Ş., malları {DEGER} ilinde teslim edecektir.",
+     "{KOK} Elektrik A.Ş.'nin {DEGER} ilinde bir şubesi bulunmaktadır."
+    ],
+    "iddia": [
+     "Davalı {KOK} Elektrik A.Ş., sözleşmede {DEGER} mahkemelerinin yetkili kılındığını ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Davacı, {KOK} Elektrik A.Ş. ile doğacak uyuşmazlıklarda {DEGER} mahkemelerinin yetkili olduğunu ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s17": {
+    "ad": "{KOK} Soğutma Ltd. Şti.",
+    "sektor": "Soğutma",
+    "yakin_ad": [
+     "{KOK} Klima Ltd. Şti.",
+     "{KOK} İklimlendirme Ltd. Şti.",
+     "{KOK} Isıtma Ltd. Şti.",
+     "{KOK} Mekanik Ltd. Şti."
+    ],
+    "baska_olay": [
+     "{KOK} Soğutma Ltd. Şti. ile arabuluculuk görüşmelerine {DEGER} tarihinde başlanmıştır.",
+     "{KOK} Soğutma Ltd. Şti. için arabuluculuk bürosuna {DEGER} tarihinde başvurulmuştur.",
+     "{KOK} Soğutma Ltd. Şti. aleyhine dava {DEGER} tarihinde açılmıştır.",
+     "{KOK} Soğutma Ltd. Şti. ile yürütülen arabuluculuk görüşmelerinin ikinci oturumu {DEGER} tarihinde yapılmıştır."
+    ],
+    "iddia": [
+     "Davalı {KOK} Soğutma Ltd. Şti., arabuluculuk görüşmelerinin {DEGER} tarihinde anlaşamama tutanağıyla sona erdiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Davacı, {KOK} Soğutma Ltd. Şti. ile yürütülen arabuluculuk görüşmelerinin {DEGER} tarihinde sona erdiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s18": {
+    "ad": "{KOK} İlaç A.Ş.",
+    "sektor": "İlaç",
+    "yakin_ad": [
+     "{KOK} Ecza Deposu A.Ş.",
+     "{KOK} Medikal A.Ş.",
+     "{KOK} Kozmetik A.Ş.",
+     "{KOK} Sağlık Hizmetleri A.Ş."
+    ],
+    "baska_olay": [
+     "Lehtarı {KOK} İlaç A.Ş. olan bono {DEGER} tarihinde düzenlenmiştir.",
+     "Lehtarı {KOK} İlaç A.Ş. olan bono {DEGER} tarihinde protesto edilmiştir.",
+     "Lehtarı {KOK} İlaç A.Ş. olan bono {DEGER} tarihinde ciro edilmiştir.",
+     "Lehtarı {KOK} İlaç A.Ş. olan bonoya dayalı takip {DEGER} tarihinde başlatılmıştır."
+    ],
+    "iddia": [
+     "Borçlu, lehtarı {KOK} İlaç A.Ş. olan bononun vadesinin {DEGER} olduğunu ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Lehtar {KOK} İlaç A.Ş., bononun vadesinin {DEGER} olduğunu ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s19": {
+    "ad": "{KOK} Tarım Ltd. Şti.",
+    "sektor": "Tarım",
+    "yakin_ad": [
+     "{KOK} Tohumculuk Ltd. Şti.",
+     "{KOK} Hayvancılık Ltd. Şti.",
+     "{KOK} Gübre Ltd. Şti.",
+     "{KOK} Sera Ltd. Şti."
+    ],
+    "baska_olay": [
+     "Alıcı {KOK} Tarım Ltd. Şti., malı sipariş tarihinden {DEGER} gün sonra teslim almıştır.",
+     "Alıcı {KOK} Tarım Ltd. Şti., satış bedelini teslimden {DEGER} gün sonra ödemiştir.",
+     "Alıcı {KOK} Tarım Ltd. Şti., ayıp ihbarından {DEGER} gün sonra dava açmıştır.",
+     "Alıcı {KOK} Tarım Ltd. Şti. ile satıcı arasındaki sözleşmede teslim süresi {DEGER} gün olarak belirlenmiştir."
+    ],
+    "iddia": [
+     "Satıcı, alıcı {KOK} Tarım Ltd. Şti.'nin ayıbı teslimden {DEGER} gün sonra ihbar ettiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Alıcı {KOK} Tarım Ltd. Şti., ayıbı teslimden {DEGER} gün sonra ihbar ettiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   },
+   "s20": {
+    "ad": "{KOK} Havacılık A.Ş.",
+    "sektor": "Havacılık",
+    "yakin_ad": [
+     "{KOK} Havayolları A.Ş.",
+     "{KOK} Hava Kargo A.Ş.",
+     "{KOK} Uçak Bakım A.Ş.",
+     "{KOK} Havalimanı İşletmeciliği A.Ş."
+    ],
+    "baska_olay": [
+     "Mahkemece {KOK} Havacılık A.Ş. aleyhine {DEGER} TL yargılama giderine hükmedilmiştir.",
+     "{KOK} Havacılık A.Ş.'nin davacıya kiraladığı uçağın aylık kira bedeli {DEGER} TL'dir.",
+     "{KOK} Havacılık A.Ş., davalı sigorta şirketine {DEGER} TL prim ödemiştir.",
+     "{KOK} Havacılık A.Ş.'nin esas sermayesi {DEGER} TL'dir."
+    ],
+    "iddia": [
+     "Davacı, {KOK} Havacılık A.Ş.'nin kendisine {DEGER} TL maddi tazminat ödemesi gerektiğini ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır.",
+     "Davalı {KOK} Havacılık A.Ş., davacının maddi zararının {DEGER} TL olduğunu ileri sürmüş ise de bu iddia dosya kapsamıyla doğrulanmamıştır."
+    ]
+   }
+  }
+ },
+ "hedef_v3": {
+  "aciklama": "Örtüşmesiz hedef kalıpları (elle yazıldı, model kullanılmadı). hedef = değeri taşıyan cümlenin sözcük örtüşmesiz yeniden yazımı: sorunun (düz ve sade) ayırt edici terimlerini (olay fiili/adı, değer türü sözcüğü: tarih, gün, TL, yüzde, yıl, esas, il) paylaşmaz; şirketi yalnız rol adıyla ({R} şirket) anar. Süre türlerinde (gün) birim sözcüğü kaçınılmaz olduğu için kalır; yıl için 'sene', yüzde için '%' kullanılır. rol = belgedeki bütün birimlerin rol adı; aynı kararda birden çok şirket tanıtılırsa sıra sayısıyla ayrılır (birinci davalı, ikinci davalı …), tek şirketse yalın rol. tanitim = şirketin tam adını veren kısa cümle (iki kalıptan biri rastgele). Çeldiriciler: yakın ad = yakın adlı şirketin tanıtımı + v1 hedef cümlesinin rol adlı biçimi (sorunun sözcükleriyle örtüşen); başka olay ve iddia = aynı şirket, v2 kalıplarının rol adlı biçimi.",
+  "tanitim": [
+   "Dosya kapsamından {AD}'nin uyuşmazlıkta {ROL} sıfatıyla yer aldığı anlaşılmaktadır.",
+   "{AD}, yargılamada {ROL} sıfatıyla yer almaktadır."
+  ],
+  "sablonlar": {
+   "s01": {
+    "rol": "davalı",
+    "hedef": "İcra müdürlüğünce gönderilen ödeme emri, {DEGER} itibarıyla {R} şirkete usulüne uygun olarak ulaşmıştır."
+   },
+   "s02": {
+    "rol": "davacı",
+    "hedef": "{R} şirket vekili, yargılama sürerken istem sonucunu artırarak alacak miktarını {DEGER} lira olarak belirlemiştir."
+   },
+   "s03": {
+    "rol": "borçlu",
+    "hedef": "{R} şirketin edimini ifada gecikmesinin başladığı an olarak {DEGER} esas alınmıştır."
+   },
+   "s04": {
+    "rol": "davalı",
+    "hedef": "Taşınmaz, {R} şirket tarafından boşaltılarak {DEGER} itibarıyla anahtarı mal sahibine bırakılmıştır."
+   },
+   "s05": {
+    "rol": "davalı",
+    "hedef": "Taraflar arasındaki anlaşmada, edimini ihlal etmesi hâlinde {R} şirketin {DEGER} lira tutarındaki götürü bir bedelle yükümlü olacağı hükme bağlanmıştır."
+   },
+   "s06": {
+    "rol": "davalı",
+    "hedef": "Poliçe koşullarına göre zarar doğuran olayın, gerçekleşmesinden sonraki {DEGER} günlük süre içinde {R} şirkete bildirilmesi şarttır."
+   },
+   "s07": {
+    "rol": "davalı",
+    "hedef": "{R} şirketin ödeyeceği ana paraya, {DEGER} başlangıç alınarak Merkez Bankasının kısa vadeli avans işlemlerine uyguladığı oranın yürütülmesine karar verilmiştir."
+   },
+   "s08": {
+    "rol": "davalı",
+    "hedef": "Uzman incelemesine göre kazanın meydana gelmesinde {R} şirketin özen eksikliğinin etkisi %{DEGER} düzeyindedir."
+   },
+   "s09": {
+    "rol": "davacı",
+    "hedef": "İhtiyati tedbirin uygulanabilmesi, {R} şirketin mahkeme veznesine {DEGER} lira depo etmesi koşuluna bağlanmıştır."
+   },
+   "s10": {
+    "rol": "davacı",
+    "hedef": "{R} şirket vekili, {DEGER} itibarıyla yapılan oturumda açtıkları istemden tümüyle el çektiklerini beyan etmiştir."
+   },
+   "s11": {
+    "rol": "davalı",
+    "hedef": "{R} şirket, davacıyla arasındaki hizmet ilişkisine {DEGER} itibarıyla tek taraflı olarak son vermiştir."
+   },
+   "s12": {
+    "rol": "davalı",
+    "hedef": "Davacının {R} şirketteki hizmet süresi {DEGER} senedir."
+   },
+   "s13": {
+    "rol": "davalı",
+    "hedef": "Mahkeme heyeti, {DEGER} itibarıyla {R} şirketin üretim alanına giderek mahallinde inceleme yapmıştır."
+   },
+   "s14": {
+    "rol": "davacı",
+    "hedef": "{R} şirketin, bir mahkeme kararına dayanmaksızın borçlu aleyhine başlattığı cebri tahsil süreci {DEGER} kaydıyla yürütülmektedir."
+   },
+   "s15": {
+    "rol": "davalı",
+    "hedef": "Hüküm fıkrasında, {R} şirketi yargılamada temsil eden hukukçunun emeği karşılığı olarak {DEGER} liranın davacıdan tahsiline yer verilmiştir."
+   },
+   "s16": {
+    "rol": "davalı",
+    "hedef": "Taraflar, {R} şirketle aralarında doğabilecek ihtilafların {DEGER} adliyesinde görülmesini kararlaştırmışlardır."
+   },
+   "s17": {
+    "rol": "davalı",
+    "hedef": "Dava şartı olarak yürütülen dostane çözüm süreci, {R} şirketle uzlaşı sağlanamadan {DEGER} itibarıyla kapanmıştır."
+   },
+   "s18": {
+    "rol": "alacaklı",
+    "hedef": "{R} şirket adına düzenlenen emre yazılı kambiyo evrakında, borcun {DEGER} itibarıyla muaccel olacağı yazılıdır."
+   },
+   "s19": {
+    "rol": "alıcı",
+    "hedef": "{R} şirket, eşyayı aldıktan {DEGER} gün sonra karşı tarafa yazılı olarak noksanlık bulunduğunu duyurmuştur."
+   },
+   "s20": {
+    "rol": "davalı",
+    "hedef": "Mahkemece, {R} şirketin karşı yanın malvarlığında yol açtığı eksilmeyi gidermek üzere {DEGER} lira tutarında giderim borcu altında olduğu sonucuna varılmıştır."
+   }
+  }
+ },
+ "not": "Ad kökleri uydurmadır. 'sablonlar' v1 şablonları (soru biçimleri bunlardır); 'hedef_v3' değer cümlesinin örtüşmesiz yeniden yazımı ve rol adları; 'celdiriciler' yakın ad, başka olay ve iddia kalıpları. Çeldirici ve v1 cümlelerindeki şirket adı, belgeye konurken rol adına çevrilir (kos.py: rolle)."
+}

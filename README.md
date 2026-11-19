@@ -12,6 +12,7 @@ dosyasından okunabilir.
 | `04-ner` | [NER'den BERT'e](https://mfurkan.dev/yazilar/ner-bert/) | Aynı yazılışa sahip adların cümleye göre nasıl etiketlendiğini gösterir |
 | `05-model-karsilastirma` | [Türkçe hukuk metni için hangi BERT?](https://mfurkan.dev/yazilar/hangi-model/) | Beş modelin aynı işteki sonuçları, belge katmanı karşılaştırması ve iki model için beş tohumlu tekrar (yalnız sonuç dosyaları) |
 | `06-kural-model` | [Atıfları bulmak için kural yeter mi?](https://mfurkan.dev/yazilar/kural-yeter-mi/) | Kural tabanlı ayrıştırıcı ile eğitilmiş modelin aynı kararlardaki dökümü (yalnız sonuç dosyaları) ve modelin elle yazılmış cümlelerde denemesi |
+| `07-baglam-konum` | [Prompt, bağlam ve dikkat eksikliği](https://mfurkan.dev/yazilar/prompt-baglam-dikkat/) | Uzun belgede bilginin yeri, belge uzunluğu ve sorunun biçimine göre modellerin doğruluğu (kalıplar, betik ve toplu sonuçlar) |
 
 ## Çalıştırma
 

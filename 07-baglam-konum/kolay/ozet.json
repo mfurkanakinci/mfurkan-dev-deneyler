@@ -1,0 +1,2150 @@
+{
+ "modeller": {
+  "gpt-6-astra · OpenAI (Codex aboneliği)": {
+   "ad": "GPT-6 Astra",
+   "kimlik": "gpt-6-astra",
+   "saglayici": "OpenAI (Codex aboneliği)",
+   "sinif": "büyük",
+   "kullanim": {
+    "cagri": 1360,
+    "giris_parca": 29600883,
+    "onbellek_parca": 19895808,
+    "cikis_parca": 11274,
+    "ucret_usd": 0,
+    "yanit_modelleri": {
+     "gpt-6-astra": 1360
+    },
+    "bant_disi": 0,
+    "bitis": {
+     "stop": 1360
+    }
+   },
+   "eksik": {
+    "kesin_hata": 0,
+    "iletim_vazgecildi": 0,
+    "sorulmadi": 0
+   }
+  },
+  "gpt-6.1-terra · OpenAI (Codex aboneliği)": {
+   "ad": "GPT-6.1 Terra",
+   "kimlik": "gpt-6.1-terra",
+   "saglayici": "OpenAI (Codex aboneliği)",
+   "sinif": "büyük",
+   "kullanim": {
+    "cagri": 1360,
+    "giris_parca": 29606323,
+    "onbellek_parca": 20567552,
+    "cikis_parca": 11485,
+    "ucret_usd": 0,
+    "yanit_modelleri": {
+     "gpt-6.1-terra": 1360
+    },
+    "bant_disi": 0,
+    "bitis": {
+     "stop": 1360
+    }
+   },
+   "eksik": {
+    "kesin_hata": 0,
+    "iletim_vazgecildi": 0,
+    "sorulmadi": 0
+   }
+  },
+  "gpt-6-luna · OpenAI API (flex)": {
+   "ad": "GPT-6 Luna",
+   "kimlik": "gpt-6-luna",
+   "saglayici": "OpenAI API (flex)",
+   "sinif": "küçük",
+   "kullanim": {
+    "cagri": 1360,
+    "giris_parca": 23510672,
+    "onbellek_parca": 19432379,
+    "cikis_parca": 25425,
+    "ucret_usd": 0.3333,
+    "yanit_modelleri": {
+     "gpt-6-luna": 1360
+    },
+    "bant_disi": 0,
+    "bitis": {
+     "stop": 1360
+    }
+   },
+   "eksik": {
+    "kesin_hata": 0,
+    "iletim_vazgecildi": 0,
+    "sorulmadi": 0
+   }
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash · DeepInfra": {
+   "ad": "DeepSeek V4.1 Flash",
+   "kimlik": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "saglayici": "DeepInfra",
+   "sinif": "açık ağırlıklı",
+   "kullanim": {
+    "cagri": 1360,
+    "giris_parca": 32455270,
+    "onbellek_parca": 26943872,
+    "cikis_parca": 7387,
+    "ucret_usd": 1.2684,
+    "yanit_modelleri": {
+     "deepseek-ai/DeepSeek-V4.1-Flash": 1360
+    },
+    "bant_disi": 66,
+    "bitis": {
+     "stop": 1360
+    }
+   },
+   "eksik": {
+    "kesin_hata": 0,
+    "iletim_vazgecildi": 0,
+    "sorulmadi": 0
+   }
+  },
+  "glm-5.3-flash · Z.ai (coding plan aboneliği)": {
+   "ad": "GLM-5.3 Flash",
+   "kimlik": "glm-5.3-flash",
+   "saglayici": "Z.ai (coding plan aboneliği)",
+   "sinif": "açık ağırlıklı",
+   "kullanim": {
+    "cagri": 1360,
+    "giris_parca": 29637319,
+    "onbellek_parca": 21368768,
+    "cikis_parca": 154509,
+    "ucret_usd": 0,
+    "yanit_modelleri": {
+     "glm-5.3-flash": 1360
+    },
+    "bant_disi": 16,
+    "bitis": {
+     "stop": 1360
+    }
+   },
+   "eksik": {
+    "kesin_hata": 0,
+    "iletim_vazgecildi": 0,
+    "sorulmadi": 0
+   }
+  },
+  "GLM-5.3-Flash · Wafer": {
+   "ad": "GLM-5.3 Flash (ücretli yol, ikincil)",
+   "kimlik": "GLM-5.3-Flash",
+   "saglayici": "Wafer",
+   "sinif": "açık ağırlıklı (ikincil)",
+   "kullanim": {
+    "cagri": 1360,
+    "giris_parca": 26917319,
+    "onbellek_parca": 20558976,
+    "cikis_parca": 26282,
+    "ucret_usd": 0.94,
+    "yanit_modelleri": {
+     "GLM-5.3-Flash": 1360
+    },
+    "bant_disi": 16,
+    "bitis": {
+     "stop": 1360
+    }
+   },
+   "eksik": {
+    "kesin_hata": 0,
+    "iletim_vazgecildi": 0,
+    "sorulmadi": 0
+   }
+  }
+ },
+ "tablolar": {
+  "gpt-6-astra · OpenAI (Codex aboneliği)": {
+   "hucre": {
+    "4k": {
+     "toplam": 1.0,
+     "n": 400,
+     "yuva": {
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 1.0
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 1.0,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 1.0,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    },
+    "16k": {
+     "toplam": 1.0,
+     "n": 400,
+     "yuva": {
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 1.0
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 1.0,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 1.0,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    },
+    "64k": {
+     "toplam": 1.0,
+     "n": 200,
+     "yuva": {
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 1.0
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 1.0,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 1.0,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    }
+   },
+   "S1": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S2": {
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-16k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S3a": {
+    "n": 20,
+    "fark": 0.0,
+    "alt": 0.0,
+    "ust": 0.0,
+    "ayrisiyor": false,
+    "sonda": 1.0,
+    "basta": 1.0,
+    "yuva": {
+     "0": {
+      "sonda": 1.0,
+      "basta": 1.0
+     },
+     "50": {
+      "sonda": 1.0,
+      "basta": 1.0
+     },
+     "100": {
+      "sonda": 1.0,
+      "basta": 1.0
+     }
+    }
+   },
+   "S3b": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   }
+  },
+  "gpt-6.1-terra · OpenAI (Codex aboneliği)": {
+   "hucre": {
+    "4k": {
+     "toplam": 1.0,
+     "n": 400,
+     "yuva": {
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 1.0
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 1.0,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 1.0,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    },
+    "16k": {
+     "toplam": 0.9975,
+     "n": 400,
+     "yuva": {
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 0.9875,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 0.995
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 1.0,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 0.975,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    },
+    "64k": {
+     "toplam": 1.0,
+     "n": 200,
+     "yuva": {
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 1.0
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 1.0,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 1.0,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    }
+   },
+   "S1": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": -0.0042,
+     "alt": -0.0125,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S2": {
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k-4k": {
+     "n": 20,
+     "fark": -0.0025,
+     "alt": -0.0075,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-16k": {
+     "n": 20,
+     "fark": 0.0025,
+     "alt": 0.0,
+     "ust": 0.0075,
+     "ayrisiyor": false
+    }
+   },
+   "S3a": {
+    "n": 20,
+    "fark": 0.0,
+    "alt": 0.0,
+    "ust": 0.0,
+    "ayrisiyor": false,
+    "sonda": 1.0,
+    "basta": 1.0,
+    "yuva": {
+     "0": {
+      "sonda": 1.0,
+      "basta": 1.0
+     },
+     "50": {
+      "sonda": 1.0,
+      "basta": 1.0
+     },
+     "100": {
+      "sonda": 1.0,
+      "basta": 1.0
+     }
+    }
+   },
+   "S3b": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": -0.005,
+     "alt": -0.015,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   }
+  },
+  "gpt-6-luna · OpenAI API (flex)": {
+   "hucre": {
+    "4k": {
+     "toplam": 0.995,
+     "n": 400,
+     "yuva": {
+      "0": 0.975,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 0.99
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 0.95,
+      "25|duz": 1.0,
+      "25|sade": 1.0,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 1.0,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    },
+    "16k": {
+     "toplam": 0.9875,
+     "n": 400,
+     "yuva": {
+      "0": 0.9875,
+      "25": 0.9625,
+      "50": 0.9875,
+      "75": 1.0,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 0.99,
+      "sade": 0.985
+     },
+     "yuva_bicim": {
+      "0|duz": 0.975,
+      "0|sade": 1.0,
+      "25|duz": 0.975,
+      "25|sade": 0.95,
+      "50|duz": 1.0,
+      "50|sade": 0.975,
+      "75|duz": 1.0,
+      "75|sade": 1.0,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    },
+    "64k": {
+     "toplam": 0.995,
+     "n": 200,
+     "yuva": {
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 0.975,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 0.99
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 1.0,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 0.95,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    }
+   },
+   "S1": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0125,
+     "alt": 0.0,
+     "ust": 0.0312,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": -0.0104,
+     "alt": -0.0333,
+     "ust": 0.0104,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.0083,
+     "alt": -0.025,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S2": {
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": -0.0125,
+     "ust": 0.01,
+     "ayrisiyor": false
+    },
+    "16k-4k": {
+     "n": 20,
+     "fark": -0.0075,
+     "alt": -0.02,
+     "ust": 0.0025,
+     "ayrisiyor": false
+    },
+    "64k-16k": {
+     "n": 20,
+     "fark": 0.0075,
+     "alt": -0.0075,
+     "ust": 0.0225,
+     "ayrisiyor": false
+    }
+   },
+   "S3a": {
+    "n": 20,
+    "fark": 0.125,
+    "alt": 0.0667,
+    "ust": 0.1833,
+    "ayrisiyor": true,
+    "sonda": 0.9833,
+    "basta": 0.8583,
+    "yuva": {
+     "0": {
+      "sonda": 0.975,
+      "basta": 0.85
+     },
+     "50": {
+      "sonda": 0.975,
+      "basta": 0.775
+     },
+     "100": {
+      "sonda": 1.0,
+      "basta": 0.95
+     }
+    }
+   },
+   "S3b": {
+    "4k": {
+     "n": 40,
+     "fark": -0.01,
+     "alt": -0.025,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": -0.005,
+     "alt": -0.0201,
+     "ust": 0.01,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.01,
+     "alt": -0.03,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": -0.025,
+     "ust": 0.02,
+     "ayrisiyor": false
+    }
+   }
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash · DeepInfra": {
+   "hucre": {
+    "4k": {
+     "toplam": 1.0,
+     "n": 400,
+     "yuva": {
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 1.0
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 1.0,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 1.0,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    },
+    "16k": {
+     "toplam": 1.0,
+     "n": 400,
+     "yuva": {
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 1.0
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 1.0,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 1.0,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    },
+    "64k": {
+     "toplam": 0.995,
+     "n": 200,
+     "yuva": {
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 0.975,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 0.99
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 1.0,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 0.95,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    }
+   },
+   "S1": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.0083,
+     "alt": -0.025,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S2": {
+    "64k-4k": {
+     "n": 20,
+     "fark": -0.005,
+     "alt": -0.015,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-16k": {
+     "n": 20,
+     "fark": -0.005,
+     "alt": -0.015,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S3a": {
+    "n": 20,
+    "fark": 0.1833,
+    "alt": 0.0833,
+    "ust": 0.3,
+    "ayrisiyor": true,
+    "sonda": 1.0,
+    "basta": 0.8167,
+    "yuva": {
+     "0": {
+      "sonda": 1.0,
+      "basta": 0.975
+     },
+     "50": {
+      "sonda": 1.0,
+      "basta": 0.7
+     },
+     "100": {
+      "sonda": 1.0,
+      "basta": 0.775
+     }
+    }
+   },
+   "S3b": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.01,
+     "alt": -0.03,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-4k": {
+     "n": 20,
+     "fark": -0.01,
+     "alt": -0.03,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   }
+  },
+  "glm-5.3-flash · Z.ai (coding plan aboneliği)": {
+   "hucre": {
+    "4k": {
+     "toplam": 1.0,
+     "n": 400,
+     "yuva": {
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 1.0
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 1.0,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 1.0,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    },
+    "16k": {
+     "toplam": 1.0,
+     "n": 400,
+     "yuva": {
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 1.0
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 1.0,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 1.0,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    },
+    "64k": {
+     "toplam": 0.975,
+     "n": 200,
+     "yuva": {
+      "0": 1.0,
+      "25": 0.9,
+      "50": 1.0,
+      "75": 0.975,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 0.95
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 0.8,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 0.95,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    }
+   },
+   "S1": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.0417,
+     "alt": -0.075,
+     "ust": -0.0167,
+     "ayrisiyor": true
+    }
+   },
+   "S2": {
+    "64k-4k": {
+     "n": 20,
+     "fark": -0.025,
+     "alt": -0.045,
+     "ust": -0.01,
+     "ayrisiyor": true
+    },
+    "16k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-16k": {
+     "n": 20,
+     "fark": -0.025,
+     "alt": -0.045,
+     "ust": -0.01,
+     "ayrisiyor": true
+    }
+   },
+   "S3a": {
+    "n": 20,
+    "fark": 0.05,
+    "alt": 0.0167,
+    "ust": 0.0917,
+    "ayrisiyor": true,
+    "sonda": 1.0,
+    "basta": 0.95,
+    "yuva": {
+     "0": {
+      "sonda": 1.0,
+      "basta": 0.975
+     },
+     "50": {
+      "sonda": 1.0,
+      "basta": 0.925
+     },
+     "100": {
+      "sonda": 1.0,
+      "basta": 0.95
+     }
+    }
+   },
+   "S3b": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.05,
+     "alt": -0.09,
+     "ust": -0.02,
+     "ayrisiyor": true
+    },
+    "64k-4k": {
+     "n": 20,
+     "fark": -0.05,
+     "alt": -0.09,
+     "ust": -0.02,
+     "ayrisiyor": true
+    }
+   }
+  },
+  "GLM-5.3-Flash · Wafer": {
+   "hucre": {
+    "4k": {
+     "toplam": 0.995,
+     "n": 400,
+     "yuva": {
+      "0": 1.0,
+      "25": 0.975,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 0.99
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 0.95,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 1.0,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    },
+    "16k": {
+     "toplam": 1.0,
+     "n": 400,
+     "yuva": {
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 1.0
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 1.0,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 1.0,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    },
+    "64k": {
+     "toplam": 0.995,
+     "n": 200,
+     "yuva": {
+      "0": 1.0,
+      "25": 0.975,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
+     },
+     "bicim": {
+      "duz": 1.0,
+      "sade": 0.99
+     },
+     "yuva_bicim": {
+      "0|duz": 1.0,
+      "0|sade": 1.0,
+      "25|duz": 1.0,
+      "25|sade": 0.95,
+      "50|duz": 1.0,
+      "50|sade": 1.0,
+      "75|duz": 1.0,
+      "75|sade": 1.0,
+      "100|duz": 1.0,
+      "100|sade": 1.0
+     }
+    }
+   },
+   "S1": {
+    "4k": {
+     "n": 40,
+     "fark": -0.0083,
+     "alt": -0.0208,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.0083,
+     "alt": -0.025,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S2": {
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": -0.0125,
+     "ust": 0.01,
+     "ayrisiyor": false
+    },
+    "16k-4k": {
+     "n": 20,
+     "fark": 0.005,
+     "alt": 0.0,
+     "ust": 0.0125,
+     "ayrisiyor": false
+    },
+    "64k-16k": {
+     "n": 20,
+     "fark": -0.005,
+     "alt": -0.015,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S3a": {
+    "n": 20,
+    "fark": 0.0,
+    "alt": 0.0,
+    "ust": 0.0,
+    "ayrisiyor": false,
+    "sonda": 1.0,
+    "basta": 1.0,
+    "yuva": {
+     "0": {
+      "sonda": 1.0,
+      "basta": 1.0
+     },
+     "50": {
+      "sonda": 1.0,
+      "basta": 1.0
+     },
+     "100": {
+      "sonda": 1.0,
+      "basta": 1.0
+     }
+    }
+   },
+   "S3b": {
+    "4k": {
+     "n": 40,
+     "fark": -0.01,
+     "alt": -0.025,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.01,
+     "alt": -0.03,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": -0.025,
+     "ust": 0.02,
+     "ayrisiyor": false
+    }
+   }
+  }
+ },
+ "hata_dokumu": {
+  "gpt-6-astra · OpenAI (Codex aboneliği)": {
+   "4k": {
+    "dogru": 400
+   },
+   "16k": {
+    "dogru": 400
+   },
+   "64k": {
+    "dogru": 200
+   }
+  },
+  "gpt-6.1-terra · OpenAI (Codex aboneliği)": {
+   "4k": {
+    "dogru": 400
+   },
+   "16k": {
+    "dogru": 399,
+    "baska": 1
+   },
+   "64k": {
+    "dogru": 200
+   }
+  },
+  "gpt-6-luna · OpenAI API (flex)": {
+   "4k": {
+    "dogru": 398,
+    "yok_dedi": 2
+   },
+   "16k": {
+    "dogru": 395,
+    "yok_dedi": 3,
+    "karistirma": 2
+   },
+   "64k": {
+    "dogru": 199,
+    "baska": 1
+   }
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash · DeepInfra": {
+   "4k": {
+    "dogru": 400
+   },
+   "16k": {
+    "dogru": 400
+   },
+   "64k": {
+    "dogru": 199,
+    "yok_dedi": 1
+   }
+  },
+  "glm-5.3-flash · Z.ai (coding plan aboneliği)": {
+   "4k": {
+    "dogru": 400
+   },
+   "16k": {
+    "dogru": 400
+   },
+   "64k": {
+    "dogru": 195,
+    "yok_dedi": 2,
+    "baska": 2,
+    "karistirma": 1
+   }
+  },
+  "GLM-5.3-Flash · Wafer": {
+   "4k": {
+    "dogru": 398,
+    "karistirma": 2
+   },
+   "16k": {
+    "dogru": 400
+   },
+   "64k": {
+    "dogru": 199,
+    "baska": 1
+   }
+  }
+ },
+ "metinde_yok": {
+  "gpt-6-astra · OpenAI (Codex aboneliği)": {
+   "n": 40,
+   "yok_dedi": 40,
+   "oran": 1.0,
+   "uydurulan": 0,
+   "uydurulanda_karistirma": 0,
+   "karistirma_payi": null,
+   "baska": 0
+  },
+  "gpt-6.1-terra · OpenAI (Codex aboneliği)": {
+   "n": 40,
+   "yok_dedi": 40,
+   "oran": 1.0,
+   "uydurulan": 0,
+   "uydurulanda_karistirma": 0,
+   "karistirma_payi": null,
+   "baska": 0
+  },
+  "gpt-6-luna · OpenAI API (flex)": {
+   "n": 40,
+   "yok_dedi": 40,
+   "oran": 1.0,
+   "uydurulan": 0,
+   "uydurulanda_karistirma": 0,
+   "karistirma_payi": null,
+   "baska": 0
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash · DeepInfra": {
+   "n": 40,
+   "yok_dedi": 40,
+   "oran": 1.0,
+   "uydurulan": 0,
+   "uydurulanda_karistirma": 0,
+   "karistirma_payi": null,
+   "baska": 0
+  },
+  "glm-5.3-flash · Z.ai (coding plan aboneliği)": {
+   "n": 40,
+   "yok_dedi": 40,
+   "oran": 1.0,
+   "uydurulan": 0,
+   "uydurulanda_karistirma": 0,
+   "karistirma_payi": null,
+   "baska": 0
+  },
+  "GLM-5.3-Flash · Wafer": {
+   "n": 40,
+   "yok_dedi": 40,
+   "oran": 1.0,
+   "uydurulan": 0,
+   "uydurulanda_karistirma": 0,
+   "karistirma_payi": null,
+   "baska": 0
+  }
+ },
+ "kisa_taban": {
+  "gpt-6-astra · OpenAI (Codex aboneliği)": {
+   "n": 200,
+   "dogruluk": 1.0,
+   "iki_bicimde_5_5_sablon": 20
+  },
+  "gpt-6.1-terra · OpenAI (Codex aboneliği)": {
+   "n": 200,
+   "dogruluk": 1.0,
+   "iki_bicimde_5_5_sablon": 20
+  },
+  "gpt-6-luna · OpenAI API (flex)": {
+   "n": 200,
+   "dogruluk": 1.0,
+   "iki_bicimde_5_5_sablon": 20
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash · DeepInfra": {
+   "n": 200,
+   "dogruluk": 1.0,
+   "iki_bicimde_5_5_sablon": 20
+  },
+  "glm-5.3-flash · Z.ai (coding plan aboneliği)": {
+   "n": 200,
+   "dogruluk": 1.0,
+   "iki_bicimde_5_5_sablon": 20
+  },
+  "GLM-5.3-Flash · Wafer": {
+   "n": 200,
+   "dogruluk": 1.0,
+   "iki_bicimde_5_5_sablon": 20
+  }
+ },
+ "kisa_taban_yanlis": {
+  "gpt-6-astra · OpenAI (Codex aboneliği)": [],
+  "gpt-6.1-terra · OpenAI (Codex aboneliği)": [],
+  "gpt-6-luna · OpenAI API (flex)": [],
+  "deepseek-ai/DeepSeek-V4.1-Flash · DeepInfra": [],
+  "glm-5.3-flash · Z.ai (coding plan aboneliği)": [],
+  "GLM-5.3-Flash · Wafer": []
+ },
+ "duyarlilik": {
+  "gpt-6-astra · OpenAI (Codex aboneliği)": {
+   "sablon_sayisi": 20,
+   "S1": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S2": {
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-16k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S3a": {
+    "n": 20,
+    "fark": 0.0,
+    "alt": 0.0,
+    "ust": 0.0,
+    "ayrisiyor": false,
+    "sonda": 1.0,
+    "basta": 1.0,
+    "yuva": {
+     "0": {
+      "sonda": 1.0,
+      "basta": 1.0
+     },
+     "50": {
+      "sonda": 1.0,
+      "basta": 1.0
+     },
+     "100": {
+      "sonda": 1.0,
+      "basta": 1.0
+     }
+    }
+   },
+   "S3b": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   }
+  },
+  "gpt-6.1-terra · OpenAI (Codex aboneliği)": {
+   "sablon_sayisi": 20,
+   "S1": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": -0.0042,
+     "alt": -0.0125,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S2": {
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k-4k": {
+     "n": 20,
+     "fark": -0.0025,
+     "alt": -0.0075,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-16k": {
+     "n": 20,
+     "fark": 0.0025,
+     "alt": 0.0,
+     "ust": 0.0075,
+     "ayrisiyor": false
+    }
+   },
+   "S3a": {
+    "n": 20,
+    "fark": 0.0,
+    "alt": 0.0,
+    "ust": 0.0,
+    "ayrisiyor": false,
+    "sonda": 1.0,
+    "basta": 1.0,
+    "yuva": {
+     "0": {
+      "sonda": 1.0,
+      "basta": 1.0
+     },
+     "50": {
+      "sonda": 1.0,
+      "basta": 1.0
+     },
+     "100": {
+      "sonda": 1.0,
+      "basta": 1.0
+     }
+    }
+   },
+   "S3b": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": -0.005,
+     "alt": -0.015,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   }
+  },
+  "gpt-6-luna · OpenAI API (flex)": {
+   "sablon_sayisi": 20,
+   "S1": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0125,
+     "alt": 0.0,
+     "ust": 0.0312,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": -0.0104,
+     "alt": -0.0333,
+     "ust": 0.0104,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.0083,
+     "alt": -0.025,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S2": {
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": -0.0125,
+     "ust": 0.01,
+     "ayrisiyor": false
+    },
+    "16k-4k": {
+     "n": 20,
+     "fark": -0.0075,
+     "alt": -0.02,
+     "ust": 0.0025,
+     "ayrisiyor": false
+    },
+    "64k-16k": {
+     "n": 20,
+     "fark": 0.0075,
+     "alt": -0.0075,
+     "ust": 0.0225,
+     "ayrisiyor": false
+    }
+   },
+   "S3a": {
+    "n": 20,
+    "fark": 0.125,
+    "alt": 0.0667,
+    "ust": 0.1833,
+    "ayrisiyor": true,
+    "sonda": 0.9833,
+    "basta": 0.8583,
+    "yuva": {
+     "0": {
+      "sonda": 0.975,
+      "basta": 0.85
+     },
+     "50": {
+      "sonda": 0.975,
+      "basta": 0.775
+     },
+     "100": {
+      "sonda": 1.0,
+      "basta": 0.95
+     }
+    }
+   },
+   "S3b": {
+    "4k": {
+     "n": 40,
+     "fark": -0.01,
+     "alt": -0.025,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": -0.005,
+     "alt": -0.0201,
+     "ust": 0.01,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.01,
+     "alt": -0.03,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": -0.025,
+     "ust": 0.02,
+     "ayrisiyor": false
+    }
+   }
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash · DeepInfra": {
+   "sablon_sayisi": 20,
+   "S1": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.0083,
+     "alt": -0.025,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S2": {
+    "64k-4k": {
+     "n": 20,
+     "fark": -0.005,
+     "alt": -0.015,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-16k": {
+     "n": 20,
+     "fark": -0.005,
+     "alt": -0.015,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S3a": {
+    "n": 20,
+    "fark": 0.1833,
+    "alt": 0.0833,
+    "ust": 0.3,
+    "ayrisiyor": true,
+    "sonda": 1.0,
+    "basta": 0.8167,
+    "yuva": {
+     "0": {
+      "sonda": 1.0,
+      "basta": 0.975
+     },
+     "50": {
+      "sonda": 1.0,
+      "basta": 0.7
+     },
+     "100": {
+      "sonda": 1.0,
+      "basta": 0.775
+     }
+    }
+   },
+   "S3b": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.01,
+     "alt": -0.03,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-4k": {
+     "n": 20,
+     "fark": -0.01,
+     "alt": -0.03,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   }
+  },
+  "glm-5.3-flash · Z.ai (coding plan aboneliği)": {
+   "sablon_sayisi": 20,
+   "S1": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.0417,
+     "alt": -0.075,
+     "ust": -0.0167,
+     "ayrisiyor": true
+    }
+   },
+   "S2": {
+    "64k-4k": {
+     "n": 20,
+     "fark": -0.025,
+     "alt": -0.045,
+     "ust": -0.01,
+     "ayrisiyor": true
+    },
+    "16k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-16k": {
+     "n": 20,
+     "fark": -0.025,
+     "alt": -0.045,
+     "ust": -0.01,
+     "ayrisiyor": true
+    }
+   },
+   "S3a": {
+    "n": 20,
+    "fark": 0.05,
+    "alt": 0.0167,
+    "ust": 0.0917,
+    "ayrisiyor": true,
+    "sonda": 1.0,
+    "basta": 0.95,
+    "yuva": {
+     "0": {
+      "sonda": 1.0,
+      "basta": 0.975
+     },
+     "50": {
+      "sonda": 1.0,
+      "basta": 0.925
+     },
+     "100": {
+      "sonda": 1.0,
+      "basta": 0.95
+     }
+    }
+   },
+   "S3b": {
+    "4k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.05,
+     "alt": -0.09,
+     "ust": -0.02,
+     "ayrisiyor": true
+    },
+    "64k-4k": {
+     "n": 20,
+     "fark": -0.05,
+     "alt": -0.09,
+     "ust": -0.02,
+     "ayrisiyor": true
+    }
+   }
+  },
+  "GLM-5.3-Flash · Wafer": {
+   "sablon_sayisi": 20,
+   "S1": {
+    "4k": {
+     "n": 40,
+     "fark": -0.0083,
+     "alt": -0.0208,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.0083,
+     "alt": -0.025,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S2": {
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": -0.0125,
+     "ust": 0.01,
+     "ayrisiyor": false
+    },
+    "16k-4k": {
+     "n": 20,
+     "fark": 0.005,
+     "alt": 0.0,
+     "ust": 0.0125,
+     "ayrisiyor": false
+    },
+    "64k-16k": {
+     "n": 20,
+     "fark": -0.005,
+     "alt": -0.015,
+     "ust": 0.0,
+     "ayrisiyor": false
+    }
+   },
+   "S3a": {
+    "n": 20,
+    "fark": 0.0,
+    "alt": 0.0,
+    "ust": 0.0,
+    "ayrisiyor": false,
+    "sonda": 1.0,
+    "basta": 1.0,
+    "yuva": {
+     "0": {
+      "sonda": 1.0,
+      "basta": 1.0
+     },
+     "50": {
+      "sonda": 1.0,
+      "basta": 1.0
+     },
+     "100": {
+      "sonda": 1.0,
+      "basta": 1.0
+     }
+    }
+   },
+   "S3b": {
+    "4k": {
+     "n": 40,
+     "fark": -0.01,
+     "alt": -0.025,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "16k": {
+     "n": 40,
+     "fark": 0.0,
+     "alt": 0.0,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k": {
+     "n": 20,
+     "fark": -0.01,
+     "alt": -0.03,
+     "ust": 0.0,
+     "ayrisiyor": false
+    },
+    "64k-4k": {
+     "n": 20,
+     "fark": 0.0,
+     "alt": -0.025,
+     "ust": 0.02,
+     "ayrisiyor": false
+    }
+   }
+  }
+ },
+ "glm_yol_uyumu": {
+  "ortak_oge": 1360,
+  "ayni_sinif": 0.9912,
+  "dogru_sayimi_oge": 1320,
+  "ikisi_dogru": 1307,
+  "yalniz_zai_dogru": 2,
+  "yalniz_wafer_dogru": 10,
+  "ikisi_yanlis": 1
+ },
+ "puan_surum": {
+  "kullanilan": 2,
+  "v1_v2_degisen": {
+   "glm-5.3-flash · Z.ai (coding plan aboneliği): baska→dogru": 6
+  }
+ },
+ "basta_hata_dokumu_kesifsel": {
+  "gpt-6-astra · OpenAI (Codex aboneliği)": {
+   "dogru": 120
+  },
+  "gpt-6.1-terra · OpenAI (Codex aboneliği)": {
+   "dogru": 120
+  },
+  "gpt-6-luna · OpenAI API (flex)": {
+   "dogru": 103,
+   "yok_dedi": 17
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash · DeepInfra": {
+   "dogru": 98,
+   "yok_dedi": 15,
+   "karistirma": 7
+  },
+  "glm-5.3-flash · Z.ai (coding plan aboneliği)": {
+   "dogru": 114,
+   "yok_dedi": 5,
+   "baska": 1
+  },
+  "GLM-5.3-Flash · Wafer": {
+   "dogru": 120
+  }
+ },
+ "belgeler": {
+  "4k": {
+   "n": 40,
+   "o200k_ort": 3992.9,
+   "karakter_ort": 13196.5,
+   "kelime_ort": 1647.4,
+   "sayfa_ort_3000_karakter": 4.4,
+   "karar_ort": 4.05,
+   "yuva_konum_ort": {
+    "0": 0.026,
+    "25": 0.252,
+    "50": 0.49,
+    "75": 0.741,
+    "100": 0.936
+   }
+  },
+  "16k": {
+   "n": 40,
+   "o200k_ort": 15987.9,
+   "karakter_ort": 52717.8,
+   "kelime_ort": 6603.9,
+   "sayfa_ort_3000_karakter": 17.6,
+   "karar_ort": 16.7,
+   "yuva_konum_ort": {
+    "0": 0.008,
+    "25": 0.249,
+    "50": 0.499,
+    "75": 0.748,
+    "100": 0.983
+   }
+  },
+  "64k": {
+   "n": 20,
+   "o200k_ort": 63979.9,
+   "karakter_ort": 212938.9,
+   "kelime_ort": 26670.2,
+   "sayfa_ort_3000_karakter": 71.0,
+   "karar_ort": 61.8,
+   "yuva_konum_ort": {
+    "0": 0.002,
+    "25": 0.25,
+    "50": 0.5,
+    "75": 0.75,
+    "100": 0.996
+   }
+  },
+  "taban": {
+   "n": 20,
+   "o200k_ort": 162.3,
+   "karakter_ort": 456.6,
+   "kelime_ort": 55.5,
+   "sayfa_ort_3000_karakter": 0.2
+  }
+ },
+ "yontem": {
+  "bootstrap_tekrar": 2000,
+  "tohum": 20261113,
+  "aralik": "yüzdelik %95",
+  "birim": "belge (S2: şablon)",
+  "referans_tokenizer": "o200k_base"
+ }
+}
