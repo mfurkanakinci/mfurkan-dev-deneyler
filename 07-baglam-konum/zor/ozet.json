@@ -197,24 +197,24 @@
    "saglayici": "Google Antigravity (Ultra aboneliği)",
    "sinif": "büyük",
    "kullanim": {
-    "cagri": 1169,
-    "giris_parca": 13666427,
+    "cagri": 1207,
+    "giris_parca": 14818589,
     "onbellek_parca": 0,
-    "cikis_parca": 381221,
+    "cikis_parca": 393168,
     "ucret_usd": 0,
     "yanit_modelleri": {
-     "claude-opus-5-5-medium": 1169
+     "claude-opus-5-5-medium": 1207
     },
     "bant_disi": 0,
     "bant_disi_taban_disi": 0,
     "bitis": {
-     "stop": 1169
+     "stop": 1207
     }
    },
    "eksik": {
     "kesin_hata": 0,
-    "iletim_vazgecildi": 8,
-    "sorulmadi": 963,
+    "iletim_vazgecildi": 35,
+    "sorulmadi": 898,
     "plan_disi": 100
    }
   },
@@ -224,25 +224,25 @@
    "saglayici": "Claude aboneliği (claude -p)",
    "sinif": "orta",
    "kullanim": {
-    "cagri": 1840,
-    "giris_parca": 31088389,
+    "cagri": 2140,
+    "giris_parca": 65015658,
     "onbellek_parca": 39570,
-    "cikis_parca": 587333,
+    "cikis_parca": 698348,
     "ucret_usd": 0,
     "yanit_modelleri": {
-     "claude-sonnet-5-5": 1840
+     "claude-sonnet-5-5": 2140
     },
     "bant_disi": 166,
     "bant_disi_taban_disi": 46,
     "bitis": {
-     "end_turn": 1840
+     "end_turn": 2140
     }
    },
    "eksik": {
     "kesin_hata": 0,
     "iletim_vazgecildi": 0,
     "sorulmadi": 0,
-    "plan_disi": 400
+    "plan_disi": 100
    }
   },
   "claude-haiku-5-5 · Anthropic API": {
@@ -2502,18 +2502,18 @@
      }
     },
     "64k": {
-     "toplam": null,
-     "n": 0,
+     "toplam": 0.85,
+     "n": 200,
      "yuva": {
-      "0": null,
-      "25": null,
-      "50": null,
-      "75": null,
-      "100": null
+      "0": 0.85,
+      "25": 0.875,
+      "50": 0.875,
+      "75": 0.8,
+      "100": 0.85
      },
      "bicim": {
-      "duz": null,
-      "sade": null
+      "duz": 0.75,
+      "sade": 0.95
      }
     }
    },
@@ -2533,20 +2533,20 @@
      "ayrisiyor": false
     },
     "64k": {
-     "n": 0,
-     "fark": null,
-     "alt": null,
-     "ust": null,
-     "ayrisiyor": null
+     "n": 20,
+     "fark": 0.0,
+     "alt": -0.0417,
+     "ust": 0.05,
+     "ayrisiyor": false
     }
    },
    "S2": {
     "64k-4k": {
-     "n": 0,
-     "fark": null,
-     "alt": null,
-     "ust": null,
-     "ayrisiyor": null
+     "n": 20,
+     "fark": 0.11,
+     "alt": 0.035,
+     "ust": 0.185,
+     "ayrisiyor": true
     },
     "16k-4k": {
      "n": 20,
@@ -2556,11 +2556,11 @@
      "ayrisiyor": true
     },
     "64k-16k": {
-     "n": 0,
-     "fark": null,
-     "alt": null,
-     "ust": null,
-     "ayrisiyor": null
+     "n": 20,
+     "fark": -0.02,
+     "alt": -0.1225,
+     "ust": 0.0675,
+     "ayrisiyor": false
     }
    },
    "S3a": {
@@ -2661,51 +2661,51 @@
      }
     },
     "64k": {
-     "n_oge": 0,
+     "n_oge": 50,
      "sonda-basta": {
-      "n": 0,
-      "fark": null,
-      "alt": null,
-      "ust": null,
-      "ayrisiyor": null
+      "n": 5,
+      "fark": 0.02,
+      "alt": 0.0,
+      "ust": 0.06,
+      "ayrisiyor": false
      },
      "ikisi-basta": {
-      "n": 0,
-      "fark": null,
-      "alt": null,
-      "ust": null,
-      "ayrisiyor": null
+      "n": 5,
+      "fark": 0.0,
+      "alt": 0.0,
+      "ust": 0.0,
+      "ayrisiyor": false
      },
      "ikisi-sonda": {
-      "n": 0,
-      "fark": null,
-      "alt": null,
-      "ust": null,
-      "ayrisiyor": null
+      "n": 5,
+      "fark": -0.02,
+      "alt": -0.06,
+      "ust": 0.0,
+      "ayrisiyor": false
      },
-     "sonda": null,
+     "sonda": 0.78,
      "sonda_yuva": {
-      "0": null,
-      "25": null,
-      "50": null,
-      "75": null,
-      "100": null
+      "0": 0.8,
+      "25": 0.8,
+      "50": 0.8,
+      "75": 0.7,
+      "100": 0.8
      },
-     "basta": null,
+     "basta": 0.76,
      "basta_yuva": {
-      "0": null,
-      "25": null,
-      "50": null,
-      "75": null,
-      "100": null
+      "0": 0.7,
+      "25": 0.7,
+      "50": 0.8,
+      "75": 0.8,
+      "100": 0.8
      },
-     "ikisi": null,
+     "ikisi": 0.76,
      "ikisi_yuva": {
-      "0": null,
-      "25": null,
-      "50": null,
-      "75": null,
-      "100": null
+      "0": 0.7,
+      "25": 0.8,
+      "50": 0.8,
+      "75": 0.8,
+      "100": 0.7
      }
     }
    },
@@ -2725,18 +2725,18 @@
      "ayrisiyor": true
     },
     "64k": {
-     "n": 0,
-     "fark": null,
-     "alt": null,
-     "ust": null,
-     "ayrisiyor": null
+     "n": 20,
+     "fark": 0.2,
+     "alt": 0.06,
+     "ust": 0.35,
+     "ayrisiyor": true
     },
     "64k-4k": {
-     "n": 0,
-     "fark": null,
-     "alt": null,
-     "ust": null,
-     "ayrisiyor": null
+     "n": 20,
+     "fark": -0.24,
+     "alt": -0.39,
+     "ust": -0.1,
+     "ayrisiyor": true
     }
    }
   },
@@ -4271,6 +4271,16 @@
     "baska_alt": {},
     "n": 400
    },
+   "ana|64k": {
+    "sinif": {
+     "yok_dedi": 30,
+     "dogru": 170
+    },
+    "karistirma_alt": {},
+    "karistirma_yer": {},
+    "baska_alt": {},
+    "n": 200
+   },
    "basta|4k": {
     "sinif": {
      "yok_dedi": 51,
@@ -4296,6 +4306,16 @@
     "baska_alt": {},
     "n": 200
    },
+   "basta|64k": {
+    "sinif": {
+     "yok_dedi": 12,
+     "dogru": 38
+    },
+    "karistirma_alt": {},
+    "karistirma_yer": {},
+    "baska_alt": {},
+    "n": 50
+   },
    "ikisi|4k": {
     "sinif": {
      "yok_dedi": 40,
@@ -4318,6 +4338,16 @@
     "karistirma_yer": {},
     "baska_alt": {},
     "n": 200
+   },
+   "ikisi|64k": {
+    "sinif": {
+     "yok_dedi": 12,
+     "dogru": 38
+    },
+    "karistirma_alt": {},
+    "karistirma_yer": {},
+    "baska_alt": {},
+    "n": 50
    }
   },
   "claude-haiku-5-5 · Anthropic API": {
@@ -12543,20 +12573,20 @@
      "ayrisiyor": false
     },
     "64k": {
-     "n": 0,
-     "fark": null,
-     "alt": null,
-     "ust": null,
-     "ayrisiyor": null
+     "n": 8,
+     "fark": -0.0208,
+     "alt": -0.0625,
+     "ust": 0.0,
+     "ayrisiyor": false
     }
    },
    "S2": {
     "64k-4k": {
-     "n": 0,
-     "fark": null,
-     "alt": null,
-     "ust": null,
-     "ayrisiyor": null
+     "n": 8,
+     "fark": 0.0813,
+     "alt": 0.0,
+     "ust": 0.1875,
+     "ayrisiyor": true
     },
     "16k-4k": {
      "n": 8,
@@ -12566,11 +12596,11 @@
      "ayrisiyor": true
     },
     "64k-16k": {
-     "n": 0,
-     "fark": null,
-     "alt": null,
-     "ust": null,
-     "ayrisiyor": null
+     "n": 8,
+     "fark": 0.0188,
+     "alt": -0.0312,
+     "ust": 0.0812,
+     "ayrisiyor": false
     }
    },
    "S3a": {
@@ -12671,51 +12701,51 @@
      }
     },
     "64k": {
-     "n_oge": 0,
+     "n_oge": 10,
      "sonda-basta": {
-      "n": 0,
-      "fark": null,
-      "alt": null,
-      "ust": null,
-      "ayrisiyor": null
+      "n": 1,
+      "fark": 0.0,
+      "alt": 0.0,
+      "ust": 0.0,
+      "ayrisiyor": false
      },
      "ikisi-basta": {
-      "n": 0,
-      "fark": null,
-      "alt": null,
-      "ust": null,
-      "ayrisiyor": null
+      "n": 1,
+      "fark": 0.0,
+      "alt": 0.0,
+      "ust": 0.0,
+      "ayrisiyor": false
      },
      "ikisi-sonda": {
-      "n": 0,
-      "fark": null,
-      "alt": null,
-      "ust": null,
-      "ayrisiyor": null
+      "n": 1,
+      "fark": 0.0,
+      "alt": 0.0,
+      "ust": 0.0,
+      "ayrisiyor": false
      },
-     "sonda": null,
+     "sonda": 1.0,
      "sonda_yuva": {
-      "0": null,
-      "25": null,
-      "50": null,
-      "75": null,
-      "100": null
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
      },
-     "basta": null,
+     "basta": 1.0,
      "basta_yuva": {
-      "0": null,
-      "25": null,
-      "50": null,
-      "75": null,
-      "100": null
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
      },
-     "ikisi": null,
+     "ikisi": 1.0,
      "ikisi_yuva": {
-      "0": null,
-      "25": null,
-      "50": null,
-      "75": null,
-      "100": null
+      "0": 1.0,
+      "25": 1.0,
+      "50": 1.0,
+      "75": 1.0,
+      "100": 1.0
      }
     }
    },
@@ -12735,18 +12765,18 @@
      "ayrisiyor": false
     },
     "64k": {
-     "n": 0,
-     "fark": null,
-     "alt": null,
-     "ust": null,
-     "ayrisiyor": null
+     "n": 8,
+     "fark": 0.025,
+     "alt": 0.0,
+     "ust": 0.075,
+     "ayrisiyor": false
     },
     "64k-4k": {
-     "n": 0,
-     "fark": null,
-     "alt": null,
-     "ust": null,
-     "ayrisiyor": null
+     "n": 8,
+     "fark": -0.1375,
+     "alt": -0.35,
+     "ust": 0.0125,
+     "ayrisiyor": false
     }
    },
    "sablon_bicim_cifti": 26,
@@ -12767,20 +12797,20 @@
       "ayrisiyor": false
      },
      "64k": {
-      "n": 0,
-      "fark": null,
-      "alt": null,
-      "ust": null,
-      "ayrisiyor": null
+      "n": 18,
+      "fark": -0.0093,
+      "alt": -0.0278,
+      "ust": 0.0,
+      "ayrisiyor": false
      }
     },
     "S2": {
      "64k-4k": {
-      "n": 0,
-      "fark": null,
-      "alt": null,
-      "ust": null,
-      "ayrisiyor": null
+      "n": 18,
+      "fark": 0.0139,
+      "alt": -0.0667,
+      "ust": 0.0861,
+      "ayrisiyor": false
      },
      "16k-4k": {
       "n": 18,
@@ -12790,11 +12820,11 @@
       "ayrisiyor": true
      },
      "64k-16k": {
-      "n": 0,
-      "fark": null,
-      "alt": null,
-      "ust": null,
-      "ayrisiyor": null
+      "n": 18,
+      "fark": -0.0417,
+      "alt": -0.1694,
+      "ust": 0.0361,
+      "ayrisiyor": false
      }
     },
     "S3a": {
@@ -12895,51 +12925,51 @@
       }
      },
      "64k": {
-      "n_oge": 0,
+      "n_oge": 25,
       "sonda-basta": {
-       "n": 0,
-       "fark": null,
-       "alt": null,
-       "ust": null,
-       "ayrisiyor": null
+       "n": 4,
+       "fark": 0.0,
+       "alt": 0.0,
+       "ust": 0.0,
+       "ayrisiyor": false
       },
       "ikisi-basta": {
-       "n": 0,
-       "fark": null,
-       "alt": null,
-       "ust": null,
-       "ayrisiyor": null
+       "n": 4,
+       "fark": 0.0,
+       "alt": 0.0,
+       "ust": 0.0,
+       "ayrisiyor": false
       },
       "ikisi-sonda": {
-       "n": 0,
-       "fark": null,
-       "alt": null,
-       "ust": null,
-       "ayrisiyor": null
+       "n": 4,
+       "fark": 0.0,
+       "alt": 0.0,
+       "ust": 0.0,
+       "ayrisiyor": false
       },
-      "sonda": null,
+      "sonda": 1.0,
       "sonda_yuva": {
-       "0": null,
-       "25": null,
-       "50": null,
-       "75": null,
-       "100": null
+       "0": 1.0,
+       "25": 1.0,
+       "50": 1.0,
+       "75": 1.0,
+       "100": 1.0
       },
-      "basta": null,
+      "basta": 1.0,
       "basta_yuva": {
-       "0": null,
-       "25": null,
-       "50": null,
-       "75": null,
-       "100": null
+       "0": 1.0,
+       "25": 1.0,
+       "50": 1.0,
+       "75": 1.0,
+       "100": 1.0
       },
-      "ikisi": null,
+      "ikisi": 1.0,
       "ikisi_yuva": {
-       "0": null,
-       "25": null,
-       "50": null,
-       "75": null,
-       "100": null
+       "0": 1.0,
+       "25": 1.0,
+       "50": 1.0,
+       "75": 1.0,
+       "100": 1.0
       }
      }
     },
@@ -12959,24 +12989,24 @@
       "ayrisiyor": false
      },
      "64k": {
-      "n": 0,
-      "fark": null,
-      "alt": null,
-      "ust": null,
-      "ayrisiyor": null
+      "n": 8,
+      "fark": 0.025,
+      "alt": 0.0,
+      "ust": 0.075,
+      "ayrisiyor": false
      },
      "64k-4k": {
-      "n": 0,
-      "fark": null,
-      "alt": null,
-      "ust": null,
-      "ayrisiyor": null
+      "n": 8,
+      "fark": -0.1375,
+      "alt": -0.35,
+      "ust": 0.0125,
+      "ayrisiyor": false
      }
     },
     "dogruluk": {
      "4k": 0.9192,
      "16k": 0.9769,
-     "64k": null
+     "64k": 0.9538
     }
    }
   },
@@ -14554,11 +14584,11 @@
   },
   "claude-opus-5-5 · Google Antigravity (Ultra aboneliği)": {
    "plan": 2140,
-   "cevap": 1169,
+   "cevap": 1207,
    "hucre": {
     "ana|16k": {
      "plan": 400,
-     "cevap": 154,
+     "cevap": 189,
      "tam": false
     },
     "ana|4k": {
@@ -14608,7 +14638,7 @@
     },
     "yok|16k": {
      "plan": 40,
-     "cevap": 15,
+     "cevap": 18,
      "tam": false
     }
    },
@@ -14617,8 +14647,8 @@
    "tablo_disi_yol": null
   },
   "claude-sonnet-5-5 · Claude aboneliği (claude -p)": {
-   "plan": 1840,
-   "cevap": 1840,
+   "plan": 2140,
+   "cevap": 2140,
    "hucre": {
     "ana|16k": {
      "plan": 400,
@@ -14628,6 +14658,11 @@
     "ana|4k": {
      "plan": 400,
      "cevap": 400,
+     "tam": true
+    },
+    "ana|64k": {
+     "plan": 200,
+     "cevap": 200,
      "tam": true
     },
     "basta|16k": {
@@ -14640,6 +14675,11 @@
      "cevap": 200,
      "tam": true
     },
+    "basta|64k": {
+     "plan": 50,
+     "cevap": 50,
+     "tam": true
+    },
     "ikisi|16k": {
      "plan": 200,
      "cevap": 200,
@@ -14648,6 +14688,11 @@
     "ikisi|4k": {
      "plan": 200,
      "cevap": 200,
+     "tam": true
+    },
+    "ikisi|64k": {
+     "plan": 50,
+     "cevap": 50,
      "tam": true
     },
     "taban|taban": {
@@ -14662,10 +14707,14 @@
     }
    },
    "kucultme_a": true,
-   "haric_uzunluk": [
-    "64k"
-   ],
-   "tablo_disi_yol": null
+   "haric_uzunluk": [],
+   "tablo_disi_yol": null,
+   "erisim_yollari": {
+    "claude -p, ikinci abonelik hesabı: taban": 200,
+    "claude -p, ikinci abonelik hesabı: 4k": 800,
+    "claude -p, ikinci abonelik hesabı: 16k": 840,
+    "claude -p, ana abonelik hesabı: 64k": 300
+   }
   },
   "claude-haiku-5-5 · Anthropic API": {
    "plan": 2140,

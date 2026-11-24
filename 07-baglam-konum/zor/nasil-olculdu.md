@@ -49,15 +49,16 @@ yoklar): `gemini-4-hydrogen` ve `gemini-4-carbon` (Google Antigravity, Ultra abo
 önüne her çağrıda aynı ~2.200 parçalık bir sistem metni ekler), `claude-haiku-5-5` (Anthropic API, istem önbelleği açık; sistem metni
 yok), `claude-opus-5-5` (Google Antigravity, Ultra aboneliği, "medium"; ~2.000 parçalık sabit önek) ve `claude-sonnet-5-5` (Claude
 aboneliği, `claude -p`: araçsız, eklentisiz, boş bir dizinde, "You are a helpful assistant." sistem istemiyle; ~360 parçalık sabit
-önek; efor medium, uyarlamalı düşünme). Bu modellere sıcaklık gönderilmedi: Claude Haiku 5.5 sıcaklık parametresini reddediyor
+önek; 64.000 parçalık hücreler başka bir abonelik hesabından koşuldu, aynı istem ve ayarlarla, sabit önek ~540 parça;
+efor medium, uyarlamalı düşünme). Bu modellere sıcaklık gönderilmedi: Claude Haiku 5.5 sıcaklık parametresini reddediyor
 (HTTP 400); öbürleri akıl yürüten modeller olduğu için, ilk sürümdeki OpenAI modelleri gibi, yolun ya da modelin varsayılanıyla
 bırakıldı (`claude -p`'de bu ayar yok). Düşünme düzeyi yolun ya da modelin varsayılanı. Claude modellerinde bildirilen parça sayısı Claude'un kendi parçalayıcısıyladır (aynı metin
 `o200k_base`'in yaklaşık 1,76 katı); `sonuclar.jsonl`'daki `giris_parca` bu yüzden model aileleri arasında karşılaştırılamaz.
 
 **Kapsam.** Abonelik kotaları ve bedel yüzünden yeni modellerin bir kısmı ızgaranın tamamını koşmadı. Claude Haiku 5.5, Opus 5.5 ve
-Sonnet 5.5'te 64.000 parçada soru başta ve başta+sonda kolları 10 yerine 5 belgeyle planlandı (önceden yazılmış küçültme); Sonnet'te
-64.000 parça hiç koşulmadı. 14.11 itibarıyla Opus'ta yalnız 4.000 parça (üç düzen) ve kısa taban, Sonnet'te yalnız kısa taban tamam;
-öbür hücreleri sonradan eklenecek. Tablolar hücre düzeyindedir: bir model bir hücrede (düzen × uzunluk) planındaki bütün soruları
+Sonnet 5.5'te 64.000 parçada soru başta ve başta+sonda kolları 10 yerine 5 belgeyle planlandı (önceden yazılmış küçültme). Haiku ve
+Sonnet bütün planlı hücreleri tamamladı (Sonnet'in 64.000 parçalık hücreleri 24.11'de eklendi); Opus'un hücreleri `ozet.json` →
+`kapsam` alanında. Tablolar hücre düzeyindedir: bir model bir hücrede (düzen × uzunluk) planındaki bütün soruları
 cevapladıysa o hücrede gösterilir, yarım hücreler hiçbir tabloya ve `sonuclar.jsonl`'a girmez; hangi modelin hangi hücrede olduğu
 `ozet.json` → `kapsam` alanında. Karşılaştırmalar her model içinde, yalnız ortak sorularla yapılır.
 
